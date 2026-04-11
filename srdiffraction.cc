@@ -32,7 +32,9 @@ int main(int argc, char** argv)
 
     if (argc == 1)   // Интерактивный режим
     {
-        G4UIExecutive* ui = new G4UIExecutive(argc, argv);
+        // Force terminal session to avoid Qt/OpenGL crashes
+        // on headless systems.
+        G4UIExecutive* ui = new G4UIExecutive(argc, argv, "tcsh");
         UImanager->ApplyCommand("/control/execute vis.mac");
         ui->SessionStart();
         delete ui;
