@@ -21,6 +21,23 @@ include_directories(${PROJECT_SOURCE_DIR}/include
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 
+
+set(SRDIFFRACTION_MACROS
+  vis.mac
+  init.mac
+  init_vis.mac
+  run1.mac
+  run2.mac
+)
+
+foreach(_macro ${SRDIFFRACTION_MACROS})
+  configure_file(
+    ${PROJECT_SOURCE_DIR}/${_macro}
+    ${PROJECT_BINARY_DIR}/${_macro}
+    COPYONLY
+  )
+endforeach()
+
 # Добавляем исполняемый файл и связываем его с библиотеками Geant4
 add_executable(${name} ${name}.cc ${sources} ${headers})
 target_link_libraries(${name} ${Geant4_LIBRARIES} )
