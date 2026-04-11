@@ -1,69 +1,37 @@
-#include <G4INCLRandom.hh>
-#include "G4LogicalVolumeStore.hh"
-#include "G4LogicalVolume.hh"
-#include "G4Box.hh"
-#include "G4RunManager.hh"
-#include "G4ParticleGun.hh"
+#include "PrimaryGeneratorAction.hh"
+#include "G4Event.hh"
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
 #include "G4SystemOfUnits.hh"
 #include "Randomize.hh"
-#include "PrimaryGeneratorAction.hh"
-#include "G4SystemOfUnits.hh"
-
-PrimaryGeneratorAction *PrimaryGeneratorAction::fgInstance = 0;
-
-const PrimaryGeneratorAction *PrimaryGeneratorAction::Instance()
-{
-  return fgInstance;
-}
 
 PrimaryGeneratorAction::PrimaryGeneratorAction()
-    : G4VUserPrimaryGeneratorAction(),
-      fParticleGun(0)
 {
-  G4int n_particle = 1;
-  fParticleGun = new G4ParticleGun(n_particle);
+    G4int n_particle = 1;
+    fParticleGun = new G4ParticleGun(n_particle);
 
-  G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-  G4String particleName;
-  G4ParticleDefinition *particle = particleTable->FindParticle("gamma");
-  fParticleGun->SetParticleDefinition(particle);
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
-  fParticleGun->SetParticleEnergy(0.05 * MeV);
-  fgInstance = this;
+    // Задаём гамма-квант
+    G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
+    G4ParticleDefinition* gamma = particleTable->FindParticle("gamma");
+
+    fParticleGun->SetParticleDefinition(gamma);
+    fParticleGun->SetParticleEnergy(15.0 * keV);
+
+    // Позиция источника: над центром золотого слоя (смещение по Z, чтобы летел сверху)
+    // Золотой слой находится на высоте ~ -4.9835 мм от центра мира, но проще задать позицию в мировой системе.
+    // Мы знаем, что верхняя грань золота примерно на Z = -4.971 мм (см. расчёты в DetectorConstruction).
+    // Поставим источник на Z = -4.8 мм, т.е. прямо над слоем.
+    // Упростим: пусть источник будет на Z = -4.9 мм (внутри мира). Направим вертикально вниз.
+    fParticleGun->SetParticlePosition(G4ThreeVector(0, 0, -4.9 * mm));
+    fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0, 0, -1)); // вниз
 }
 
 PrimaryGeneratorAction::~PrimaryGeneratorAction()
 {
-  delete fParticleGun;
-  fgInstance = 0;
+    delete fParticleGun;
 }
 
-void PrimaryGeneratorAction::GeneratePrimaries(G4Event *anEvent)
+void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
-  G4double envSizeXY = 0;
-  G4double envSizeZ = 0;
-  G4LogicalVolume *envLV = G4LogicalVolumeStore::GetInstance()->GetVolume("Envelope");
-  G4Box *envBox = NULL;
-  if (envLV)
-    envBox = dynamic_cast<G4Box *>(envLV->GetSolid());
-  if (envBox)
-  {
-    envSizeXY = envBox->GetXHalfLength() * 2.;
-    envSizeZ = envBox->GetZHalfLength() * 2.;
-  }
-  else
-  {
-    G4cerr << "Envelope volume of box shape not found." << G4endl;
-    G4cerr << "Perhaps you have changed geometry." << G4endl;
-    G4cerr << "The gun will be place in the center." << G4endl;
-  }
-  G4double size = 0.8;
-  G4double x0 = size * envSizeXY * (G4UniformRand() - 0.5);
-  G4double y0 = size * envSizeXY * (G4UniformRand() - 0.5);
-  G4double z0 = -0.5 * envSizeZ;
-  std::vector<G4double> x = std::vector<G4double>(10);
-  fParticleGun->SetParticlePosition(G4ThreeVector(G4INCL::Random::gauss(), G4INCL::Random::gauss(), -5.5) * cm);
-  fParticleGun->GeneratePrimaryVertex(anEvent);
+    fParticleGun->GeneratePrimaryVertex(event);
 }

@@ -1,20 +1,27 @@
+#ifndef PMMASensitiveDetector_h
+#define PMMASensitiveDetector_h 1
+
 #include "G4VSensitiveDetector.hh"
-#include "SDHits.hh"
-#include <vector>
+#include "PMMAHit.hh" // будет создан ниже
+
 #pragma once
+
 class G4Step;
 class G4HCofThisEvent;
 
-class SDet : public G4VSensitiveDetector
+class PMMASensitiveDetector : public G4VSensitiveDetector
 {
 public:
-    SDet(const G4String &name, const G4String &hitsCollectionName);
-    ~SDet() override = default;
+    PMMASensitiveDetector(const G4String& name);
+    virtual ~PMMASensitiveDetector();
 
-    void Initialize(G4HCofThisEvent *hitCollection) override;
-    G4bool ProcessHits(G4Step *step, G4TouchableHistory *history) override;
-    void EndOfEvent(G4HCofThisEvent *hitCollection) override;
+    virtual void Initialize(G4HCofThisEvent* hce);
+    virtual G4bool ProcessHits(G4Step* step, G4TouchableHistory* history);
+    virtual void EndOfEvent(G4HCofThisEvent* hce);
 
 private:
-    HitsCollection *fHitsCollection = nullptr;
+    PMMAHitsCollection* fHitsCollection;
+    G4int fHCID;
 };
+
+#endif

@@ -1,95 +1,46 @@
-#include "G4HCofThisEvent.hh"
-#include "G4Step.hh"
-#include "G4ThreeVector.hh"
-#include "G4SDManager.hh"
-#include "G4ios.hh"
-#include "G4VProcess.hh" 
-#include "G4RunManager.hh"
-#include "G4Event.hh"
 #include "SensitiveDetector.hh"
-#include <fstream>
+#include "PMMAHit.hh"
+#include "G4Step.hh"
+#include "G4TouchableHistory.hh"
+#include "G4SDManager.hh"
 
-SDet::SDet(const G4String &name,
-           const G4String &hitsCollectionName) : G4VSensitiveDetector(name)
+PMMASensitiveDetector::PMMASensitiveDetector(const G4String& name)
+    : G4VSensitiveDetector(name), fHCID(-1)
 {
-    collectionName.insert(hitsCollectionName);
+    collectionName.insert("PMMAHitsCollection");
 }
 
-void SDet::Initialize(G4HCofThisEvent *hce)
-{
-    fHitsCollection = new HitsCollection(SensitiveDetectorName, collectionName[0]);
+PMMASensitiveDetector::~PMMASensitiveDetector()
+{}
 
-    G4int hcID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
-    hce->AddHitsCollection(hcID, fHitsCollection);
+void PMMASensitiveDetector::Initialize(G4HCofThisEvent* hce)
+{
+    fHitsCollection = new PMMAHitsCollection(SensitiveDetectorName, collectionName[0]);
+    if (fHCID < 0)
+        fHCID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
+    hce->AddHitsCollection(fHCID, fHitsCollection);
 }
 
-G4bool SDet::ProcessHits(G4Step *aStep, G4TouchableHistory * history)
+G4bool PMMASensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*)
 {
-    if (!aStep || !fHitsCollection)
-    {
-        return false;
-    }
+    G4double edep = step->GetTotalEnergyDeposit();
+    if (edep == 0.) return false;
 
-    const auto *preStepPoint = aStep->GetPreStepPoint();
-    if (!preStepPoint)
-    {
-        return false;
-    }
+    // Получаем позицию внутри объёма PMMA в локальной системе координат
+    G4StepPoint* prePoint = step->GetPreStepPoint();
+    G4ThreeVector worldPos = prePoint->GetPosition();
+    // Преобразуем в локальные координаты объёма PMMA
+    G4TouchableHistory* touchable = (G4TouchableHistory*)(prePoint->GetTouchable());
+    G4ThreeVector localPos = touchable->GetHistory()->GetTopTransform().TransformPoint(worldPos);
 
-    const auto &touchable = preStepPoint->GetTouchableHandle();
-    const auto *volume = touchable->GetVolume();
-    if (!volume || volume->GetName() != "MicroCore")
-    {
-        return false;
-    }
-
-    G4double edep = aStep->GetTotalEnergyDeposit();
-    if (edep <= 0.)
-    {
-        return false;
-    }
-    
-    auto newHit = new SDHits();
-    newHit->SetTrackID(aStep->GetTrack()->GetTrackID());
-    newHit->SetElementNb(touchable->GetCopyNumber());
-    newHit->SetEdep(edep);
-    newHit->SetPos(aStep->GetPostStepPoint()->GetPosition());
-    fHitsCollection->insert(newHit);
-
-    const auto *postStepPoint = aStep->GetPostStepPoint();
-    const auto *process = postStepPoint ? postStepPoint->GetProcessDefinedStep() : nullptr;
-    const G4String processName = process ? process->GetProcessName() : "UndefinedProcess";
-
-    G4int eventID = -1;
-    const auto *currentEvent = G4RunManager::GetRunManager()->GetCurrentEvent();
-    if (currentEvent)
-    {
-        eventID = currentEvent->GetEventID();
-    }
-
-    std::ofstream outputFile("hits_immediate.csv", std::ios::app);
-    outputFile << eventID << ","
-               << aStep->GetTrack()->GetTrackID() << ","
-               << touchable->GetCopyNumber() << ","
-               << aStep->GetTrack()->GetParticleDefinition()->GetParticleName() << ","
-               << edep << ","
-               << postStepPoint->GetPosition().getX() << ","
-               << postStepPoint->GetPosition().getY() << ","
-               << postStepPoint->GetPosition().getZ() << ","
-               << processName << "\n";
+    PMMAHit* hit = new PMMAHit();
+    hit->SetPos(localPos);
+    hit->SetEdep(edep);
+    fHitsCollection->insert(hit);
     return true;
 }
 
-void SDet::EndOfEvent(G4HCofThisEvent *)
+void PMMASensitiveDetector::EndOfEvent(G4HCofThisEvent*)
 {
-    
-    if (verboseLevel > 1)
-    {
-        std::size_t nofHits = fHitsCollection->entries();
-        G4cout << G4endl
-               << "-------->Hits Collection: in this event they are " << nofHits
-               << " hits: " << G4endl;
-        for (std::size_t i = 0; i < nofHits; i++)
-            (*fHitsCollection)[i]->Print();
-    }
+    // Можно оставить пустым, т.к. данные уже собраны в хиты
 }

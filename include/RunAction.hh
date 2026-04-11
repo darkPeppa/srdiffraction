@@ -1,15 +1,25 @@
+#ifndef RunAction_h
+#define RunAction_h 1
+
 #include "G4UserRunAction.hh"
 #include "globals.hh"
-#pragma once
 
 class G4Run;
+class PMMAHitsCollection;
 
 class RunAction : public G4UserRunAction
 {
 public:
     RunAction();
-    ~RunAction() override = default;
+    virtual ~RunAction();
 
-    void BeginOfRunAction(const G4Run *run) override;
-    void EndOfRunAction(const G4Run *run) override;
+    virtual void BeginOfRunAction(const G4Run* run);
+    virtual void EndOfRunAction(const G4Run* run);
+
+    void FillHistogram(PMMAHitsCollection* hits);
+
+private:
+    G4String fFileName;
 };
+
+#endif
