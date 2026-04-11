@@ -8,6 +8,7 @@
 #include "G4SystemOfUnits.hh"
 
 EventAction::EventAction()
+    : fPMMAHCID(-1)
 {}
 
 EventAction::~EventAction()
@@ -18,12 +19,27 @@ void EventAction::BeginOfEventAction(const G4Event*)
 
 void EventAction::EndOfEventAction(const G4Event* event)
 {
-    // Получаем хиты из чувствительного детектора PMMA
-    G4SDManager* sdManager = G4SDManager::GetSDMpointer();
-    G4int collID = sdManager->GetCollectionID("PMMAHitsCollection");
-    auto hitsCollection = (PMMAHitsCollection*)event->GetHCofThisEvent()->GetHC(collID);
+    if (!event) {
+        return;
+    }
 
-    if (!hitsCollection) return;
+    G4HCofThisEvent* hce = event->GetHCofThisEvent();
+    if (!hce) {
+        return;
+    }
+
+    if (fPMMAHCID < 0) {
+        G4SDManager* sdManager = G4SDManager::GetSDMpointer();
+        fPMMAHCID = sdManager->GetCollectionID("PMMAHitsCollection");
+        if (fPMMAHCID < 0) {
+            return;
+        }
+    }
+
+    auto* hitsCollection = static_cast<PMMAHitsCollection*>(hce->GetHC(fPMMAHCID));
+    if (!hitsCollection) {
+        return;
+    }
 
     // Передаём хиты в RunAction для заполнения гистограммы
     // (RunAction должен быть статически доступен или передан через указатель)

@@ -40,11 +40,7 @@
 #
 # Draw smooth trajectories at end of event, showing trajectory points
 # as markers 2 pixels wide:
-/vis/scene/add/trajectories smooth
-/vis/modeling/trajectories/create/drawByCharge
-/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
-/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
-# (if too many tracks cause core dump => /tracking/storeTrajectory 0)
+/tracking/storeTrajectory 0
 #
 # Draw hits at end of event:
 #/vis/scene/add/hits
@@ -66,7 +62,7 @@
 #/vis/modeling/trajectories/drawByParticleID-0/set e+ yellow
 #
 # To superimpose all of the events from a given run:
-/vis/scene/endOfEventAction accumulate
+/vis/scene/endOfEventAction refresh
 #
 # Decorations
 # Name
@@ -94,13 +90,10 @@
 /vis/set/lineWidth     # Revert to default line width (1.)
 #
 # Attach text to one edge of Shape1, with a small, fixed offset
-/vis/scene/add/text 0 6 -4 cm 18 4 4 Shape1
-# Attach text to one corner of Shape2, with a small, fixed offset
-/vis/scene/add/text 6 7 10 cm 18 4 4 Shape2
+# Removed text anchors to non-existent volumes from B1 template.
 #
 # To get nice view
 /vis/geometry/set/visibility World 0 false
-/vis/geometry/set/visibility Envelope 0 false
 /vis/viewer/set/style surface
 /vis/viewer/set/hiddenMarker true
 /vis/viewer/set/viewpointThetaPhi 120 150

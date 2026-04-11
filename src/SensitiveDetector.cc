@@ -28,9 +28,15 @@ G4bool PMMASensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*)
 
     // Получаем позицию внутри объёма PMMA в локальной системе координат
     G4StepPoint* prePoint = step->GetPreStepPoint();
+    if (!prePoint) {
+        return false;
+    }
     G4ThreeVector worldPos = prePoint->GetPosition();
     // Преобразуем в локальные координаты объёма PMMA
-    G4TouchableHistory* touchable = (G4TouchableHistory*)(prePoint->GetTouchable());
+    G4TouchableHandle touchable = prePoint->GetTouchableHandle();
+    if (!touchable) {
+        return false;
+    }
     G4ThreeVector localPos = touchable->GetHistory()->GetTopTransform().TransformPoint(worldPos);
 
     PMMAHit* hit = new PMMAHit();
