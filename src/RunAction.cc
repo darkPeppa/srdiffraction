@@ -30,9 +30,9 @@ void RunAction::BeginOfRunAction(const G4Run*)
     G4double ymax =  1500.0 * um;
 
     analysisManager->CreateH2("Edep_2D", "Energy deposition in PMMA (keV)", nbins, xmin, xmax, nbins, ymin, ymax);
-    analysisManager->SetH2XAxisTitle("X position [mm]");
-    analysisManager->SetH2YAxisTitle("Y position [mm]");
-    analysisManager->SetH2ZAxisTitle("Deposited energy [keV]");
+    analysisManager->SetH2XAxisTitle(1, "X position [mm]");
+    analysisManager->SetH2YAxisTitle(1, "Y position [mm]");
+    analysisManager->SetH2ZAxisTitle(1, "Deposited energy [keV]");
 }
 
 void RunAction::FillHistogram(PMMAHitsCollection* hits)

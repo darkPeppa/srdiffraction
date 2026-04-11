@@ -3,6 +3,7 @@
 #include "G4Circle.hh"
 #include "G4Colour.hh"
 #include "G4VisAttributes.hh"
+#include "G4SystemOfUnits.hh"
 
 G4ThreadLocal G4Allocator<PMMAHit>* PMMAHitAllocator = 0;
 

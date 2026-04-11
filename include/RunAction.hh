@@ -3,9 +3,9 @@
 
 #include "G4UserRunAction.hh"
 #include "globals.hh"
+#include "PMMAHit.hh"
 
 class G4Run;
-class PMMAHitsCollection;
 
 class RunAction : public G4UserRunAction
 {

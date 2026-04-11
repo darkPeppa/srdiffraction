@@ -8,9 +8,6 @@
 #include "G4SDManager.hh"
 #include "SensitiveDetector.hh"
 
-// Определим удобные единицы: 1 мкм = 1e-3 мм
-const G4double um = 1e-3 * mm;
-
 DetectorConstruction::DetectorConstruction()
 {}
 
