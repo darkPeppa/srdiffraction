@@ -1,9 +1,8 @@
-# Minimal and robust visualization macro for headless/remote runs.
+# Visualization macro for GUI (X11/Qt) runs.
 /vis/verbose warnings
-/vis/open TSG_OFFSCREEN
+/vis/open OGL
 /vis/drawVolume
 /vis/viewer/set/style surface
 /vis/scene/add/axes
 /tracking/storeTrajectory 0
 /vis/viewer/refresh
-/vis/viewer/flush
