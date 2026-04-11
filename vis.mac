@@ -3,6 +3,7 @@
 /vis/open TSG_OFFSCREEN
 /vis/drawVolume
 /vis/viewer/set/style surface
-/vis/viewer/set/autoRefresh true
 /vis/scene/add/axes
 /tracking/storeTrajectory 0
+/vis/viewer/refresh
+/vis/viewer/flush
