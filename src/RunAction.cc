@@ -16,6 +16,7 @@ void RunAction::BeginOfRunAction(const G4Run*)
 {
     // Создаём менеджер анализа
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+    analysisManager->Reset();
     analysisManager->SetDefaultFileType("csv");
     analysisManager->SetFileName(fFileName);
     analysisManager->OpenFile();
@@ -53,7 +54,7 @@ void RunAction::EndOfRunAction(const G4Run*)
 {
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
     analysisManager->Write();
-    analysisManager->CloseFile();
+    analysisManager->CloseFile(false);
 
     G4cout << "\n======= Run completed. Results saved in " << fFileName << " =======" << G4endl;
 }

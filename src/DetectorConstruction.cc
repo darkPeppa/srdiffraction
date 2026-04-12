@@ -23,8 +23,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     // Мир и зазор – вакуум (можно использовать G4_Galactic)
     G4Material* vacuum = nist->FindOrBuildMaterial("G4_Galactic");
 
-    // Титан (NIST)
-    G4Material* Ti = nist->FindOrBuildMaterial("G4_Ti");
+    // Титан (NIST) -- temporarily disabled
+    // G4Material* Ti = nist->FindOrBuildMaterial("G4_Ti");
 
     // Золото (NIST)
     G4Material* Au = nist->FindOrBuildMaterial("G4_Au");
@@ -46,9 +46,9 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     // Зазор (пустота)
     G4double gap_thick = 1.0 * um;
 
-    // Титан
-    G4double ti_thick = 2.0 * um;
-    G4double ti_xy    = 3000.0 * um;
+    // Титан -- temporarily disabled
+    // G4double ti_thick = 2.0 * um;
+    // G4double ti_xy    = 3000.0 * um;
 
     // Золото
     G4double au_thick = 25.0 * um;
@@ -84,14 +84,15 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     G4LogicalVolume* gap_log = new G4LogicalVolume(gap_solid, vacuum, "Gap");
     new G4PVPlacement(0, G4ThreeVector(0, 0, gap_z_center), gap_log, "Gap", world_log, false, 0);
 
-    // 3. Титан
-    G4double ti_z_center = gap_z_center + gap_thick/2 + ti_thick/2;
-    G4Box* ti_solid = new G4Box("Titanium", ti_xy/2, ti_xy/2, ti_thick/2);
-    G4LogicalVolume* ti_log = new G4LogicalVolume(ti_solid, Ti, "Titanium");
-    new G4PVPlacement(0, G4ThreeVector(0, 0, ti_z_center), ti_log, "Titanium", world_log, false, 0);
+    // 3. Титан -- temporarily disabled
+    // G4double ti_z_center = gap_z_center + gap_thick/2 + ti_thick/2;
+    // G4Box* ti_solid = new G4Box("Titanium", ti_xy/2, ti_xy/2, ti_thick/2);
+    // G4LogicalVolume* ti_log = new G4LogicalVolume(ti_solid, Ti, "Titanium");
+    // new G4PVPlacement(0, G4ThreeVector(0, 0, ti_z_center), ti_log, "Titanium", world_log, false, 0);
 
     // 4. Золото (маленький слой, по центру по X и Y)
-    G4double au_z_center = ti_z_center + ti_thick/2 + au_thick/2;
+    // With Ti disabled, place gold directly after the gap.
+    G4double au_z_center = gap_z_center + gap_thick/2 + au_thick/2;
     G4Box* au_solid = new G4Box("Gold", au_xy/2, au_xy/2, au_thick/2);
     G4LogicalVolume* au_log = new G4LogicalVolume(au_solid, Au, "Gold");
     new G4PVPlacement(0, G4ThreeVector(0, 0, au_z_center), au_log, "Gold", world_log, false, 0);
