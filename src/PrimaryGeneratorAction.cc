@@ -33,5 +33,12 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
+    // Uniform source spot over the PMMA plate surface: 3x3 mm.
+    const G4double halfPlateSize = 1.5 * mm;
+    const G4double x0 = (2.0 * G4UniformRand() - 1.0) * halfPlateSize;
+    const G4double y0 = (2.0 * G4UniformRand() - 1.0) * halfPlateSize;
+    const G4double z0 = -4.9 * mm;
+
+    fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, z0));
     fParticleGun->GeneratePrimaryVertex(event);
 }
