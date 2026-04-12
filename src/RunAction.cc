@@ -6,7 +6,7 @@
 #include "G4UnitsTable.hh"
 
 RunAction::RunAction()
-    : G4UserRunAction(), fFileName("energy_deposition_pmma.root")
+    : G4UserRunAction(), fFileName("energy_deposition_pmma.csv")
 {}
 
 RunAction::~RunAction()
@@ -16,7 +16,9 @@ void RunAction::BeginOfRunAction(const G4Run*)
 {
     // Создаём менеджер анализа
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+    analysisManager->SetDefaultFileType("csv");
     analysisManager->SetFileName(fFileName);
+    analysisManager->OpenFile();
     analysisManager->SetVerboseLevel(1);
     analysisManager->SetFirstHistoId(1);
 
