@@ -2,7 +2,14 @@
 /vis/verbose warnings
 /vis/open OGL
 /vis/drawVolume
-/vis/viewer/set/style surface
 /vis/scene/add/axes
 /tracking/storeTrajectory 0
+/vis/geometry/set/visibility World 0 false
+/vis/viewer/set/style wireframe
+
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set gamma yellow
+
 /vis/viewer/refresh
