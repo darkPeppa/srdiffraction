@@ -57,8 +57,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     // --- Мир (вакуум) – достаточно большой, чтобы вместить всю конструкцию ---
     // Общая высота: PMMA + зазор + Ti + Au = 1+1+2+25 = 29 мкм
     // Сделаем мир 100x100x100 мкм, чтобы был запас
-    G4double world_size_xy = 1000.0 * um;   // 1 мм
-    G4double world_size_z  = 1000.0 * um;
+    G4double world_size_xy = 10000.0 * um;   // 1 мм
+    G4double world_size_z  = 10000.0 * um;
 
     G4Box* world_solid = new G4Box("World", world_size_xy/2, world_size_xy/2, world_size_z/2);
     G4LogicalVolume* world_log = new G4LogicalVolume(world_solid, vacuum, "World");

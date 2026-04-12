@@ -245,5 +245,11 @@ CMakeFiles/srdiffraction.dir/src/ActionInitialization.cc.o: \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/globals.hh \
  /workspace/include/RunAction.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4UserRunAction.hh \
+ /workspace/include/PMMAHit.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VHit.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4THitsCollection.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VHitsCollection.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4Allocator.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4ThreeVector.hh \
  /workspace/include/EventAction.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4UserEventAction.hh

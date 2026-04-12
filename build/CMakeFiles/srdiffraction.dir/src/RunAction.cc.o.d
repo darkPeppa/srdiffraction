@@ -220,6 +220,7 @@ CMakeFiles/srdiffraction.dir/src/RunAction.cc.o: \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/clhep/2.4.7.1/include/CLHEP/Vector/ThreeVector.h \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/clhep/2.4.7.1/include/CLHEP/Vector/defs.h \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/clhep/2.4.7.1/include/CLHEP/Vector/ThreeVector.icc \
+ /workspace/include/PMMAHit.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4Run.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4AnalysisManager.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4GenericAnalysisManager.hh \

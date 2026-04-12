@@ -257,4 +257,5 @@ CMakeFiles/srdiffraction.dir/src/PMMAHit.cc.o: /workspace/src/PMMAHit.cc \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4Colour.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VisAttributes.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/graphics_reps_defs.hh \
- /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VisAttributes.icc
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VisAttributes.icc \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4SystemOfUnits.hh
