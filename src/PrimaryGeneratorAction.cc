@@ -4,6 +4,7 @@
 #include "G4ParticleDefinition.hh"
 #include "G4SystemOfUnits.hh"
 #include "Randomize.hh"
+#include <cmath>
 
 PrimaryGeneratorAction::PrimaryGeneratorAction()
 {
@@ -33,10 +34,18 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
-    // Uniform source spot over the PMMA plate surface: 3x3 mm.
+    // Gaussian source centered above the gold region.
+    // Most particles hit near center, tails become rarer further away.
     const G4double halfPlateSize = 1.5 * mm;
-    const G4double x0 = (2.0 * G4UniformRand() - 1.0) * halfPlateSize;
-    const G4double y0 = (2.0 * G4UniformRand() - 1.0) * halfPlateSize;
+    const G4double sigma = 10.0 * um;
+
+    G4double x0 = 0.0;
+    G4double y0 = 0.0;
+    do {
+        x0 = G4RandGauss::shoot(0.0, sigma);
+        y0 = G4RandGauss::shoot(0.0, sigma);
+    } while (std::abs(x0) > halfPlateSize || std::abs(y0) > halfPlateSize);
+
     const G4double z0 = -4.9 * mm;
 
     fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, z0));
