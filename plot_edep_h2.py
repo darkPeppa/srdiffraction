@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-Plot Geant4 H2 CSV (tools::histo::h2d) as a heatmap.
-
-Usage:
-  python3 plot_edep_h2.py \
-      --input build/energy_deposition_pmma_h2_Edep_2D.csv \
-      --output build/energy_deposition_pmma_h2_Edep_2D.png
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -39,7 +29,9 @@ def parse_axis_lines(lines: list[str]) -> tuple[int, float, float, int, float, f
     return xbins, xmin, xmax, ybins, ymin, ymax
 
 
-def load_h2_sw_matrix(csv_path: Path) -> tuple[np.ndarray, tuple[float, float, float, float]]:
+def load_h2_sw_matrix(
+    csv_path: Path,
+) -> tuple[np.ndarray, tuple[float, float, float, float]]:
     """
     Load Sw from H2 CSV and return active-bin matrix and plotting extent.
 

@@ -16,7 +16,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
     G4ParticleDefinition* gamma = particleTable->FindParticle("gamma");
 
     fParticleGun->SetParticleDefinition(gamma);
-    fParticleGun->SetParticleEnergy(15.0 * keV);
+    fParticleGun->SetParticleEnergy(3.5 * keV);
 
     // Позиция источника: над центром золотого слоя (смещение по Z, чтобы летел сверху)
     // Золотой слой находится на высоте ~ -4.9835 мм от центра мира, но проще задать позицию в мировой системе.
