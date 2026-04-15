@@ -25,9 +25,11 @@ void EventAction::EndOfEventAction(const G4Event* event)
 
     G4double x_mm = 0.;
     G4double y_mm = 0.;
+    G4double z_mm = 0.;
     if (const auto* primaryVertex = event->GetPrimaryVertex(0)) {
         x_mm = primaryVertex->GetX0() / mm;
         y_mm = primaryVertex->GetY0() / mm;
+        z_mm = primaryVertex->GetZ0() / mm;
     }
 
     G4double eventEdepKeV = 0.;
@@ -59,5 +61,5 @@ void EventAction::EndOfEventAction(const G4Event* event)
         }
     }
 
-    runAction->FillEventTable(x_mm, y_mm, eventEdepKeV);
+    runAction->FillEventTable(x_mm, y_mm, z_mm, eventEdepKeV);
 }

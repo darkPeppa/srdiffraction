@@ -37,10 +37,11 @@ void RunAction::BeginOfRunAction(const G4Run*)
     analysisManager->SetH2YAxisTitle(1, "Y position [mm]");
     analysisManager->SetH2ZAxisTitle(1, "Deposited energy [keV]");
 
-    // Дополнительная таблица в формате x,y,Edep (аналогично примеру из Excel).
+    // Дополнительная таблица в формате x,y,z,Edep (аналогично примеру из Excel).
     analysisManager->CreateNtuple("Edep_table", "Per-event deposited energy table");
     analysisManager->CreateNtupleDColumn("x");
     analysisManager->CreateNtupleDColumn("y");
+    analysisManager->CreateNtupleDColumn("z");
     analysisManager->CreateNtupleDColumn("Edep");
     analysisManager->FinishNtuple();
 }
@@ -57,12 +58,13 @@ void RunAction::FillHistogram(PMMAHitsCollection* hits)
     }
 }
 
-void RunAction::FillEventTable(G4double x_mm, G4double y_mm, G4double edep_keV)
+void RunAction::FillEventTable(G4double x_mm, G4double y_mm, G4double z_mm, G4double edep_keV)
 {
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
     analysisManager->FillNtupleDColumn(0, x_mm);
     analysisManager->FillNtupleDColumn(1, y_mm);
-    analysisManager->FillNtupleDColumn(2, edep_keV);
+    analysisManager->FillNtupleDColumn(2, z_mm);
+    analysisManager->FillNtupleDColumn(3, edep_keV);
     analysisManager->AddNtupleRow();
 }
 

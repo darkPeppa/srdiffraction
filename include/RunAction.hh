@@ -17,7 +17,7 @@ public:
     virtual void EndOfRunAction(const G4Run* run);
 
     void FillHistogram(PMMAHitsCollection* hits);
-    void FillEventTable(G4double x_mm, G4double y_mm, G4double edep_keV);
+    void FillEventTable(G4double x_mm, G4double y_mm, G4double z_mm, G4double edep_keV);
 
 private:
     G4String fFileName;
