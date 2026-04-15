@@ -23,7 +23,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
     // Мы знаем, что верхняя грань золота примерно на Z = -4.971 мм (см. расчёты в DetectorConstruction).
     // Поставим источник на Z = -4.8 мм, т.е. прямо над слоем.
     // Упростим: пусть источник будет на Z = -4.9 мм (внутри мира). Направим вертикально вниз.
-    fParticleGun->SetParticlePosition(G4ThreeVector(0, 0, -4.9 * mm));
+    fParticleGun->SetParticlePosition(G4ThreeVector(0, 0, 4.9 * mm));
     fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0, 0, -1)); // вниз
 }
 
@@ -46,7 +46,7 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
         y0 = G4RandGauss::shoot(0.0, sigma);
     } while (std::abs(x0) > halfPlateSize || std::abs(y0) > halfPlateSize);
 
-    const G4double z0 = -4.9 * mm;
+    const G4double z0 = 4.9 * mm;
 
     fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, z0));
     fParticleGun->GeneratePrimaryVertex(event);
