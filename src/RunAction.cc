@@ -23,14 +23,13 @@ void RunAction::BeginOfRunAction(const G4Run*)
     analysisManager->SetVerboseLevel(1);
     analysisManager->SetFirstHistoId(1);
 
-    // Создаём 2D гистограмму: бины по X и Y
-    // Размер слоя PMMA 3000×3000 мкм (3×3 мм)
-    // Зададим, например, 300 бинов → разрешение 10 мкм
-    G4int nbins = 300;
-    G4double xmin = -1500.0 * um;   // половина ширины 3000 мкм
-    G4double xmax =  1500.0 * um;
-    G4double ymin = -1500.0 * um;
-    G4double ymax =  1500.0 * um;
+    // Карта энерговыделения в PMMA с повышенным разрешением в центре.
+    // Окно 200x200 мкм и 200 бинов -> 1 мкм/бин (10 мкм золото ~10 бинов).
+    G4int nbins = 200;
+    G4double xmin = -100.0 * um;
+    G4double xmax =  100.0 * um;
+    G4double ymin = -100.0 * um;
+    G4double ymax =  100.0 * um;
 
     analysisManager->CreateH2("Edep_2D", "Energy deposition in PMMA (keV)", nbins, xmin, xmax, nbins, ymin, ymax);
     analysisManager->SetH2XAxisTitle(1, "X position [mm]");
@@ -53,7 +52,7 @@ void RunAction::FillHistogram(PMMAHitsCollection* hits)
     for (G4int i=0; i<n_hit; ++i) {
         PMMAHit* hit = (*hits)[i];
         G4ThreeVector pos = hit->GetPos();
-        G4double edep = hit->GetEdep() / keV; // в кэВ
+        G4double edep = hit->GetEdep() / keV;
         analysisManager->FillH2(1, pos.x(), pos.y(), edep);
     }
 }

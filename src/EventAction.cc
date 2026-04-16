@@ -23,16 +23,10 @@ void EventAction::EndOfEventAction(const G4Event* event)
         return;
     }
 
-    G4double x_mm = 0.;
-    G4double y_mm = 0.;
-    G4double z_mm = 0.;
-    if (const auto* primaryVertex = event->GetPrimaryVertex(0)) {
-        x_mm = primaryVertex->GetX0() / mm;
-        y_mm = primaryVertex->GetY0() / mm;
-        z_mm = primaryVertex->GetZ0() / mm;
-    }
-
     G4double eventEdepKeV = 0.;
+    G4double weightedXmmTimesE = 0.;
+    G4double weightedYmmTimesE = 0.;
+    G4double weightedZmmTimesE = 0.;
 
     G4HCofThisEvent* hce = event->GetHCofThisEvent();
     PMMAHitsCollection* hitsCollection = nullptr;
@@ -57,9 +51,21 @@ void EventAction::EndOfEventAction(const G4Event* event)
 
         const G4int nHits = hitsCollection->GetSize();
         for (G4int i = 0; i < nHits; ++i) {
-            eventEdepKeV += (*hitsCollection)[i]->GetEdep() / keV;
+            PMMAHit* hit = (*hitsCollection)[i];
+            const G4double hitEdepKeV = hit->GetEdep() / keV;
+            eventEdepKeV += hitEdepKeV;
+
+            const G4ThreeVector pos = hit->GetPos();
+            weightedXmmTimesE += (pos.x() / mm) * hitEdepKeV;
+            weightedYmmTimesE += (pos.y() / mm) * hitEdepKeV;
+            weightedZmmTimesE += (pos.z() / mm) * hitEdepKeV;
         }
     }
 
-    runAction->FillEventTable(x_mm, y_mm, z_mm, eventEdepKeV);
+    if (eventEdepKeV > 0.) {
+        const G4double x_mm = weightedXmmTimesE / eventEdepKeV;
+        const G4double y_mm = weightedYmmTimesE / eventEdepKeV;
+        const G4double z_mm = weightedZmmTimesE / eventEdepKeV;
+        runAction->FillEventTable(x_mm, y_mm, z_mm, eventEdepKeV);
+    }
 }

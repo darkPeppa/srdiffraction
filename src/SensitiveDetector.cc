@@ -23,14 +23,18 @@ void PMMASensitiveDetector::Initialize(G4HCofThisEvent* hce)
 
 G4bool PMMASensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*)
 {
+    // Регистрируем именно энерговыделение в PMMA.
     G4double edep = step->GetTotalEnergyDeposit();
-    if (edep == 0.) return false;
+    if (edep == 0.) {
+        return false;
+    }
 
-    // Получаем позицию внутри объёма PMMA в локальной системе координат
+    // Получаем позицию внутри объёма PMMA в локальной системе координат.
     G4StepPoint* prePoint = step->GetPreStepPoint();
     if (!prePoint) {
         return false;
     }
+
     G4ThreeVector worldPos = prePoint->GetPosition();
     // Преобразуем в локальные координаты объёма PMMA
     G4TouchableHandle touchable = prePoint->GetTouchableHandle();
