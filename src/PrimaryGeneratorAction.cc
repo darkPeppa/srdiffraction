@@ -18,12 +18,9 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
     fParticleGun->SetParticleDefinition(gamma);
     fParticleGun->SetParticleEnergy(3.5 * keV);
 
-    // Позиция источника: над центром золотого слоя (смещение по Z, чтобы летел сверху)
-    // Золотой слой находится на высоте ~ -4.9835 мм от центра мира, но проще задать позицию в мировой системе.
-    // Мы знаем, что верхняя грань золота примерно на Z = -4.971 мм (см. расчёты в DetectorConstruction).
-    // Поставим источник на Z = -4.8 мм, т.е. прямо над слоем.
-    // Упростим: пусть источник будет на Z = -4.9 мм (внутри мира). Направим вертикально вниз.
-    fParticleGun->SetParticlePosition(G4ThreeVector(0, 0, -4.9 * mm));
+    // Позиция источника выше верхней границы золота.
+    // Это задаёт порядок пролёта: Gold -> Beryllium -> PMMA.
+    fParticleGun->SetParticlePosition(G4ThreeVector(0, 0, -4.7 * mm));
     fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0, 0, -1)); // вниз
 }
 
@@ -46,7 +43,8 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
         y0 = G4RandGauss::shoot(0.0, sigma);
     } while (std::abs(x0) > halfPlateSize || std::abs(y0) > halfPlateSize);
 
-    const G4double z0 = -4.9 * mm;
+    // Start above gold and move downward through the full stack.
+    const G4double z0 = -4.7 * mm;
 
     fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, z0));
     fParticleGun->GeneratePrimaryVertex(event);
