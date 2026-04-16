@@ -7,6 +7,8 @@
 #include "G4UnitsTable.hh"
 #include "G4SDManager.hh"
 #include "SensitiveDetector.hh"
+#include "G4VisAttributes.hh"
+#include "G4Colour.hh"
 
 DetectorConstruction::DetectorConstruction()
 {}
@@ -95,6 +97,25 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     G4Box* au_solid = new G4Box("Gold", au_xy/2, au_xy/2, au_thick/2);
     G4LogicalVolume* au_log = new G4LogicalVolume(au_solid, Au, "Gold");
     new G4PVPlacement(0, G4ThreeVector(0, 0, au_z_center), au_log, "Gold", world_log, false, 0);
+
+
+    // Настройка атрибутов для золота
+    G4VisAttributes* goldVisAtt = new G4VisAttributes(G4Colour(1.0, 0.8, 0.0, 0.6)); // Золотистый
+    au_log->SetVisAttributes(goldVisAtt);
+
+    // Настройка атрибутов для бериллия
+    G4VisAttributes* beVisAtt = new G4VisAttributes(G4Colour(0.5, 0.5, 0.5, 0.6)); // Серый
+    be_log->SetVisAttributes(beVisAtt);
+
+    // Настройка атрибутов для ПММА
+    G4VisAttributes* pmmaVisAtt = new G4VisAttributes(G4Colour(0.3, 0.6, 1.0, 0.5)); // Голубой
+    pmma_log->SetVisAttributes(pmmaVisAtt);
+
+    // Зазор и мир делаем невидимыми
+    G4VisAttributes* invisibleVisAtt = new G4VisAttributes();
+    invisibleVisAtt->SetVisibility(false);
+    gap_log->SetVisAttributes(invisibleVisAtt);
+    world_log->SetVisAttributes(invisibleVisAtt);
 
     return world_phys;
 }

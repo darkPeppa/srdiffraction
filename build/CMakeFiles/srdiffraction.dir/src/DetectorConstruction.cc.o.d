@@ -378,4 +378,10 @@ CMakeFiles/srdiffraction.dir/src/DetectorConstruction.cc.o: \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4SDManager.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4HCtable.hh \
  /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4SDStructure.hh \
- /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VSensitiveDetector.hh
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VSensitiveDetector.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VisAttributes.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/graphics_reps_defs.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4Colour.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4Color.hh \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4VisAttributes.icc \
+ /cvmfs/oasis.opensciencegrid.org/jlab/geant4/almalinux9-gcc11/geant4/11.3.2/include/Geant4/G4Colour.hh

@@ -1,0 +1,57 @@
+geometry test nPoints=1000 printGeometry=1 tolerance=0.00001 
+
+*	Diffraction.g4bl - моделирование дифракции при прохождении через заданную структуру из стеклоуглерода 475 мкм
+*	a 5.3 keV gamma Gaussian beam
+
+# command-line parameter default values
+param -unset first=0 last=1000000 viewer=none
+
+# HistoScope filename from first event #
+param histoFile=$first histoUpdate=10000000
+param steppingFormat="TAG CL STEP VOL MAT PROCESS B"
+
+# Применим лист QBBC
+physics QBBC
+
+#задаем газовую среду в камере как материал
+material GasLIGA He,1.0 density=0.0000832 pressure=0.5
+
+#задаем эту среду как материал мира
+param worldMaterial=GasLIGA  
+
+	# the beam is nominally headed in the +Z direction
+beam gaussian particle=gamma nEvents=1000000 beamZ=0.0 \
+	sigmaX=0.01 sigmaY=0.01 sigmaXp=0.000259 sigmaYp=0.000259 \
+	meanMomentum=0.0053 sigmaP=0.0 meanT=0.0 sigmaT=0.0
+
+
+# a reference particle
+reference particle=gamma referenceMomentum=0.0053
+
+# BeamVis показывает точку, откуда исходит пучок
+box BeamVis width=0.1 height=0.1 length=0.05 material=Vacuum color=1,1,1
+place BeamVis z=0
+
+# частица золота
+box Gold width=0.01 height=0.01 length=0.025 material=Au color=1,1,0
+place Gold z=1.0
+
+# маска
+box Mask width=0.1 height=0.1 length=0.475 material=C color=1,0,1
+place Mask z=1.25
+
+#задаем ПММА как материал
+material PMMA density=1.17 Z=6.48 A=12.014
+
+# Пластина из ПММА будет представлять собой детектор
+detector Det height=0.1 width=0.1 length=0.001 material=PMMA color=0,1,1
+
+# Размещаем детектор
+place Det z=1.489 rename=Det#
+
+#format=ascii
+
+# Название
+label text="C 475 um.g4bl" 1,0,-1
+
+
