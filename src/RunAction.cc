@@ -35,9 +35,13 @@ void RunAction::BeginOfRunAction(const G4Run*)
     analysisManager->SetH2XAxisTitle(1, "X position [mm]");
     analysisManager->SetH2YAxisTitle(1, "Y position [mm]");
     analysisManager->SetH2ZAxisTitle(1, "Deposited energy [keV]");
+    analysisManager->CreateH2("EntryCount_2D", "Entry count in PMMA", nbins, xmin, xmax, nbins, ymin, ymax);
+    analysisManager->SetH2XAxisTitle(2, "X position [mm]");
+    analysisManager->SetH2YAxisTitle(2, "Y position [mm]");
+    analysisManager->SetH2ZAxisTitle(2, "Entries");
 
-    // Дополнительная таблица в формате x,y,z,Edep (аналогично примеру из Excel).
-    analysisManager->CreateNtuple("Edep_table", "Per-event deposited energy table");
+    // Beamline-like table: one row per PMMA entry (x,y,z,edep).
+    analysisManager->CreateNtuple("Edep_table", "Per-entry PMMA table");
     analysisManager->CreateNtupleDColumn("x");
     analysisManager->CreateNtupleDColumn("y");
     analysisManager->CreateNtupleDColumn("z");
@@ -54,6 +58,7 @@ void RunAction::FillHistogram(PMMAHitsCollection* hits)
         G4ThreeVector pos = hit->GetPos();
         G4double edep = hit->GetEdep() / keV;
         analysisManager->FillH2(1, pos.x(), pos.y(), edep);
+        analysisManager->FillH2(2, pos.x(), pos.y(), 1.0);
     }
 }
 
