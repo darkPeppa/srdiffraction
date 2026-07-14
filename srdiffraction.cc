@@ -2,15 +2,35 @@
 #include "PhysicsList.hh"
 #include "ActionInitialization.hh"
 
-#include "G4RunManager.hh"
+#include "G4RunManagerFactory.hh"
+#include "G4Threading.hh"
 #include "G4UImanager.hh"
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
 
+#include <cstdlib>
+
 int main(int argc, char** argv)
 {
-    // Менеджер запуска
-    G4RunManager* runManager = new G4RunManager();
+    // Менеджер запуска.
+    // Используем фабрику: в интерактивном режиме (с визуализацией) — последовательный
+    // менеджер, в пакетном режиме — многопоточный (MT) для ускорения расчёта.
+    const G4bool interactive = (argc == 1);
+    G4RunManager* runManager = G4RunManagerFactory::CreateRunManager(
+        interactive ? G4RunManagerType::Serial : G4RunManagerType::Default);
+
+    // Число рабочих потоков в MT-режиме.
+    // По умолчанию — по числу ядер; можно переопределить переменной окружения
+    // SRD_NTHREADS (например, SRD_NTHREADS=4) или штатной G4FORCENUMBEROFTHREADS.
+    if (!interactive) {
+        G4int nThreads = G4Threading::G4GetNumberOfCores();
+        if (const char* env = std::getenv("SRD_NTHREADS")) {
+            const G4int requested = std::atoi(env);
+            if (requested > 0) nThreads = requested;
+        }
+        runManager->SetNumberOfThreads(nThreads);
+        G4cout << "=== MT mode: " << nThreads << " worker threads ===" << G4endl;
+    }
 
     // Геометрия
     runManager->SetUserInitialization(new DetectorConstruction());

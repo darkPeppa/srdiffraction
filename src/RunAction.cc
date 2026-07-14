@@ -18,18 +18,20 @@ void RunAction::BeginOfRunAction(const G4Run*)
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
     analysisManager->Reset();
     analysisManager->SetDefaultFileType("csv");
+    // В MT-режиме объединяем ntuple всех потоков в один выходной файл.
+    // (Гистограммы H2 объединяются автоматически.) Должно вызываться до OpenFile().
+    analysisManager->SetNtupleMerging(true);
     analysisManager->SetFileName(fFileName);
     analysisManager->OpenFile();
     analysisManager->SetVerboseLevel(1);
     analysisManager->SetFirstHistoId(1);
 
-    // Карта энерговыделения в PMMA с повышенным разрешением в центре.
-    // Окно 200x200 мкм и 200 бинов -> 1 мкм/бин (10 мкм золото ~10 бинов).
-    G4int nbins = 200;
-    G4double xmin = -100.0 * um;
-    G4double xmax =  100.0 * um;
-    G4double ymin = -100.0 * um;
-    G4double ymax =  100.0 * um;
+    // PMMA detector is 100x100 um, use 1 um/bin.
+    G4int nbins = 100;
+    G4double xmin = -50.0 * um;
+    G4double xmax =  50.0 * um;
+    G4double ymin = -50.0 * um;
+    G4double ymax =  50.0 * um;
 
     analysisManager->CreateH2("Edep_2D", "Energy deposition in PMMA (keV)", nbins, xmin, xmax, nbins, ymin, ymax);
     analysisManager->SetH2XAxisTitle(1, "X position [mm]");
