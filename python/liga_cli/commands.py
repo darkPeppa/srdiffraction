@@ -1,6 +1,7 @@
 """Реализация команд CLI. Тяжёлые модули импортируются лениво."""
 from __future__ import annotations
 
+import json
 import os
 import subprocess
 import sys
@@ -19,6 +20,15 @@ EPILOG = """
   ./run.sh all                           весь конвейер
 Подробно: README.md, docs/.
 """
+
+
+# Пути результатов, созданных текущей командой (для --persist)
+TOUCHED: list[Path] = []
+
+
+def _touch(p: Path) -> Path:
+    TOUCHED.append(Path(p))
+    return Path(p)
 
 
 def _resolve(p: str) -> Path:
@@ -40,13 +50,13 @@ def cmd_info(a) -> int:
 # --------------------------------------------------------------------- spectrum
 def cmd_spectrum(a) -> int:
     from synchrotron_spectrum.report import spectrum_report
-    spectrum_report(_resolve(a.out))
+    spectrum_report(_touch(_resolve(a.out)))
     return 0
 
 
 def cmd_materials(a) -> int:
     from material_attenuation.report import materials_report
-    materials_report(_resolve(a.out), a.physics)
+    materials_report(_touch(_resolve(a.out)), a.physics)
     return 0
 
 
@@ -81,10 +91,16 @@ def cmd_simulate(a) -> int:
             run_dir = out / tag
             print(f"\n=== {e}: отверстие {h:g} мкм → {run_dir}")
             simulate(exp, h, opts, run_dir)
-            done.append(run_dir)
+            done.append(_touch(run_dir))
             if not a.no_analysis:
                 from analysis.run_analysis import analyze_run
                 analyze_run(run_dir)
+    for d in done:  # кэши этапа 1 (их конфигурации и логи — часть следа прогона; *.bin не сохраняются)
+        info = d / "run_info.json"
+        if info.exists():
+            st1 = json.loads(info.read_text(encoding="utf-8")).get("stage1", {}).get("dir")
+            if st1:
+                _touch(Path(st1))
     print("\nГотово:", *[str(d) for d in done], sep="\n  ")
     return 0
 
@@ -93,24 +109,24 @@ def cmd_analyze(a) -> int:
     from analysis.run_analysis import analyze_run, find_runs
     runs = [Path(r) for r in a.runs] if a.runs else find_runs(RESULTS / "runs")
     for r in runs:
-        analyze_run(_resolve(str(r)))
+        analyze_run(_touch(_resolve(str(r))))
     return 0
 
 
 def cmd_compare(a) -> int:
     from comparison.level_a import compare_all
-    compare_all(_resolve(a.runs), _resolve(a.out))
+    compare_all(_resolve(a.runs), _touch(_resolve(a.out)))
     return 0
 
 
 def cmd_validate(a) -> int:
     from liga_cli.validation import run_validation
-    return run_validation(_resolve(a.out), quick=a.quick, only=a.only)
+    return run_validation(_touch(_resolve(a.out)), quick=a.quick, only=a.only)
 
 
 def cmd_report(a) -> int:
     from analysis.summary import build_report
-    build_report(RESULTS, _resolve(a.out))
+    build_report(RESULTS, _touch(_resolve(a.out)))
     return 0
 
 
@@ -152,6 +168,7 @@ def cmd_all(a) -> int:
         except Exception as e:  # noqa: BLE001 — продолжаем конвейер, ошибку сообщаем в итоге
             print(f"[liga] step {name} failed: {e}")
             failed.append(name)
+    TOUCHED[:] = [RESULTS]
     print("\nИТОГ конвейера:", "успешно" if not failed else f"ошибки на шагах: {failed}")
     return 1 if failed else 0
 
@@ -171,41 +188,41 @@ def _interferometry_all() -> int:
 
 def cmd_inventory_interferograms(a) -> int:
     from experimental_interferometry.archive_inventory import run_inventory
-    run_inventory(_resolve(a.archive), ensure(_resolve(a.out)))
+    run_inventory(_resolve(a.archive), _touch(ensure(_resolve(a.out))))
     return 0
 
 
 def cmd_annotate_roi(a) -> int:
     from experimental_interferometry.roi_editor import build_editor
-    build_editor(_resolve(a.archive), ensure(_resolve(a.out)), a.file)
+    build_editor(_resolve(a.archive), _touch(ensure(_resolve(a.out))), a.file)
     return 0
 
 
 def cmd_reconstruct_fringes(a) -> int:
     from experimental_interferometry.reports import reconstruct_all
-    reconstruct_all(_resolve(a.archive), _resolve(a.roi), ensure(_resolve(a.out)), a.file)
+    reconstruct_all(_resolve(a.archive), _resolve(a.roi), _touch(ensure(_resolve(a.out))), a.file)
     return 0
 
 
 def cmd_validate_supervisor_profiles(a) -> int:
     from experimental_interferometry.legacy_fit_compare import validate_supervisor_profiles
-    validate_supervisor_profiles(ensure(_resolve(a.out)))
+    validate_supervisor_profiles(_touch(ensure(_resolve(a.out))))
     return 0
 
 
 def cmd_assign_mask_features(a) -> int:
     from experimental_interferometry.attribution import assign_features
-    assign_features(ensure(_resolve(a.out)))
+    assign_features(_touch(ensure(_resolve(a.out))))
     return 0
 
 
 def cmd_compare_geant4(a) -> int:
     from experimental_interferometry.geant4_compare import compare_geant4
-    compare_geant4(_resolve(a.runs), ensure(_resolve(a.out)))
+    compare_geant4(_resolve(a.runs), _touch(ensure(_resolve(a.out))))
     return 0
 
 
 def cmd_build_interferometry_report(a) -> int:
     from experimental_interferometry.reports import build_report
-    build_report(ensure(_resolve(a.out)))
+    build_report(_touch(ensure(_resolve(a.out))))
     return 0

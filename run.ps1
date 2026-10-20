@@ -17,6 +17,9 @@ if ($args.Count -gt 0 -and $args[0] -eq "build") {
   $rest = @(); if ($args.Count -gt 1) { $rest = $args[1..($args.Count-1)] }
   docker compose build @rest; exit $LASTEXITCODE
 }
+$commit = (git rev-parse --short HEAD 2>$null)
+if (-not $commit) { $commit = "unknown" } elseif (git status --porcelain --untracked-files=no 2>$null) { $commit = "$commit+dirty" }
+$env:LIGA_GIT_COMMIT = $commit
 docker compose build --quiet
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 if ($args.Count -gt 0 -and $args[0] -eq "shell") { docker compose run --rm -it liga bash; exit $LASTEXITCODE }

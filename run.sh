@@ -15,6 +15,12 @@ if [[ "${1:-}" == "build" ]]; then
   shift
   exec docker compose build "$@"
 fi
+# Версия кода для манифестов --persist (в контейнере git нет)
+LIGA_GIT_COMMIT="$(git rev-parse --short HEAD 2>/dev/null || echo unknown)"
+if [[ "$LIGA_GIT_COMMIT" != unknown && -n "$(git status --porcelain --untracked-files=no 2>/dev/null)" ]]; then
+  LIGA_GIT_COMMIT="${LIGA_GIT_COMMIT}+dirty"
+fi
+export LIGA_GIT_COMMIT
 # Сборка/обновление образа (кэшируется: если исходники не менялись, занимает секунды)
 docker compose build --quiet
 TTY=""; [[ -t 0 && -t 1 ]] && TTY="-it"
