@@ -19,7 +19,7 @@ from liga_common.io import dump_json
 from plotting.style import SERIES, TEXT2, plt, save
 
 from .development_forward import lateral_profile, rate_sigmoid, resample_uniform, vertical_depth
-from .morphology import profile_metrics
+from analysis.dose import transition_width
 
 
 def dose_xz(run, hole):
@@ -55,8 +55,14 @@ def compare_geant4(runs_root: Path, out: Path, t_dev_s: float = 60.0) -> list[di
             rate = lambda X, d50=d50: rate_sigmoid(X, 0.0, 15.0 / t_dev_s * 1.2, d50, 0.08 * d50)
             dv = vertical_depth(Du, z, rate, t_dev_s)
             dl, _ = lateral_profile(Du, nu, z, rate, t_dev_s)
-            mv = profile_metrics(np.r_[-nu[::-1], nu], np.r_[dv[::-1], dv])
-            ml = profile_metrics(np.r_[-nu[::-1], nu], np.r_[dl[::-1], dl])
+            # один край: n < 0 — под окном (растворено), n > 0 — под золотом
+            def robust(depth):
+                o = float(np.median(depth[nu < -10])) if (nu < -10).any() else np.nan
+                sh = float(np.median(depth[nu > 20])) if (nu > 20).any() else np.nan
+                w = transition_width(nu, depth, o, sh)[0] if o > sh else np.nan
+                return {"depth_open_um": o, "depth_shadow_um": sh, "transition_10_90_um": w,
+                        "open_depth_rel_spread": float(np.std(depth[nu < -10]) / o) if o > 0 else np.nan}
+            mv, ml = robust(dv), robust(dl)
             preds.append({"d50_over_dose_open": frac, "vertical": mv, "lateral": ml})
             ax.plot(nu, dv, color=SERIES[k], ls="--", label=f"вертикальная, D50={frac:.1f}·D_open")
             ax.plot(nu, dl, color=SERIES[k], label=f"с боковым проявлением, D50={frac:.1f}·D_open")
@@ -74,8 +80,10 @@ def compare_geant4(runs_root: Path, out: Path, t_dev_s: float = 60.0) -> list[di
                     row["supervisor_width_10_90"] = p["derived"]["width_10_90"]
         rows.append(row)
         print(f"  {exp} {hole:g} мкм: предсказанные ширины перехода (боковая модель) = "
-              f"{[round(pp['lateral'].get('transition_10_90_left', float('nan')), 2) for pp in preds]} мкм; "
-              f"аппроксимация ТЗ: {row.get('supervisor_width_10_90')}")
+              f"{[(round(pp['lateral']['transition_10_90_um'], 2), round(pp['lateral']['depth_open_um'], 1),
+                round(pp['lateral']['open_depth_rel_spread'], 2)) for pp in preds]} мкм; "
+              f"(ширина, глубина под окном, относит. разброс глубины); аппроксимация ТЗ: "
+              f"{row.get('supervisor_width_10_90')}")
     dump_json({"rows": rows, "status": "relative_only: R(D) не откалиброван, масштаб снимков не подтверждён"},
               out / "geant4_vs_experiment.json")
     return rows
