@@ -88,12 +88,16 @@ def summarize(run: Run) -> dict:
     out["any_scatter_fraction"] = region_fraction(run, hole, "any_scatter_outside_pmma")
     out["membrane_rayleigh_fraction"] = region_fraction(run, hole, "membrane_rayleigh")
     out["membrane_compton_fraction"] = region_fraction(run, hole, "membrane_compton")
-    # ---- разложение по непересекающимся категориям (регионы open/edge/shadow)
-    rc = run.spectra["region_edep_by_category_MeV"]
-    names = run.spectra["category_names"].split(",")
-    out["category_fractions"] = {reg: {nm: float(rc[i, k] / rc[i].sum()) if rc[i].sum() > 0 else None
-                                       for k, nm in enumerate(names)}
-                                 for i, reg in enumerate(["open", "edge", "shadow"])}
+    # ---- разложение по непересекающимся категориям — в тех же регионах карты map3d, что и доли признаков
+    from .dose import region_masks
+    op_m, sh_m = region_masks(g, hole)
+    out["category_fractions"] = {}
+    for reg, m in (("open", op_m), ("shadow", sh_m)):
+        tot = g.edep[m].sum()
+        out["category_fractions"][reg] = {nm: float(g.cat[k][m].sum() / tot) if tot > 0 else None
+                                          for k, nm in enumerate(g.cat_names)}
+    out["category_fractions_note"] = ("регионы карты map3d: open — |x|,|y| < h/2 − min(5, h/4) мкм; "
+                                      "shadow — дальше 20 мкм от края окна (в пределах карты, до 60 мкм)")
     out["decomposition_closure"] = float(abs(g.cat.sum() - g.edep.sum()) / max(g.edep.sum(), 1e-300))
     # ---- глубинная доза (open/shadow)
     V = g.volumes_cm3()
