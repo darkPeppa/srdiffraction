@@ -127,6 +127,8 @@ struct RunSpec {
   long long progress_every = 0;
   std::vector<double> xs_energies_keV;  // для mode=xs_table
   std::string xs_output;
+  // Дополнительные UI-команды Geant4 (диагностика): до и после BeamOn.
+  std::vector<std::string> ui_commands, ui_commands_after;
 };
 
 struct Config {

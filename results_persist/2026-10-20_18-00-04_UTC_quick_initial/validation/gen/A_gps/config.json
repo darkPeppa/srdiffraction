@@ -1,0 +1,56 @@
+{
+  "run": {
+    "name": "gen/A_gps",
+    "mode": "dump_primaries",
+    "n_events": 400000,
+    "seed": 13,
+    "threads": 0,
+    "output": "/work/results/validation/gen/A_gps/prim"
+  },
+  "physics": {
+    "em": "livermore",
+    "kill_unreachable_electrons": true
+  },
+  "world": {
+    "material": "Vacuum",
+    "half_xy_mm": 200.0,
+    "half_z_mm": 3.0
+  },
+  "materials": {
+    "Vacuum": {
+      "density_g_cm3": 1e-25,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "nist": "G4_Galactic"
+    },
+    "Be": {
+      "density_g_cm3": 1.848,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Be": 1.0
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "Dummy",
+      "role": "other",
+      "material": "Be",
+      "thickness_um": 1,
+      "z_front_mm": 0,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    }
+  ],
+  "scoring": {
+    "grids": []
+  },
+  "source": {
+    "mode": "gps",
+    "gps_macro": "/work/results/validation/gen/gps.mac",
+    "z_mm": -1.0
+  }
+}

@@ -481,7 +481,7 @@ class Validator:
             d, s = region_dose(r, h)
             rows.append({"model": em, "dose_open": d, "sigma": s, "rel": d / d0 - 1,
                          "membrane_fraction_shadow": feature_fraction(r, h, which="shadow")})
-        for cut in (0.1, 1.0):
+        for cut in (1.0, 5.0):  # 0.3 и 0.1 мкм в ПММА дают одинаковый порог 100 эВ (нижняя граница таблицы)
             r = self._sim(f"cut_{cut}", events=N, upstream="analytic",
                           overrides={"physics": {"region_cuts_um": {"PMMA": cut, "Kapton": cut}}})
             d, s = region_dose(r, h)

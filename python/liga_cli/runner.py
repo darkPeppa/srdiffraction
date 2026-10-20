@@ -42,13 +42,19 @@ def run_liga_sim(cfg: dict, json_path: Path, log_path: Path) -> float:
     t0 = time.time()
     cmd = [LIGA_SIM, str(json_path)]
     print(f"$ {' '.join(shlex.quote(c) for c in cmd)}", flush=True)
+    benign = 0
     with open(log_path, "w", encoding="utf-8") as log:
         p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
         for line in p.stdout:
             log.write(line)
+            if "BIAS.GEN.0" in line or "WWWW" in line:
+                benign += 1  # известные безвредные предупреждения смещения (docs/validation.md) — только в лог
+                continue
             if line.startswith("[liga]") or "Exception" in line or "ERROR" in line or "error" in line.lower():
                 sys.stdout.write("  " + line)
         rc = p.wait()
+    if benign:
+        print(f"  (безвредные предупреждения смещения BIAS.GEN — {benign // 3} шт., см. {Path(log_path).name})")
     if rc != 0:
         tail = Path(log_path).read_text(encoding="utf-8", errors="replace").splitlines()[-40:]
         raise RuntimeError(f"liga_sim failed (rc={rc}); log {log_path}:\n" + "\n".join(tail))

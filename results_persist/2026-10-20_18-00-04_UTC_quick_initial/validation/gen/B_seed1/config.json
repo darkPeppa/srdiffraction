@@ -1,0 +1,69 @@
+{
+  "run": {
+    "name": "gen/B_seed1",
+    "mode": "dump_primaries",
+    "n_events": 400000,
+    "seed": 11,
+    "threads": 0,
+    "output": "/work/results/validation/gen/B_seed1/prim"
+  },
+  "physics": {
+    "em": "livermore",
+    "kill_unreachable_electrons": true
+  },
+  "world": {
+    "material": "Vacuum",
+    "half_xy_mm": 200.0,
+    "half_z_mm": 3.0
+  },
+  "materials": {
+    "Vacuum": {
+      "density_g_cm3": 1e-25,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "nist": "G4_Galactic"
+    },
+    "Be": {
+      "density_g_cm3": 1.848,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Be": 1.0
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "Dummy",
+      "role": "other",
+      "material": "Be",
+      "thickness_um": 1,
+      "z_front_mm": 0,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    }
+  ],
+  "scoring": {
+    "grids": []
+  },
+  "source": {
+    "mode": "sr_table",
+    "table_file": "/work/results/validation/gen/table.csv",
+    "z_mm": -1.0,
+    "window_half_x_mm": 0.5,
+    "window_half_y_mm": 0.5,
+    "core_half_x_mm": 0.1,
+    "core_half_y_mm": 0.1,
+    "core_fraction": 0.5,
+    "distance_m": 20.3,
+    "scan_mode": "averaged",
+    "scan_half_amplitude_mm": 15.0,
+    "source_sigma_x_mm": 0.8493290300662477,
+    "source_sigma_y_mm": 0.21233225751656193,
+    "electron_divergence_sigma_mrad": 0.09,
+    "beam_half_x_mm": 36.0,
+    "polarization": true
+  }
+}

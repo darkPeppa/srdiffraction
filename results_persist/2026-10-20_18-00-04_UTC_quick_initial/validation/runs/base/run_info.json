@@ -1,0 +1,596 @@
+{
+  "experiment": "be_200",
+  "hole_um": 100.0,
+  "profile": "quick",
+  "upstream": "analytic",
+  "environment": {
+    "created_utc": "2026-10-20T15:01:35+00:00",
+    "python": "3.12.3",
+    "machine": "aarch64",
+    "geant4": "11.3.2"
+  },
+  "provenance": [
+    {
+      "path": "be_200.experiment.exposure_mA_min",
+      "value": 30000,
+      "status": "experimental",
+      "source": "Техзадание Be: «Экспозиционная доза 30000 мАмин»",
+      "note": ""
+    },
+    {
+      "path": "be_200.experiment.holes_um",
+      "value": [
+        20,
+        200,
+        300,
+        600
+      ],
+      "status": "experimental",
+      "source": "Техзадание Be, таблица; Схемы.pptx слайд 3",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.al_filter_um",
+      "value": 800,
+      "status": "experimental",
+      "source": "Техзадание Be: «алюминиевая фольга толщиной 800 мкм»",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.al_to_membrane_mm",
+      "value": 200,
+      "status": "experimental",
+      "source": "Техзадание Be: «20 см перед бериллиевой фольгой»",
+      "note": "Трактуется как расстояние между гранями (задняя грань Al — передняя грань мембраны) — assumption."
+    },
+    {
+      "path": "be_200.geometry.membrane.thickness_um",
+      "value": 200,
+      "status": "experimental",
+      "source": "Техзадание Be",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.membrane.gap_to_mask_um",
+      "value": 0,
+      "status": "assumption",
+      "source": "",
+      "note": "«непосредственно перед рентгеновской маской» — микрозазор не указан; варианты 0/100/1000 мкм — анализ чувствительности."
+    },
+    {
+      "path": "be_200.geometry.mask.support.thickness_um",
+      "value": 2.3,
+      "status": "experimental",
+      "source": "Техзадание Be",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.mask.absorber.thickness_um",
+      "value": 22,
+      "status": "experimental",
+      "source": "Техзадание Be",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.mask.orientation",
+      "value": "au_upstream",
+      "status": "document",
+      "source": "Схемы.pptx: порядок слоёв по пучку — мембрана → Au → Ti → каптон → ПММА",
+      "note": "Текст техзадания («мембрана титана, на ней нанесен слой золота») сторону не указывает; вариант ti_upstream — анализ чувствительности."
+    },
+    {
+      "path": "be_200.geometry.kapton_um",
+      "value": 25,
+      "status": "experimental",
+      "source": "Техзадание Be: «каптоновая плёнка толщиной 25 мкм»",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.mask_to_kapton_gap_um",
+      "value": 0,
+      "status": "assumption",
+      "source": "",
+      "note": "Не указан; принят контакт."
+    },
+    {
+      "path": "be_200.geometry.kapton_to_pmma_gap_um",
+      "value": 0,
+      "status": "assumption",
+      "source": "",
+      "note": "«Непосредственно перед слоем ПММА»; принят контакт."
+    },
+    {
+      "path": "be_200.geometry.pmma_um",
+      "value": 15,
+      "status": "experimental",
+      "source": "Схемы.pptx; ТЗ п. 1.2: строго 15 мкм",
+      "note": ""
+    },
+    {
+      "path": "be_200.geometry.substrate",
+      "value": null,
+      "status": "unknown",
+      "source": "",
+      "note": "Подложка ПММА не указана; по умолчанию не моделируется. Вариант Si 500 мкм — чувствительность."
+    },
+    {
+      "path": "be_200.geometry.medium",
+      "value": "He_chamber",
+      "status": "assumption",
+      "source": "Диссертация, с. 56: камера заполнена гелием 20–50 кПа",
+      "note": ""
+    },
+    {
+      "path": "source.source.electron_energy_GeV",
+      "value": 2.0,
+      "status": "document",
+      "source": "Диссертация Гольденберга, табл. 2 (с. 60); техзадания «К-расчёту-профиля…»",
+      "note": ""
+    },
+    {
+      "path": "source.source.field_T",
+      "value": 2.0,
+      "status": "document",
+      "source": "Диссертация, табл. 2: H = 20 кГс (основной полюс трёхполюсного вигглера)",
+      "note": ""
+    },
+    {
+      "path": "source.source.current_reference_mA",
+      "value": 100.0,
+      "status": "document",
+      "source": "Диссертация, с. 61: оценки режимов проводились для I = 100 мА (рабочий диапазон 50–130 мА)",
+      "note": ""
+    },
+    {
+      "path": "source.source.distance_m",
+      "value": 20.3,
+      "status": "experimental",
+      "source": "Техзадания: «расстояние до источника излучения 20,3 м»",
+      "note": "Точка отсчёта (до мембраны, шаблона или ПММА) не указана; различие ~0.5 м меняет поток на ~5% (1/L для усреднённого сканированием потока)."
+    },
+    {
+      "path": "source.source.source_size_v_mm",
+      "value": 0.5,
+      "status": "document",
+      "source": "Диссертация, с. 61: «вертикальный — 0.5 мм»",
+      "note": "Не указано, σ это или полный размер. В модели трактуется как полный размер (FWHM → σ = 0.5/2.355). Влияние на угол < 0.02 мрад — пренебрежимо."
+    },
+    {
+      "path": "source.source.source_size_h_mm",
+      "value": 2.0,
+      "status": "document",
+      "source": "Диссертация, с. 61: «горизонтальный — 2 мм»",
+      "note": "Трактуется как FWHM (assumption), σ = 0.85 мм; на расстоянии 20.3 м даёт угловое размытие ~0.04 мрад."
+    },
+    {
+      "path": "source.source.electron_divergence_mrad",
+      "value": 0.09,
+      "status": "document",
+      "source": "Диссертация, с. 61: угловой разброс электронов в точке излучения ϑe = 0.09 мрад",
+      "note": "Трактуется как σ (assumption). При сканировании с амплитудой > ширины пучка на дозу не влияет (диссертация, с. 61)."
+    },
+    {
+      "path": "source.source.channel_aperture_mrad",
+      "value": null,
+      "status": "unknown",
+      "source": "Диссертация, с. 63: канал №0 «ограничен углом ±0,35 мрад»",
+      "note": "Направление ограничения не указано. Горизонтальный размер пучка 72 мм на 20 м (±1.8 мрад) противоречит горизонтальному ограничению ±0.35 мрад; вертикальное ±0.35 мрад × 20.3 м = ±7.1 мм согласуется с высотой пучка ~12–14 мм. По умолчанию ограничение НЕ применяется; вариант 'vertical_0p35' — в анализе чувствительности."
+    },
+    {
+      "path": "source.source.beam_size_v_mm",
+      "value": 12.0,
+      "status": "document",
+      "source": "Диссертация, табл. 2: макс. размер пучка СИ 12 мм × 72 мм",
+      "note": ""
+    },
+    {
+      "path": "source.source.beam_size_h_mm",
+      "value": 72.0,
+      "status": "document",
+      "source": "Диссертация, табл. 2",
+      "note": ""
+    },
+    {
+      "path": "source.source.scan_half_amplitude_mm",
+      "value": 15.0,
+      "status": "experimental",
+      "source": "Техзадания: «амплитуда сканирования вверх 15 мм от плоскости орбиты и вниз 15 мм»",
+      "note": ""
+    },
+    {
+      "path": "source.source.scan_mode",
+      "value": "averaged",
+      "status": "assumption",
+      "source": "Диссертация, с. 67–68: вариант I — сборка шаблон+подложка качается поперёк пучка на расстояние больше ширины пучка",
+      "note": "Предполагаем равномерную скорость (треугольный закон) — доза пропорциональна интегралу потока по вертикали. Альтернатива 'explicit' проверяет то же явным розыгрышем положения."
+    },
+    {
+      "path": "source.source.be_windows.total_um",
+      "value": 500,
+      "status": "experimental",
+      "source": "Техзадания: «в самом начале канала бериллиевая фольга толщиной 500 мкм»; диссертация: 100+100+300 мкм",
+      "note": ""
+    },
+    {
+      "path": "source.source.be_windows.split_um",
+      "value": [
+        100,
+        100,
+        300
+      ],
+      "status": "document",
+      "source": "Диссертация, с. 54–55",
+      "note": ""
+    },
+    {
+      "path": "source.source.be_windows.treatment",
+      "value": "analytic",
+      "status": "assumption",
+      "source": "",
+      "note": "Окна в начале канала (≥ 10 м до образца для 100+100 мкм; 300 мкм — входное окно камеры). Рассеянные в них фотоны практически не попадают в локальную область; явное моделирование — в validate (be_windows_explicit)."
+    },
+    {
+      "path": "source.spectrum.e_min_keV",
+      "value": 1.0,
+      "status": "assumption",
+      "source": "ТЗ п. 2.2: начальный диапазон 1–80 кэВ; сходимость проверяется (liga spectrum)",
+      "note": ""
+    },
+    {
+      "path": "source.spectrum.e_max_keV",
+      "value": 80.0,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "source.spectrum.e_step_keV",
+      "value": 0.1,
+      "status": "assumption",
+      "source": "",
+      "note": "Сходимость по шагу проверяется сравнением с шагом 0.05 кэВ (validate: spectrum_convergence)"
+    },
+    {
+      "path": "source.spectrum.psi_step_mrad",
+      "value": 0.02,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "source.spectrum.psi_max_mrad",
+      "value": 1.5,
+      "status": "assumption",
+      "source": "",
+      "note": "Для E ≥ 1 кэВ доля потока за |ψ| > 1.5 мрад < 1e-4 (проверяется)"
+    },
+    {
+      "path": "materials.materials.Be.density_g_cm3",
+      "value": 1.848,
+      "status": "document",
+      "source": "Справочная плотность металлического Be (CRC Handbook); G4_Be",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Al.density_g_cm3",
+      "value": 2.699,
+      "status": "document",
+      "source": "CRC Handbook; G4_Al",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Ti.density_g_cm3",
+      "value": 4.506,
+      "status": "document",
+      "source": "CRC Handbook (α-Ti). G4_Ti = 4.54",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Au.density_g_cm3",
+      "value": 19.32,
+      "status": "document",
+      "source": "CRC Handbook; G4_Au",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.GlassyCarbon.density_g_cm3",
+      "value": 1.49,
+      "status": "assumption",
+      "source": "Диссертация Гольденберга, табл. 5 (стеклоуглерод НИИ Графит): 1.46–1.52 г/см3; взята середина",
+      "note": "НЕ графит (2.0–2.26). Закрытая пористость малая (табл. 5: открытая 0.2–1%). Границы 1.46/1.52 — анализ чувствительности."
+    },
+    {
+      "path": "materials.materials.Sapphire.density_g_cm3",
+      "value": 3.98,
+      "status": "document",
+      "source": "Монокристаллический α-Al2O3 (лейкосапфир), 3.98 г/см3",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Kapton.density_g_cm3",
+      "value": 1.42,
+      "status": "document",
+      "source": "Полиимид PMDA-ODA (Kapton HN), 1.42 г/см3; G4_KAPTON",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.PMMA.density_g_cm3",
+      "value": 1.18,
+      "status": "document",
+      "source": "Диссертация Гольденберга, табл. 4 (с. 51): ПММА 1.18 г/см3",
+      "note": "NIST/G4_PLEXIGLASS: 1.19. Различие 0.8% — в анализе чувствительности. Сверхмолекулярный ПММА (10^7 г/моль) — плотность не измерена."
+    },
+    {
+      "path": "materials.materials.He_chamber.pressure_Pa",
+      "value": 50000,
+      "status": "assumption",
+      "source": "Диссертация, с. 56 и табл. 2: камера заполняется гелием 20–50 кПа (0.2–0.5 атм)",
+      "note": "Взята верхняя граница (максимальное ослабление/рассеяние в газе); варианты 20 кПа и вакуум — анализ чувствительности. Влияние на 20 см пути < 0.3% при E > 5 кэВ."
+    },
+    {
+      "path": "materials.materials.He_chamber.temperature_K",
+      "value": 293.15,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Air.pressure_Pa",
+      "value": 101325,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Air.temperature_K",
+      "value": 293.15,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Vacuum.density_g_cm3",
+      "value": 1e-25,
+      "status": "document",
+      "source": "G4_Galactic",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Si.density_g_cm3",
+      "value": 2.329,
+      "status": "document",
+      "source": "CRC Handbook",
+      "note": ""
+    }
+  ],
+  "assumptions": [
+    {
+      "path": "be_200.geometry.membrane.gap_to_mask_um",
+      "value": 0,
+      "status": "assumption",
+      "source": "",
+      "note": "«непосредственно перед рентгеновской маской» — микрозазор не указан; варианты 0/100/1000 мкм — анализ чувствительности."
+    },
+    {
+      "path": "be_200.geometry.mask_to_kapton_gap_um",
+      "value": 0,
+      "status": "assumption",
+      "source": "",
+      "note": "Не указан; принят контакт."
+    },
+    {
+      "path": "be_200.geometry.kapton_to_pmma_gap_um",
+      "value": 0,
+      "status": "assumption",
+      "source": "",
+      "note": "«Непосредственно перед слоем ПММА»; принят контакт."
+    },
+    {
+      "path": "be_200.geometry.substrate",
+      "value": null,
+      "status": "unknown",
+      "source": "",
+      "note": "Подложка ПММА не указана; по умолчанию не моделируется. Вариант Si 500 мкм — чувствительность."
+    },
+    {
+      "path": "be_200.geometry.medium",
+      "value": "He_chamber",
+      "status": "assumption",
+      "source": "Диссертация, с. 56: камера заполнена гелием 20–50 кПа",
+      "note": ""
+    },
+    {
+      "path": "source.source.channel_aperture_mrad",
+      "value": null,
+      "status": "unknown",
+      "source": "Диссертация, с. 63: канал №0 «ограничен углом ±0,35 мрад»",
+      "note": "Направление ограничения не указано. Горизонтальный размер пучка 72 мм на 20 м (±1.8 мрад) противоречит горизонтальному ограничению ±0.35 мрад; вертикальное ±0.35 мрад × 20.3 м = ±7.1 мм согласуется с высотой пучка ~12–14 мм. По умолчанию ограничение НЕ применяется; вариант 'vertical_0p35' — в анализе чувствительности."
+    },
+    {
+      "path": "source.source.scan_mode",
+      "value": "averaged",
+      "status": "assumption",
+      "source": "Диссертация, с. 67–68: вариант I — сборка шаблон+подложка качается поперёк пучка на расстояние больше ширины пучка",
+      "note": "Предполагаем равномерную скорость (треугольный закон) — доза пропорциональна интегралу потока по вертикали. Альтернатива 'explicit' проверяет то же явным розыгрышем положения."
+    },
+    {
+      "path": "source.source.be_windows.treatment",
+      "value": "analytic",
+      "status": "assumption",
+      "source": "",
+      "note": "Окна в начале канала (≥ 10 м до образца для 100+100 мкм; 300 мкм — входное окно камеры). Рассеянные в них фотоны практически не попадают в локальную область; явное моделирование — в validate (be_windows_explicit)."
+    },
+    {
+      "path": "source.spectrum.e_min_keV",
+      "value": 1.0,
+      "status": "assumption",
+      "source": "ТЗ п. 2.2: начальный диапазон 1–80 кэВ; сходимость проверяется (liga spectrum)",
+      "note": ""
+    },
+    {
+      "path": "source.spectrum.e_max_keV",
+      "value": 80.0,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "source.spectrum.e_step_keV",
+      "value": 0.1,
+      "status": "assumption",
+      "source": "",
+      "note": "Сходимость по шагу проверяется сравнением с шагом 0.05 кэВ (validate: spectrum_convergence)"
+    },
+    {
+      "path": "source.spectrum.psi_step_mrad",
+      "value": 0.02,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "source.spectrum.psi_max_mrad",
+      "value": 1.5,
+      "status": "assumption",
+      "source": "",
+      "note": "Для E ≥ 1 кэВ доля потока за |ψ| > 1.5 мрад < 1e-4 (проверяется)"
+    },
+    {
+      "path": "materials.materials.GlassyCarbon.density_g_cm3",
+      "value": 1.49,
+      "status": "assumption",
+      "source": "Диссертация Гольденберга, табл. 5 (стеклоуглерод НИИ Графит): 1.46–1.52 г/см3; взята середина",
+      "note": "НЕ графит (2.0–2.26). Закрытая пористость малая (табл. 5: открытая 0.2–1%). Границы 1.46/1.52 — анализ чувствительности."
+    },
+    {
+      "path": "materials.materials.He_chamber.pressure_Pa",
+      "value": 50000,
+      "status": "assumption",
+      "source": "Диссертация, с. 56 и табл. 2: камера заполняется гелием 20–50 кПа (0.2–0.5 атм)",
+      "note": "Взята верхняя граница (максимальное ослабление/рассеяние в газе); варианты 20 кПа и вакуум — анализ чувствительности. Влияние на 20 см пути < 0.3% при E > 5 кэВ."
+    },
+    {
+      "path": "materials.materials.He_chamber.temperature_K",
+      "value": 293.15,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Air.pressure_Pa",
+      "value": 101325,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    },
+    {
+      "path": "materials.materials.Air.temperature_K",
+      "value": 293.15,
+      "status": "assumption",
+      "source": "",
+      "note": ""
+    }
+  ],
+  "overrides": {},
+  "medium": "He_chamber",
+  "source_table": {
+    "file": "source_table.csv",
+    "rows": 25918,
+    "analytic_filters": [
+      [
+        "Be",
+        500.0
+      ],
+      [
+        "Al",
+        800.0
+      ]
+    ],
+    "photons_per_s_per_mrad": 113765063231480.52,
+    "power_W_per_mrad": 0.3640243117389417,
+    "mean_energy_keV": 19.971518324741936,
+    "sigma_fraction": 0.9393302307453077,
+    "current_reference_mA": 100.0,
+    "psi_edges_mrad": [
+      -0.7389162561576356,
+      0.7389162561576356
+    ]
+  },
+  "stage2": {
+    "events": 300000,
+    "window_half_mm": 0.3,
+    "window_area_mm2": 0.36,
+    "core_half_mm": 0.09,
+    "core_fraction": 0.5,
+    "layers": [
+      {
+        "name": "TestMembrane_Be",
+        "role": "test_membrane",
+        "material": "Be",
+        "thickness_um": 200.0,
+        "z_front_mm": -0.2,
+        "half_x_mm": 2.3,
+        "half_y_mm": 2.3
+      },
+      {
+        "name": "Absorber_Au",
+        "role": "absorber",
+        "material": "Au",
+        "thickness_um": 22.0,
+        "z_front_mm": 0.0,
+        "half_x_mm": 2.3,
+        "half_y_mm": 2.3,
+        "hole": {
+          "size_x_um": 100.0,
+          "size_y_um": 100.0,
+          "center_x_um": 0.0,
+          "center_y_um": 0.0
+        }
+      },
+      {
+        "name": "MaskSupport_Ti",
+        "role": "mask_support",
+        "material": "Ti",
+        "thickness_um": 2.3,
+        "z_front_mm": 0.022,
+        "half_x_mm": 2.3,
+        "half_y_mm": 2.3
+      },
+      {
+        "name": "Kapton",
+        "role": "kapton",
+        "material": "Kapton",
+        "thickness_um": 25.0,
+        "z_front_mm": 0.0243,
+        "half_x_mm": 2.3,
+        "half_y_mm": 2.3,
+        "prod_cut_um": 0.3
+      },
+      {
+        "name": "PMMA",
+        "role": "pmma",
+        "material": "PMMA",
+        "thickness_um": 15.0,
+        "z_front_mm": 0.0493,
+        "half_x_mm": 2.3,
+        "half_y_mm": 2.3,
+        "prod_cut_um": 0.3
+      }
+    ],
+    "plane_z_mm": -0.201
+  },
+  "normalization": {
+    "definition": "D_voxel = (sum_w Edep / N_stage2) * Phi_inc * A_window / m_voxel; Phi_inc — усреднённый по сканированию флюенс падающего (после Be) спектра.",
+    "fluence_rate_per_mA_ph_s_mm2": 1868063435.6564944,
+    "exposure_mA_min": 30000.0,
+    "exposure_status": "experimental",
+    "incident_fluence_ph_mm2": 3362514184181689.5,
+    "window_area_mm2": 0.36,
+    "n_histories": 300000,
+    "stage1_weight_per_history": null,
+    "MeV_to_J": 1.602176634e-13
+  },
+  "timings": {
+    "stage2_s": 8.159629583358765
+  }
+}

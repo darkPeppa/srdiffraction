@@ -49,6 +49,7 @@ materials:
     temperature_K: {value: 293.15, status: assumption}
   Air:
     mass_fractions: {N: 0.755267, O: 0.231781, Ar: 0.012827, C: 0.000124}
+    molar_mass_g_mol: {value: 28.965, status: document, source: "сухой воздух (молекулярная масса)"}
     state: gas
     pressure_Pa: {value: 101325, status: assumption}
     temperature_K: {value: 293.15, status: assumption}

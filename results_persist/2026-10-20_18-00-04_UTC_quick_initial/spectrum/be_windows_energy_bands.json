@@ -1,0 +1,56 @@
+[
+  {
+    "band_keV": [
+      1,
+      3
+    ],
+    "photon_share_raw": 0.5267749601843064,
+    "photon_share_after_Be": 0.023858318701977663,
+    "power_share_after_Be": 0.00827128075039746
+  },
+  {
+    "band_keV": [
+      3,
+      5
+    ],
+    "photon_share_raw": 0.20953088831392655,
+    "photon_share_after_Be": 0.26094074794781635,
+    "power_share_after_Be": 0.13599056454799122
+  },
+  {
+    "band_keV": [
+      5,
+      8
+    ],
+    "photon_share_raw": 0.14200880927406712,
+    "photon_share_after_Be": 0.35464715032511074,
+    "power_share_after_Be": 0.2860743387570542
+  },
+  {
+    "band_keV": [
+      8,
+      12
+    ],
+    "photon_share_raw": 0.07430384225971527,
+    "photon_share_after_Be": 0.2166747382264285,
+    "power_share_after_Be": 0.266501878312872
+  },
+  {
+    "band_keV": [
+      12,
+      20
+    ],
+    "photon_share_raw": 0.03918610576115578,
+    "photon_share_after_Be": 0.11873490565651099,
+    "power_share_after_Be": 0.22398731355016135
+  },
+  {
+    "band_keV": [
+      20,
+      80
+    ],
+    "photon_share_raw": 0.00819539420682915,
+    "photon_share_after_Be": 0.025144139142155877,
+    "power_share_after_Be": 0.07917462408152388
+  }
+]

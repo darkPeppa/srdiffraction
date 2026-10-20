@@ -1,0 +1,5475 @@
+[
+  {
+    "file": "Be220mkm/1row1left.jpg",
+    "file_id": "f11ae014ae",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 31.25,
+      "angle_deg": 0.0,
+      "snr": 93.9280250114124
+    },
+    "valid_fraction": 0.7895779193205945,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 319,
+      "robust_sigma_um": 0.044066856997771284,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 0.29714855777914223,
+    "depth_branches_um": [
+      0.027148557779142213,
+      0.29714855777914223,
+      0.5671485577791422,
+      0.8371485577791422,
+      1.1071485577791422,
+      1.3771485577791422,
+      1.6471485577791423,
+      1.9171485577791423,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/1row2left.jpg",
+    "file_id": "0afee05706",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 854,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 48.0,
+      "angle_deg": 0.0,
+      "snr": 193.1607312636963
+    },
+    "valid_fraction": 0.7636166911644618,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 284,
+      "robust_sigma_um": 0.018878831738814546,
+      "criterion_um": 0.027000000000000003,
+      "agree": true
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.23652087638802075,
+    "depth_branches_um": [
+      0.23652087638802075,
+      0.5065208763880208,
+      0.7765208763880208,
+      1.0465208763880207,
+      1.3165208763880207,
+      1.5865208763880208,
+      1.8565208763880208,
+      2.126520876388021,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row1left.jpg",
+    "file_id": "f39c1e8fdb",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 14.714670169161439,
+      "angle_deg": -88.6509337540973,
+      "snr": 358.0755219646429
+    },
+    "valid_fraction": 0.772596178343949,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 1,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 783,
+      "robust_sigma_um": 0.18739513863161855,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.9073225879080539,
+    "depth_branches_um": [
+      0.09732258790805381,
+      0.36732258790805383,
+      0.6373225879080539,
+      0.9073225879080539,
+      1.177322587908054,
+      1.447322587908054,
+      1.717322587908054,
+      1.987322587908054,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row1right.jpg",
+    "file_id": "448c9a58e9",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 48.65311302900855,
+      "angle_deg": 31.09692675485696,
+      "snr": 266.6390909420708
+    },
+    "valid_fraction": 0.8210785562632696,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 38,
+      "agree": null,
+      "note": "метод 1 не дал достаточно непрерывных полос"
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.5029563602440368,
+    "depth_branches_um": [
+      0.23295636024403676,
+      0.5029563602440368,
+      0.7729563602440368,
+      1.0429563602440368,
+      1.3129563602440368,
+      1.5829563602440369,
+      1.8529563602440369,
+      2.1229563602440367,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row2left.jpg",
+    "file_id": "a1b9839e7a",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 7.834566064754306,
+      "angle_deg": -86.40654409367085,
+      "snr": 413.32810595940884
+    },
+    "valid_fraction": 0.6006828025477707,
+    "n_unwrapped_regions": 19,
+    "phase_residues": 22,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_19_regions",
+    "method_agreement": {
+      "n_points": 4865,
+      "robust_sigma_um": 0.444394767437569,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 6,
+    "relative_depth_um": 2.0449559825662247,
+    "depth_branches_um": [
+      0.15495598256622456,
+      0.4249559825662246,
+      0.6949559825662246,
+      0.9649559825662246,
+      1.2349559825662246,
+      1.5049559825662246,
+      1.7749559825662247,
+      2.0449559825662247,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row2lright.jpg",
+    "file_id": "88f18cf83f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 854,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 39.0,
+      "angle_deg": 0.0,
+      "snr": 83.57114934833572
+    },
+    "valid_fraction": 0.8197710817137569,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 82,
+      "robust_sigma_um": 0.09702765412347472,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.2622649257562092,
+    "depth_branches_um": [
+      0.2622649257562092,
+      0.5322649257562092,
+      0.8022649257562092,
+      1.0722649257562091,
+      1.3422649257562091,
+      1.6122649257562092,
+      1.8822649257562092,
+      2.152264925756209,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row3left.jpg",
+    "file_id": "b781463aba",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 5.8145631691567115,
+      "angle_deg": -89.46695242358697,
+      "snr": 481.7605119424779
+    },
+    "valid_fraction": 0.48533333333333334,
+    "n_unwrapped_regions": 19,
+    "phase_residues": 26,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_19_regions",
+    "method_agreement": {
+      "n_points": 5720,
+      "robust_sigma_um": 0.8430120524950738,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 4.314273718984822,
+    "depth_branches_um": [
+      0.26427371898482166,
+      0.5342737189848217,
+      0.8042737189848217,
+      1.0742737189848217,
+      1.3442737189848217,
+      1.6142737189848217,
+      1.8842737189848218,
+      2.154273718984822,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row3right.jpg",
+    "file_id": "71cc07bdb2",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 9.23126381378247,
+      "angle_deg": 88.30723389095253,
+      "snr": 220.10673663614736
+    },
+    "valid_fraction": 0.7145477707006369,
+    "n_unwrapped_regions": 17,
+    "phase_residues": 10,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_17_regions",
+    "method_agreement": {
+      "n_points": 3090,
+      "robust_sigma_um": 1.0854594938072246,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 0.9827074936663186,
+    "depth_branches_um": [
+      0.17270749366631855,
+      0.44270749366631856,
+      0.7127074936663186,
+      0.9827074936663186,
+      1.2527074936663185,
+      1.5227074936663185,
+      1.7927074936663185,
+      2.0627074936663186,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row6left.jpg",
+    "file_id": "19ea597fec",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 230,
+      "y0": 233,
+      "x1": 855,
+      "y1": 704
+    },
+    "carrier": {
+      "period_px": 5.231682960002611,
+      "angle_deg": -88.56103263742679,
+      "snr": 315.87656073021043
+    },
+    "valid_fraction": 0.36110743099787684,
+    "n_unwrapped_regions": 20,
+    "phase_residues": 27,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_20_regions",
+    "method_agreement": {
+      "n_points": 2143,
+      "robust_sigma_um": 0.26406725148702054,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 2.8714761643257405,
+    "depth_branches_um": [
+      0.1714761643257403,
+      0.44147616432574033,
+      0.7114761643257403,
+      0.9814761643257404,
+      1.2514761643257404,
+      1.5214761643257404,
+      1.7914761643257404,
+      2.0614761643257404,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/19u20.jpg",
+    "file_id": "819e78bdb5",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 10.460800830431369,
+      "angle_deg": 88.0816904657544,
+      "snr": 1694.6407635830706
+    },
+    "valid_fraction": 0.7859668789808917,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 8266,
+      "robust_sigma_um": 0.16424060373765142,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.25263456344565494,
+    "depth_branches_um": [
+      0.25263456344565494,
+      0.522634563445655,
+      0.792634563445655,
+      1.062634563445655,
+      1.3326345634456551,
+      1.6026345634456551,
+      1.8726345634456552,
+      2.142634563445655,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row1left.jpg",
+    "file_id": "50b5183a10",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 48.07692307692307,
+      "angle_deg": 0.0,
+      "snr": 148.02634865663435
+    },
+    "valid_fraction": 0.7456815286624204,
+    "n_unwrapped_regions": 9,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_9_regions",
+    "method_agreement": {
+      "n_points": 114,
+      "robust_sigma_um": 0.11622309754619639,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.30176884007170757,
+    "depth_branches_um": [
+      0.03176884007170755,
+      0.30176884007170757,
+      0.5717688400717076,
+      0.8417688400717076,
+      1.1117688400717076,
+      1.3817688400717076,
+      1.6517688400717077,
+      1.9217688400717077,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row2left.jpg",
+    "file_id": "d70c0cb653",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 7.02940610775499,
+      "angle_deg": 89.35557792943096,
+      "snr": 171.3087383066354
+    },
+    "valid_fraction": 0.77192016985138,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 73,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 1318,
+      "robust_sigma_um": 0.6966903936380503,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 3.165743831882099,
+    "depth_branches_um": [
+      0.19574383188209898,
+      0.465743831882099,
+      0.735743831882099,
+      1.005743831882099,
+      1.275743831882099,
+      1.545743831882099,
+      1.815743831882099,
+      2.085743831882099,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row3left.jpg",
+    "file_id": "8bfa492080",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 48.07692307692307,
+      "angle_deg": 0.0,
+      "snr": 157.2753984747448
+    },
+    "valid_fraction": 0.8122972399150743,
+    "n_unwrapped_regions": 5,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_5_regions",
+    "method_agreement": {
+      "n_points": 504,
+      "robust_sigma_um": 0.01660383156335181,
+      "criterion_um": 0.027000000000000003,
+      "agree": true
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 0.280826856966533,
+    "depth_branches_um": [
+      0.01082685696653296,
+      0.280826856966533,
+      0.550826856966533,
+      0.820826856966533,
+      1.0908268569665331,
+      1.3608268569665332,
+      1.6308268569665332,
+      1.9008268569665332,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row4left.jpg",
+    "file_id": "e9b9b244ca",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 36.76470588235294,
+      "angle_deg": 0.0,
+      "snr": 237.92990780550633
+    },
+    "valid_fraction": 0.867176220806794,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 143,
+      "robust_sigma_um": 0.024266425089209884,
+      "criterion_um": 0.027000000000000003,
+      "agree": true
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.35399641625612477,
+    "depth_branches_um": [
+      0.08399641625612475,
+      0.35399641625612477,
+      0.6239964162561248,
+      0.8939964162561248,
+      1.1639964162561247,
+      1.4339964162561247,
+      1.7039964162561247,
+      1.9739964162561248,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row5left.jpg",
+    "file_id": "95cf54902b",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 41.666666666666664,
+      "angle_deg": 0.0,
+      "snr": 284.58718611865913
+    },
+    "valid_fraction": 0.8580857749469214,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 133,
+      "robust_sigma_um": 0.10737901071533623,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.24071388928522336,
+    "depth_branches_um": [
+      0.24071388928522336,
+      0.5107138892852234,
+      0.7807138892852235,
+      1.0507138892852235,
+      1.3207138892852235,
+      1.5907138892852235,
+      1.8607138892852235,
+      2.1307138892852233,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row6left.jpg",
+    "file_id": "762ba10196",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 7.02940610775499,
+      "angle_deg": 89.35557792943096,
+      "snr": 385.362002401023
+    },
+    "valid_fraction": 0.5787210191082802,
+    "n_unwrapped_regions": 10,
+    "phase_residues": 12,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_10_regions",
+    "method_agreement": {
+      "n_points": 2369,
+      "robust_sigma_um": 0.5183976643765916,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 3,
+    "relative_depth_um": 2.744846753622855,
+    "depth_branches_um": [
+      0.04484675362285495,
+      0.31484675362285497,
+      0.584846753622855,
+      0.854846753622855,
+      1.124846753622855,
+      1.394846753622855,
+      1.664846753622855,
+      1.934846753622855,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1u2(200).jpg",
+    "file_id": "419b70c325",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 15.193548387096774,
+      "angle_deg": 90.0,
+      "snr": 2692.4960147862885
+    },
+    "valid_fraction": 0.8549197452229299,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 7973,
+      "robust_sigma_um": 0.16690365354093178,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.38518401295592974,
+    "depth_branches_um": [
+      0.11518401295592973,
+      0.38518401295592974,
+      0.6551840129559298,
+      0.9251840129559298,
+      1.19518401295593,
+      1.46518401295593,
+      1.73518401295593,
+      2.00518401295593,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/20u21(130).jpg",
+    "file_id": "21e619c591",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 9.235294117647058,
+      "angle_deg": 90.0,
+      "snr": 839.0131052708574
+    },
+    "valid_fraction": 0.8457205944798302,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 3974,
+      "robust_sigma_um": 0.19791830152800485,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 6,
+    "relative_depth_um": 0.3014030367602655,
+    "depth_branches_um": [
+      0.03140303676026546,
+      0.3014030367602655,
+      0.5714030367602655,
+      0.8414030367602655,
+      1.1114030367602656,
+      1.3814030367602657,
+      1.6514030367602657,
+      1.9214030367602657,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/25u26(66).jpg",
+    "file_id": "dddf20be24",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 8.878718328952546,
+      "angle_deg": -87.55743740135651,
+      "snr": 363.74754546713666
+    },
+    "valid_fraction": 0.8680968152866242,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6625,
+      "robust_sigma_um": 0.18285379666964735,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 10,
+    "relative_depth_um": 0.3877226315684377,
+    "depth_branches_um": [
+      0.11772263156843771,
+      0.3877226315684377,
+      0.6577226315684377,
+      0.9277226315684377,
+      1.1977226315684377,
+      1.4677226315684377,
+      1.7377226315684378,
+      2.0077226315684378,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/26u27(80).jpg",
+    "file_id": "b7ead3fd89",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 10.460800830431369,
+      "angle_deg": -88.0816904657544,
+      "snr": 629.5663096738194
+    },
+    "valid_fraction": 0.8657528662420382,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 7003,
+      "robust_sigma_um": 0.06667282718339612,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.2547762645568451,
+    "depth_branches_um": [
+      0.2547762645568451,
+      0.5247762645568451,
+      0.7947762645568451,
+      1.064776264556845,
+      1.334776264556845,
+      1.604776264556845,
+      1.874776264556845,
+      2.144776264556845,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/27u28(100).jpg",
+    "file_id": "7b46a665a8",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 10.465199282553698,
+      "angle_deg": 89.04057636277065,
+      "snr": 898.2059608649815
+    },
+    "valid_fraction": 0.855235668789809,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6761,
+      "robust_sigma_um": 0.16273314261685454,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 10,
+    "relative_depth_um": 0.249964452115416,
+    "depth_branches_um": [
+      0.249964452115416,
+      0.5199644521154161,
+      0.7899644521154161,
+      1.0599644521154161,
+      1.3299644521154161,
+      1.5999644521154162,
+      1.8699644521154162,
+      2.139964452115416,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2row3left.jpg",
+    "file_id": "ce6189f90b",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 7.718955643055329,
+      "angle_deg": -88.58461259058599,
+      "snr": 723.9860232861282
+    },
+    "valid_fraction": 0.7016968152866242,
+    "n_unwrapped_regions": 7,
+    "phase_residues": 19,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_7_regions",
+    "method_agreement": {
+      "n_points": 5855,
+      "robust_sigma_um": 0.34284865414749416,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 8,
+    "relative_depth_um": 1.3851158223697289,
+    "depth_branches_um": [
+      0.035115822369728766,
+      0.3051158223697288,
+      0.5751158223697288,
+      0.8451158223697288,
+      1.1151158223697288,
+      1.3851158223697289,
+      1.6551158223697289,
+      1.925115822369729,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2row4left.jpg",
+    "file_id": "9f13353017",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 32.57845915902609,
+      "angle_deg": -7.951650516631701,
+      "snr": 154.842924396288
+    },
+    "valid_fraction": 0.8383796178343949,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 109,
+      "robust_sigma_um": 0.4670582049765522,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.5594420699832283,
+    "depth_branches_um": [
+      0.019442069983228283,
+      0.2894420699832283,
+      0.5594420699832283,
+      0.8294420699832283,
+      1.0994420699832284,
+      1.3694420699832284,
+      1.6394420699832284,
+      1.9094420699832284,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2row5eft.jpg",
+    "file_id": "ba17963399",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 71,
+      "y0": 312,
+      "x1": 696,
+      "y1": 783
+    },
+    "carrier": {
+      "period_px": 36.65321420976764,
+      "angle_deg": 4.4632695010750645,
+      "snr": 245.32217438838512
+    },
+    "valid_fraction": 0.854647983014862,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 212,
+      "robust_sigma_um": 0.2743104184393513,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.4155828947558594,
+    "depth_branches_um": [
+      0.1455828947558594,
+      0.4155828947558594,
+      0.6855828947558594,
+      0.9555828947558594,
+      1.2255828947558594,
+      1.4955828947558594,
+      1.7655828947558594,
+      2.0355828947558594,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2u3(250).jpg",
+    "file_id": "65ca99555a",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 17.437653538072837,
+      "angle_deg": -88.40122620991538,
+      "snr": 3058.8406683544163
+    },
+    "valid_fraction": 0.8475244161358811,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 7778,
+      "robust_sigma_um": 0.08630120254746135,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 7,
+    "relative_depth_um": 0.07280457810396164,
+    "depth_branches_um": [
+      0.07280457810396164,
+      0.34280457810396164,
+      0.6128045781039617,
+      0.8828045781039617,
+      1.1528045781039618,
+      1.4228045781039618,
+      1.6928045781039618,
+      1.9628045781039618,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/32(750).jpg",
+    "file_id": "d551aaca1b",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 19.538502643497033,
+      "angle_deg": -84.61861756182141,
+      "snr": 731.8430909272623
+    },
+    "valid_fraction": 0.8774250530785562,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 2475,
+      "robust_sigma_um": 0.06871143507453513,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 3,
+    "relative_depth_um": 0.16677831716324198,
+    "depth_branches_um": [
+      0.16677831716324198,
+      0.436778317163242,
+      0.706778317163242,
+      0.976778317163242,
+      1.246778317163242,
+      1.516778317163242,
+      1.786778317163242,
+      2.056778317163242,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/32na35.jpg",
+    "file_id": "3a11437c82",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 6.7250648668989506,
+      "angle_deg": -88.15015304028049,
+      "snr": 401.3417842648433
+    },
+    "valid_fraction": 0.8530921443736731,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 103,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 3974,
+      "robust_sigma_um": 0.13706976026070908,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 0.5339164274401142,
+    "depth_branches_um": [
+      0.26391642744011423,
+      0.5339164274401142,
+      0.8039164274401143,
+      1.0739164274401143,
+      1.3439164274401143,
+      1.6139164274401143,
+      1.8839164274401143,
+      2.153916427440114,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/33(1000).jpg",
+    "file_id": "4d9b064d6a",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 16.6711530040054,
+      "angle_deg": -82.33566942224881,
+      "snr": 1070.7662623374613
+    },
+    "valid_fraction": 0.8736203821656051,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 6243,
+      "robust_sigma_um": 0.14706519290969353,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 3,
+    "relative_depth_um": 0.23955098882009113,
+    "depth_branches_um": [
+      0.23955098882009113,
+      0.5095509888200911,
+      0.7795509888200911,
+      1.0495509888200911,
+      1.3195509888200911,
+      1.5895509888200912,
+      1.8595509888200912,
+      2.129550988820091,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/33(1000).v2jpg.jpg",
+    "file_id": "614e7a9a49",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 18.83144624477181,
+      "angle_deg": 88.27339886058593,
+      "snr": 1317.1304464253276
+    },
+    "valid_fraction": 0.8854284501061571,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 5709,
+      "robust_sigma_um": 0.058275101583082835,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 0.17215836700527853,
+    "depth_branches_um": [
+      0.17215836700527853,
+      0.44215836700527855,
+      0.7121583670052786,
+      0.9821583670052786,
+      1.2521583670052787,
+      1.5221583670052787,
+      1.7921583670052788,
+      2.0621583670052788,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/3row1left.jpg",
+    "file_id": "8728905311",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 28,
+      "y0": 218,
+      "x1": 653,
+      "y1": 689
+    },
+    "carrier": {
+      "period_px": 11.766649921539578,
+      "angle_deg": 87.84211588354657,
+      "snr": 452.1507505640874
+    },
+    "valid_fraction": 0.626568152866242,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 1864,
+      "robust_sigma_um": 0.5635364039955465,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 2.318059507988795,
+    "depth_branches_um": [
+      0.15805950798879476,
+      0.4280595079887948,
+      0.6980595079887948,
+      0.9680595079887948,
+      1.2380595079887948,
+      1.5080595079887948,
+      1.7780595079887949,
+      2.048059507988795,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/3row2left.jpg",
+    "file_id": "05381b478d",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 10.466666666666667,
+      "angle_deg": 90.0,
+      "snr": 385.8148660689056
+    },
+    "valid_fraction": 0.7364314225053079,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 4,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 2101,
+      "robust_sigma_um": 0.4670941246417104,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 1.1566180139695235,
+    "depth_branches_um": [
+      0.07661801396952339,
+      0.3466180139695234,
+      0.6166180139695234,
+      0.8866180139695234,
+      1.1566180139695235,
+      1.4266180139695235,
+      1.6966180139695235,
+      1.9666180139695235,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/3u4(300).jpg",
+    "file_id": "9c0a987970",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 18.80585471476613,
+      "angle_deg": -86.5499279277706,
+      "snr": 2330.2565894266013
+    },
+    "valid_fraction": 0.872451804670913,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 6443,
+      "robust_sigma_um": 0.18375072578094073,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 14,
+    "relative_depth_um": 0.528979026433786,
+    "depth_branches_um": [
+      0.258979026433786,
+      0.528979026433786,
+      0.798979026433786,
+      1.068979026433786,
+      1.338979026433786,
+      1.608979026433786,
+      1.878979026433786,
+      2.148979026433786,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/48na50.jpg",
+    "file_id": "2985ba2e58",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 6.633429170373068,
+      "angle_deg": -89.39188059033086,
+      "snr": 244.4713060402845
+    },
+    "valid_fraction": 0.8533367303609342,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 108,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 4845,
+      "robust_sigma_um": 0.1021551870772978,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 6,
+    "relative_depth_um": 0.6916822817460817,
+    "depth_branches_um": [
+      0.15168228174608167,
+      0.4216822817460817,
+      0.6916822817460817,
+      0.9616822817460817,
+      1.2316822817460817,
+      1.5016822817460818,
+      1.7716822817460818,
+      2.041682281746082,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4row1left.jpg",
+    "file_id": "6e4bbda2dd",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 482,
+      "x1": 772,
+      "y1": 830
+    },
+    "carrier": {
+      "period_px": 43.5,
+      "angle_deg": 90.0,
+      "snr": 260.1148191607458
+    },
+    "valid_fraction": 0.7716367816091954,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 99,
+      "robust_sigma_um": 0.011767319701757392,
+      "criterion_um": 0.027000000000000003,
+      "agree": true
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.21944074097250743,
+    "depth_branches_um": [
+      0.21944074097250743,
+      0.48944074097250745,
+      0.7594407409725075,
+      1.0294407409725075,
+      1.2994407409725075,
+      1.5694407409725075,
+      1.8394407409725075,
+      2.1094407409725076,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4row2left.jpg",
+    "file_id": "a8e615b46c",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 8.885894240039221,
+      "angle_deg": 89.18537377485733,
+      "snr": 357.7334990285874
+    },
+    "valid_fraction": 0.6444738853503185,
+    "n_unwrapped_regions": 10,
+    "phase_residues": 11,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_10_regions",
+    "method_agreement": {
+      "n_points": 2777,
+      "robust_sigma_um": 0.5174147634991054,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 1.8926527023808997,
+    "depth_branches_um": [
+      0.002652702380899541,
+      0.27265270238089956,
+      0.5426527023808996,
+      0.8126527023808996,
+      1.0826527023808996,
+      1.3526527023808996,
+      1.6226527023808996,
+      1.8926527023808997,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4row3left.jpg",
+    "file_id": "aa39c7d062",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 39.0625,
+      "angle_deg": 0.0,
+      "snr": 291.50913682091874
+    },
+    "valid_fraction": 0.8344798301486199,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 146,
+      "robust_sigma_um": 0.13152896034057926,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.5116812942454292,
+    "depth_branches_um": [
+      0.24168129424542917,
+      0.5116812942454292,
+      0.7816812942454292,
+      1.0516812942454292,
+      1.3216812942454292,
+      1.5916812942454293,
+      1.8616812942454293,
+      2.1316812942454293,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4u5(400).jpg",
+    "file_id": "97901c4b19",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 14.714670169161439,
+      "angle_deg": 88.6509337540973,
+      "snr": 1785.062532480951
+    },
+    "valid_fraction": 0.8151983014861995,
+    "n_unwrapped_regions": 9,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_9_regions",
+    "method_agreement": {
+      "n_points": 7435,
+      "robust_sigma_um": 0.2590901501273274,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 7,
+    "relative_depth_um": 0.263235808198374,
+    "depth_branches_um": [
+      0.263235808198374,
+      0.533235808198374,
+      0.803235808198374,
+      1.073235808198374,
+      1.343235808198374,
+      1.613235808198374,
+      1.883235808198374,
+      2.153235808198374,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row1left.jpg",
+    "file_id": "d8c031b204",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 8.721372987034595,
+      "angle_deg": 89.20045746885393,
+      "snr": 261.1747803930328
+    },
+    "valid_fraction": 0.6814743099787686,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 23,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 1775,
+      "robust_sigma_um": 0.426791153485459,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 1.8761487568606834,
+    "depth_branches_um": [
+      0.2561487568606833,
+      0.5261487568606833,
+      0.7961487568606833,
+      1.0661487568606833,
+      1.3361487568606834,
+      1.6061487568606834,
+      1.8761487568606834,
+      2.1461487568606836,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row2left.jpg",
+    "file_id": "716fb25a8d",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 10.465199282553698,
+      "angle_deg": -89.04057636277065,
+      "snr": 379.3270009569136
+    },
+    "valid_fraction": 0.7804025477707006,
+    "n_unwrapped_regions": 12,
+    "phase_residues": 7,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_12_regions",
+    "method_agreement": {
+      "n_points": 6850,
+      "robust_sigma_um": 0.2970673012406013,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.38785975710016324,
+    "depth_branches_um": [
+      0.11785975710016322,
+      0.38785975710016324,
+      0.6578597571001632,
+      0.9278597571001632,
+      1.1978597571001632,
+      1.4678597571001633,
+      1.7378597571001633,
+      2.0078597571001633,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row3left.jpg",
+    "file_id": "07e38eb647",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 8.117949161422258,
+      "angle_deg": 88.5114350264727,
+      "snr": 432.2124217764064
+    },
+    "valid_fraction": 0.7548535031847133,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 21,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 6951,
+      "robust_sigma_um": 0.32167754642563823,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 1.73296172291208,
+    "depth_branches_um": [
+      0.11296172291207984,
+      0.38296172291207986,
+      0.6529617229120799,
+      0.9229617229120799,
+      1.19296172291208,
+      1.46296172291208,
+      1.73296172291208,
+      2.00296172291208,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row4left.jpg",
+    "file_id": "3087f1f7bd",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 8.563636363636364,
+      "angle_deg": 90.0,
+      "snr": 160.43625517355352
+    },
+    "valid_fraction": 0.7027057324840764,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 16,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 1531,
+      "robust_sigma_um": 0.40857374066471386,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 2.6688111832139665,
+    "depth_branches_um": [
+      0.23881118321396633,
+      0.5088111832139663,
+      0.7788111832139664,
+      1.0488111832139664,
+      1.3188111832139664,
+      1.5888111832139664,
+      1.8588111832139664,
+      2.1288111832139665,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row5left.jpg",
+    "file_id": "96831f5ecb",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 38.944023999232726,
+      "angle_deg": 82.84113757084901,
+      "snr": 188.67670497687666
+    },
+    "valid_fraction": 0.856676008492569,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 96,
+      "robust_sigma_um": 0.1288427420408367,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 1.2616995932157082,
+    "depth_branches_um": [
+      0.18169959321570817,
+      0.4516995932157082,
+      0.7216995932157082,
+      0.9916995932157082,
+      1.2616995932157082,
+      1.5316995932157083,
+      1.8016995932157083,
+      2.0716995932157083,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5u6(500).jpg",
+    "file_id": "9cd2f0e62f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 10.460800830431369,
+      "angle_deg": 88.0816904657544,
+      "snr": 1711.4529417735114
+    },
+    "valid_fraction": 0.7586208067940552,
+    "n_unwrapped_regions": 5,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_5_regions",
+    "method_agreement": {
+      "n_points": 8745,
+      "robust_sigma_um": 0.17882117684571433,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.17880098877358944,
+    "depth_branches_um": [
+      0.17880098877358944,
+      0.4488009887735894,
+      0.7188009887735894,
+      0.9888009887735895,
+      1.2588009887735896,
+      1.5288009887735896,
+      1.7988009887735896,
+      2.0688009887735896,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/6row2left.jpg",
+    "file_id": "018fc233c8",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 39.0625,
+      "angle_deg": 0.0,
+      "snr": 180.88549981001984
+    },
+    "valid_fraction": 0.863864118895966,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 382,
+      "robust_sigma_um": 0.05510619691682984,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 0.3177177613101596,
+    "depth_branches_um": [
+      0.04771776131015959,
+      0.3177177613101596,
+      0.5877177613101596,
+      0.8577177613101596,
+      1.1277177613101597,
+      1.3977177613101597,
+      1.6677177613101597,
+      1.9377177613101597,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/6u7(600).jpg",
+    "file_id": "7bf6d239b1",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_25/8u9(60).jpg",
+    "file_id": "150a71f008",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 111,
+      "y0": 293,
+      "x1": 736,
+      "y1": 764
+    },
+    "carrier": {
+      "period_px": 9.42,
+      "angle_deg": 90.0,
+      "snr": 1013.045450836118
+    },
+    "valid_fraction": 0.832968152866242,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 1,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 4722,
+      "robust_sigma_um": 0.05187922352046118,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 4,
+    "relative_depth_um": 0.2317379517652301,
+    "depth_branches_um": [
+      0.2317379517652301,
+      0.5017379517652301,
+      0.7717379517652301,
+      1.04173795176523,
+      1.3117379517652301,
+      1.5817379517652301,
+      1.8517379517652302,
+      2.12173795176523,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/at-double-slits-6row1left.jpg",
+    "file_id": "ff5864c1ce",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 482,
+      "x1": 772,
+      "y1": 830
+    },
+    "carrier": {
+      "period_px": 49.714285714285715,
+      "angle_deg": 90.0,
+      "snr": 318.4321624349211
+    },
+    "valid_fraction": 0.845719540229885,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 289,
+      "robust_sigma_um": 0.03823961543123144,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.22701420024473476,
+    "depth_branches_um": [
+      0.22701420024473476,
+      0.49701420024473475,
+      0.7670142002447348,
+      1.037014200244735,
+      1.307014200244735,
+      1.577014200244735,
+      1.847014200244735,
+      2.1170142002447347,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1000.bmp",
+    "file_id": "dd1cb390d8",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 21.10182387814953,
+      "angle_deg": 80.28109596801914,
+      "snr": 605.7383694187505
+    },
+    "valid_fraction": 0.8930411889596603,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 5912,
+      "robust_sigma_um": 0.1571575089026217,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 15,
+    "relative_depth_um": 0.3383509704951854,
+    "depth_branches_um": [
+      0.0683509704951854,
+      0.3383509704951854,
+      0.6083509704951855,
+      0.8783509704951855,
+      1.1483509704951855,
+      1.4183509704951855,
+      1.6883509704951856,
+      1.9583509704951856,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1000.jpg",
+    "file_id": "4c6b21eee9",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 21.10182387814953,
+      "angle_deg": 80.28109596801914,
+      "snr": 1226.2368988843104
+    },
+    "valid_fraction": 0.8939006369426752,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 5938,
+      "robust_sigma_um": 0.1566995029544107,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 15,
+    "relative_depth_um": 0.34008021250619075,
+    "depth_branches_um": [
+      0.07008021250619073,
+      0.34008021250619075,
+      0.6100802125061908,
+      0.8800802125061908,
+      1.1500802125061909,
+      1.4200802125061909,
+      1.690080212506191,
+      1.960080212506191,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/19u20(155).bmp",
+    "file_id": "182b7d0a6f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 16.821428571428573,
+      "angle_deg": 90.0,
+      "snr": 444.2317231589526
+    },
+    "valid_fraction": 0.8727099787685775,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 1842,
+      "robust_sigma_um": 0.08362918292518041,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 0.18508149539619856,
+    "depth_branches_um": [
+      0.18508149539619856,
+      0.4550814953961986,
+      0.7250814953961986,
+      0.9950814953961986,
+      1.2650814953961986,
+      1.5350814953961986,
+      1.8050814953961987,
+      2.0750814953961987,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/19u20(155).jpg",
+    "file_id": "c68858215c",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 16.821428571428573,
+      "angle_deg": 90.0,
+      "snr": 794.6661616681062
+    },
+    "valid_fraction": 0.8748025477707007,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 1771,
+      "robust_sigma_um": 0.0778251611669952,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 0.18666704580275384,
+    "depth_branches_um": [
+      0.18666704580275384,
+      0.45666704580275386,
+      0.7266670458027539,
+      0.9966670458027539,
+      1.266667045802754,
+      1.536667045802754,
+      1.806667045802754,
+      2.076667045802754,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row1right.jpg",
+    "file_id": "bee195d9ef",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_280/1row2right.jpg",
+    "file_id": "9d13ca89f7",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 30.648764383607578,
+      "angle_deg": -11.257287055898699,
+      "snr": 102.16154697435053
+    },
+    "valid_fraction": 0.8801256900212314,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 30,
+      "agree": null,
+      "note": "метод 1 не дал достаточно непрерывных полос"
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.7548529745086688,
+    "depth_branches_um": [
+      0.2148529745086688,
+      0.4848529745086688,
+      0.7548529745086688,
+      1.024852974508669,
+      1.294852974508669,
+      1.564852974508669,
+      1.834852974508669,
+      2.104852974508669,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row3right.jpg",
+    "file_id": "0e6bdaf163",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_280/1row4right.jpg",
+    "file_id": "d36e966539",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_280/1row5right.jpg",
+    "file_id": "fc93d6dba9",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_280/1row6right.jpg",
+    "file_id": "e8691b2991",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 44.509829459288,
+      "angle_deg": 22.210026116016763,
+      "snr": 164.9117585579677
+    },
+    "valid_fraction": 0.8727983014861995,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 44,
+      "agree": null,
+      "note": "метод 1 не дал достаточно непрерывных полос"
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.4779442117266064,
+    "depth_branches_um": [
+      0.20794421172660638,
+      0.4779442117266064,
+      0.7479442117266064,
+      1.0179442117266064,
+      1.2879442117266064,
+      1.5579442117266065,
+      1.8279442117266065,
+      2.0979442117266065,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/20u21(130).jpg",
+    "file_id": "b493105e9b",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.982399723732872,
+      "angle_deg": -89.26820760080828,
+      "snr": 500.4814712595387
+    },
+    "valid_fraction": 0.8334709129511677,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 9,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6195,
+      "robust_sigma_um": 0.19682193223476063,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 12,
+    "relative_depth_um": 0.591708490262278,
+    "depth_branches_um": [
+      0.05170849026227797,
+      0.321708490262278,
+      0.591708490262278,
+      0.861708490262278,
+      1.131708490262278,
+      1.401708490262278,
+      1.671708490262278,
+      1.941708490262278,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v1.bmp",
+    "file_id": "e01c270fff",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.134503558805336,
+      "angle_deg": 88.69180012112345,
+      "snr": 131.70629523690778
+    },
+    "valid_fraction": 0.8643091295116773,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 26,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 7368,
+      "robust_sigma_um": 0.17655498155814467,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 8,
+    "relative_depth_um": 0.5969893384657561,
+    "depth_branches_um": [
+      0.056989338465756045,
+      0.32698933846575606,
+      0.5969893384657561,
+      0.8669893384657561,
+      1.1369893384657561,
+      1.4069893384657561,
+      1.6769893384657562,
+      1.9469893384657562,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v1.jpg",
+    "file_id": "2ca27dd30f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.134503558805336,
+      "angle_deg": 88.69180012112345,
+      "snr": 212.88393952115624
+    },
+    "valid_fraction": 0.8734063694267515,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 53,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 7161,
+      "robust_sigma_um": 0.16645075445071347,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.6718931068499852,
+    "depth_branches_um": [
+      0.13189310684998512,
+      0.40189310684998514,
+      0.6718931068499852,
+      0.9418931068499852,
+      1.2118931068499852,
+      1.4818931068499852,
+      1.7518931068499852,
+      2.0218931068499852,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v2.bmp",
+    "file_id": "7d56fb50c7",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.134503558805336,
+      "angle_deg": 88.69180012112345,
+      "snr": 152.66961170640965
+    },
+    "valid_fraction": 0.869452229299363,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 39,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 7305,
+      "robust_sigma_um": 0.16838054009067036,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 7,
+    "relative_depth_um": 0.4196457795448394,
+    "depth_branches_um": [
+      0.14964577954483937,
+      0.4196457795448394,
+      0.6896457795448394,
+      0.9596457795448394,
+      1.2296457795448394,
+      1.4996457795448395,
+      1.7696457795448395,
+      2.0396457795448395,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v2.jpg",
+    "file_id": "037a4ea924",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.134503558805336,
+      "angle_deg": 88.69180012112345,
+      "snr": 247.9940829955739
+    },
+    "valid_fraction": 0.8686097664543524,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 59,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 4813,
+      "robust_sigma_um": 0.1500904982934072,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 0.6944179002286619,
+    "depth_branches_um": [
+      0.15441790022866186,
+      0.4244179002286619,
+      0.6944179002286619,
+      0.9644179002286619,
+      1.234417900228662,
+      1.504417900228662,
+      1.774417900228662,
+      2.044417900228662,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/26u27(80).bmp",
+    "file_id": "ade8c640a3",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.246153846153846,
+      "angle_deg": 90.0,
+      "snr": 123.15691956586343
+    },
+    "valid_fraction": 0.8565435244161359,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 18,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 9120,
+      "robust_sigma_um": 1.120766112512802,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 12,
+    "relative_depth_um": 1.3825041937325757,
+    "depth_branches_um": [
+      0.032504193732575626,
+      0.30250419373257564,
+      0.5725041937325757,
+      0.8425041937325757,
+      1.1125041937325757,
+      1.3825041937325757,
+      1.6525041937325757,
+      1.9225041937325758,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/26u27(80).jpg",
+    "file_id": "858068eae7",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.246153846153846,
+      "angle_deg": 90.0,
+      "snr": 203.0418635487462
+    },
+    "valid_fraction": 0.8549537154989384,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 54,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6399,
+      "robust_sigma_um": 0.6980318716203455,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 9,
+    "relative_depth_um": 0.9410600823853101,
+    "depth_branches_um": [
+      0.13106008238531008,
+      0.4010600823853101,
+      0.6710600823853101,
+      0.9410600823853101,
+      1.2110600823853102,
+      1.4810600823853102,
+      1.7510600823853102,
+      2.0210600823853104,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/27u28(100).bmp",
+    "file_id": "e966892c19",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 6.924769816765494,
+      "angle_deg": -88.73026380109883,
+      "snr": 223.93625671722432
+    },
+    "valid_fraction": 0.8323295116772824,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 42,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 4917,
+      "robust_sigma_um": 0.2332868433671972,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 3,
+    "relative_depth_um": 0.8691485769215814,
+    "depth_branches_um": [
+      0.059148576921581375,
+      0.3291485769215814,
+      0.5991485769215814,
+      0.8691485769215814,
+      1.1391485769215814,
+      1.4091485769215815,
+      1.6791485769215815,
+      1.9491485769215815,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/27u28(100).jpg",
+    "file_id": "4da8669934",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 6.924769816765494,
+      "angle_deg": -88.73026380109883,
+      "snr": 348.0644811594985
+    },
+    "valid_fraction": 0.8269146496815286,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 79,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 4178,
+      "robust_sigma_um": 0.067118986035166,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 3,
+    "relative_depth_um": 1.0125352370070466,
+    "depth_branches_um": [
+      0.20253523700704656,
+      0.4725352370070466,
+      0.7425352370070466,
+      1.0125352370070466,
+      1.2825352370070466,
+      1.5525352370070467,
+      1.8225352370070467,
+      2.0925352370070467,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/2row1left.jpg",
+    "file_id": "6d0d813de6",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 41.666666666666664,
+      "angle_deg": 0.0,
+      "snr": 255.13084081755412
+    },
+    "valid_fraction": 0.7477095541401274,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 143,
+      "robust_sigma_um": 0.08854566537629253,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.2649175142782281,
+    "depth_branches_um": [
+      0.2649175142782281,
+      0.5349175142782281,
+      0.8049175142782281,
+      1.0749175142782281,
+      1.3449175142782281,
+      1.6149175142782282,
+      1.8849175142782282,
+      2.154917514278228,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/2row2left.jpg",
+    "file_id": "4f39bea243",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v1.bmp",
+    "file_id": "ffd69413d1",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.124761957756728,
+      "angle_deg": -86.73247880248346,
+      "snr": 178.5080875470937
+    },
+    "valid_fraction": 0.8592407643312102,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 35,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6958,
+      "robust_sigma_um": 0.18613692909074941,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 15,
+    "relative_depth_um": 0.7539918135985368,
+    "depth_branches_um": [
+      0.2139918135985368,
+      0.4839918135985368,
+      0.7539918135985368,
+      1.0239918135985369,
+      1.2939918135985369,
+      1.563991813598537,
+      1.833991813598537,
+      2.1039918135985367,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v1.jpg",
+    "file_id": "75a7701a09",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.124761957756728,
+      "angle_deg": -86.73247880248346,
+      "snr": 270.76883420018277
+    },
+    "valid_fraction": 0.8593936305732484,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 63,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 6021,
+      "robust_sigma_um": 0.19925060332279101,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 12,
+    "relative_depth_um": 0.9951078476736297,
+    "depth_branches_um": [
+      0.18510784767362964,
+      0.45510784767362966,
+      0.7251078476736297,
+      0.9951078476736297,
+      1.2651078476736297,
+      1.5351078476736297,
+      1.8051078476736298,
+      2.07510784767363,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v2.bmp",
+    "file_id": "e461d51c33",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.128932040869385,
+      "angle_deg": -87.38496279885901,
+      "snr": 134.99722851788962
+    },
+    "valid_fraction": 0.8532076433121019,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 53,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 5585,
+      "robust_sigma_um": 0.16511767326860619,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 11,
+    "relative_depth_um": 0.7524200294593699,
+    "depth_branches_um": [
+      0.21242002945936989,
+      0.4824200294593699,
+      0.7524200294593699,
+      1.02242002945937,
+      1.29242002945937,
+      1.56242002945937,
+      1.83242002945937,
+      2.10242002945937,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v2.jpg",
+    "file_id": "717248ebf6",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 7.128932040869385,
+      "angle_deg": -87.38496279885901,
+      "snr": 214.74769996915848
+    },
+    "valid_fraction": 0.8451600849256901,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 72,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 4572,
+      "robust_sigma_um": 0.17156147100365862,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 8,
+    "relative_depth_um": 0.8089450560604606,
+    "depth_branches_um": [
+      0.2689450560604606,
+      0.5389450560604606,
+      0.8089450560604606,
+      1.0789450560604608,
+      1.3489450560604608,
+      1.6189450560604608,
+      1.8889450560604608,
+      2.158945056060461,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/33(35).bmp",
+    "file_id": "da32fadd01",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 6.540233843847767,
+      "angle_deg": -88.80078349572909,
+      "snr": 134.69438456836454
+    },
+    "valid_fraction": 0.8762394904458599,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 69,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 5949,
+      "robust_sigma_um": 0.09328300635022672,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 7,
+    "relative_depth_um": 0.48293296023308374,
+    "depth_branches_um": [
+      0.21293296023308372,
+      0.48293296023308374,
+      0.7529329602330838,
+      1.0229329602330837,
+      1.2929329602330837,
+      1.5629329602330837,
+      1.8329329602330837,
+      2.1029329602330837,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/33(35).jpg",
+    "file_id": "d5c6737adb",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 6.450680039607307,
+      "angle_deg": -88.81720641988268,
+      "snr": 199.6071645521507
+    },
+    "valid_fraction": 0.8661061571125266,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 133,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 5001,
+      "robust_sigma_um": 0.1529971938989722,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 7,
+    "relative_depth_um": 0.7710166945676413,
+    "depth_branches_um": [
+      0.2310166945676413,
+      0.5010166945676413,
+      0.7710166945676413,
+      1.0410166945676413,
+      1.3110166945676414,
+      1.5810166945676414,
+      1.8510166945676414,
+      2.1210166945676416,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/35(35).bmp",
+    "file_id": "f6294cd46f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 6.82242579896094,
+      "angle_deg": -88.1233626970848,
+      "snr": 109.09081575615247
+    },
+    "valid_fraction": 0.8462607218683652,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 69,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 5089,
+      "robust_sigma_um": 0.6676686261015844,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 0.7222118860790039,
+    "depth_branches_um": [
+      0.18221188607900385,
+      0.45221188607900387,
+      0.7222118860790039,
+      0.9922118860790039,
+      1.262211886079004,
+      1.532211886079004,
+      1.802211886079004,
+      2.072211886079004,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/35(35).jpg",
+    "file_id": "7f1ad6d333",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 6.82242579896094,
+      "angle_deg": -88.1233626970848,
+      "snr": 174.24369810706764
+    },
+    "valid_fraction": 0.8357367303609342,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 93,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 4368,
+      "robust_sigma_um": 0.8457411662680262,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 6,
+    "relative_depth_um": 0.8786095646899588,
+    "depth_branches_um": [
+      0.06860956468995871,
+      0.33860956468995873,
+      0.6086095646899587,
+      0.8786095646899588,
+      1.1486095646899588,
+      1.4186095646899588,
+      1.6886095646899588,
+      1.9586095646899588,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3row1left.jpg",
+    "file_id": "eb3fbb752e",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 39.25,
+      "angle_deg": 90.0,
+      "snr": 391.1783210612876
+    },
+    "valid_fraction": 0.7427193205944799,
+    "n_unwrapped_regions": 5,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_5_regions",
+    "method_agreement": {
+      "n_points": 45,
+      "agree": null,
+      "note": "метод 1 не дал достаточно непрерывных полос"
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.6131187485570999,
+    "depth_branches_um": [
+      0.07311874855709988,
+      0.3431187485570999,
+      0.6131187485570999,
+      0.8831187485570999,
+      1.1531187485571,
+      1.4231187485571,
+      1.6931187485571,
+      1.9631187485571,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3row2left.jpg",
+    "file_id": "6299e4c1bc",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 47.1,
+      "angle_deg": 90.0,
+      "snr": 341.5834860902461
+    },
+    "valid_fraction": 0.826208067940552,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 29,
+      "agree": null,
+      "note": "метод 1 не дал достаточно непрерывных полос"
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.2798586272684758,
+    "depth_branches_um": [
+      0.009858627268475806,
+      0.2798586272684758,
+      0.5498586272684758,
+      0.8198586272684758,
+      1.0898586272684758,
+      1.3598586272684758,
+      1.6298586272684759,
+      1.8998586272684759,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3row3left.jpg",
+    "file_id": "26664e73fc",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 42.71805068178746,
+      "angle_deg": -86.08084209395562,
+      "snr": 240.2029785312954
+    },
+    "valid_fraction": 0.7852569002123142,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 31,
+      "agree": null,
+      "note": "метод 1 не дал достаточно непрерывных полос"
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.4350441261797978,
+    "depth_branches_um": [
+      0.1650441261797978,
+      0.4350441261797978,
+      0.7050441261797978,
+      0.9750441261797979,
+      1.2450441261797978,
+      1.5150441261797978,
+      1.7850441261797978,
+      2.055044126179798,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3u4(300).bmp",
+    "file_id": "5b1c4a8da3",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 22.42857142857143,
+      "angle_deg": 90.0,
+      "snr": 604.6625357399053
+    },
+    "valid_fraction": 0.884191932059448,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 3114,
+      "robust_sigma_um": 0.05062113414204515,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 4,
+    "relative_depth_um": 0.08907416285910731,
+    "depth_branches_um": [
+      0.08907416285910731,
+      0.3590741628591073,
+      0.6290741628591073,
+      0.8990741628591074,
+      1.1690741628591075,
+      1.4390741628591075,
+      1.7090741628591075,
+      1.9790741628591075,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3u4(300).jpg",
+    "file_id": "dedde3dfd3",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 22.42857142857143,
+      "angle_deg": 90.0,
+      "snr": 1080.5325035136018
+    },
+    "valid_fraction": 0.884980042462845,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 3149,
+      "robust_sigma_um": 0.05219083055120684,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 0.08987500399197978,
+    "depth_branches_um": [
+      0.08987500399197978,
+      0.3598750039919798,
+      0.6298750039919798,
+      0.8998750039919798,
+      1.1698750039919799,
+      1.4398750039919799,
+      1.70987500399198,
+      1.97987500399198,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4row1left.jpg",
+    "file_id": "817c18e435",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 7.246153846153846,
+      "angle_deg": 90.0,
+      "snr": 213.34560565837018
+    },
+    "valid_fraction": 0.6527014861995754,
+    "n_unwrapped_regions": 8,
+    "phase_residues": 18,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_8_regions",
+    "method_agreement": {
+      "n_points": 5563,
+      "robust_sigma_um": 0.7828805593289964,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 3.396810487135374,
+    "depth_branches_um": [
+      0.15681048713537393,
+      0.42681048713537395,
+      0.696810487135374,
+      0.966810487135374,
+      1.236810487135374,
+      1.506810487135374,
+      1.776810487135374,
+      2.046810487135374,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4row2left.jpg",
+    "file_id": "f6de59daf7",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 5.8145631691567115,
+      "angle_deg": -89.46695242358697,
+      "snr": 209.9255887500905
+    },
+    "valid_fraction": 0.5537868365180467,
+    "n_unwrapped_regions": 10,
+    "phase_residues": 63,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_10_regions",
+    "method_agreement": {
+      "n_points": 1223,
+      "robust_sigma_um": 0.4133169208395706,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 3.240447344046603,
+    "depth_branches_um": [
+      0.00044734404660262683,
+      0.27044734404660264,
+      0.5404473440466027,
+      0.8104473440466027,
+      1.0804473440466027,
+      1.3504473440466027,
+      1.6204473440466027,
+      1.8904473440466028,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4row3left.jpg",
+    "file_id": "028161b9c2",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 48.07692307692307,
+      "angle_deg": 0.0,
+      "snr": 107.86415405922075
+    },
+    "valid_fraction": 0.8679711252653928,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 62,
+      "robust_sigma_um": 0.1844071380386711,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.3432998129419012,
+    "depth_branches_um": [
+      0.07329981294190119,
+      0.3432998129419012,
+      0.6132998129419012,
+      0.8832998129419012,
+      1.1532998129419012,
+      1.4232998129419012,
+      1.6932998129419012,
+      1.9632998129419013,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4u5(400).bmp",
+    "file_id": "a3cccda852",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 19.285715445091757,
+      "angle_deg": -79.33053795923203,
+      "snr": 533.4343632449694
+    },
+    "valid_fraction": 0.8789129511677283,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 3812,
+      "robust_sigma_um": 0.11898949349784213,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 8,
+    "relative_depth_um": 0.1899309521742109,
+    "depth_branches_um": [
+      0.1899309521742109,
+      0.4599309521742109,
+      0.729930952174211,
+      0.999930952174211,
+      1.269930952174211,
+      1.539930952174211,
+      1.809930952174211,
+      2.079930952174211,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4u5(400).jpg",
+    "file_id": "9cb5bfad26",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 19.285715445091757,
+      "angle_deg": -79.33053795923203,
+      "snr": 943.5005055974713
+    },
+    "valid_fraction": 0.8767354564755838,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 3236,
+      "robust_sigma_um": 0.10951809085022213,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 6,
+    "relative_depth_um": 0.19857606834220626,
+    "depth_branches_um": [
+      0.19857606834220626,
+      0.4685760683422063,
+      0.7385760683422062,
+      1.0085760683422063,
+      1.2785760683422063,
+      1.5485760683422063,
+      1.8185760683422063,
+      2.0885760683422063,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/5u6(500).bmp",
+    "file_id": "64cf4d8b68",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 18.76343304441668,
+      "angle_deg": -84.83268349225479,
+      "snr": 727.7042718628467
+    },
+    "valid_fraction": 0.9064254777070063,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 4161,
+      "robust_sigma_um": 0.12230444703721052,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 7,
+    "relative_depth_um": 0.24422785824987314,
+    "depth_branches_um": [
+      0.24422785824987314,
+      0.5142278582498732,
+      0.7842278582498732,
+      1.0542278582498732,
+      1.3242278582498732,
+      1.5942278582498732,
+      1.8642278582498732,
+      2.134227858249873,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/5u6(500).jpg",
+    "file_id": "fe7ed17e1b",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 18.76343304441668,
+      "angle_deg": -84.83268349225479,
+      "snr": 1266.1806722581173
+    },
+    "valid_fraction": 0.9019549893842888,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 4378,
+      "robust_sigma_um": 0.1251864556334599,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 8,
+    "relative_depth_um": 0.24542499777692428,
+    "depth_branches_um": [
+      0.24542499777692428,
+      0.5154249977769243,
+      0.7854249977769243,
+      1.0554249977769243,
+      1.3254249977769244,
+      1.5954249977769244,
+      1.8654249977769244,
+      2.1354249977769246,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6row1right-at-double-slits.jpg",
+    "file_id": "ea555f38b0",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "reason": "панель живого изображения не найдена автоматически — задайте ROI good_fringes в annotate-roi"
+  },
+  {
+    "file": "Leikosaphire_280/6row2right.jpg",
+    "file_id": "c4c3555659",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 147,
+      "y0": 237,
+      "x1": 772,
+      "y1": 708
+    },
+    "carrier": {
+      "period_px": 8.114527442707072,
+      "angle_deg": -87.76778010624062,
+      "snr": 214.00858080967419
+    },
+    "valid_fraction": 0.8323091295116772,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 10,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 1152,
+      "robust_sigma_um": 0.3471421058163365,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 1.8563318194382081,
+    "depth_branches_um": [
+      0.23633181943820802,
+      0.506331819438208,
+      0.7763318194382081,
+      1.046331819438208,
+      1.316331819438208,
+      1.5863318194382081,
+      1.8563318194382081,
+      2.1263318194382084,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6u7(600).bmp",
+    "file_id": "9a152198c0",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 18.115384615384613,
+      "angle_deg": 90.0,
+      "snr": 467.2541818808211
+    },
+    "valid_fraction": 0.8752169851380043,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 5143,
+      "robust_sigma_um": 0.04917630683358433,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 1,
+    "relative_depth_um": 0.12255997732425045,
+    "depth_branches_um": [
+      0.12255997732425045,
+      0.39255997732425046,
+      0.6625599773242505,
+      0.9325599773242506,
+      1.2025599773242506,
+      1.4725599773242506,
+      1.7425599773242506,
+      2.0125599773242504,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6u7(600).jpg",
+    "file_id": "5092bf2c4d",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 736
+    },
+    "carrier": {
+      "period_px": 18.115384615384613,
+      "angle_deg": 90.0,
+      "snr": 825.5636951434462
+    },
+    "valid_fraction": 0.8754887473460722,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 5343,
+      "robust_sigma_um": 0.051029678485335274,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 0.1238445887359144,
+    "depth_branches_um": [
+      0.1238445887359144,
+      0.39384458873591444,
+      0.6638445887359145,
+      0.9338445887359145,
+      1.2038445887359144,
+      1.4738445887359144,
+      1.7438445887359144,
+      2.0138445887359144,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/8u9(60).jpg",
+    "file_id": "540423dc14",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 777
+    },
+    "carrier": {
+      "period_px": 7.994108274976469,
+      "angle_deg": 87.80092253255894,
+      "snr": 258.29325520684995
+    },
+    "valid_fraction": 0.77633125,
+    "n_unwrapped_regions": 4,
+    "phase_residues": 12,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_4_regions",
+    "method_agreement": {
+      "n_points": 9894,
+      "robust_sigma_um": 0.47904311236883673,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 14,
+    "relative_depth_um": 0.8526099921971821,
+    "depth_branches_um": [
+      0.04260999219718209,
+      0.3126099921971821,
+      0.5826099921971821,
+      0.8526099921971821,
+      1.1226099921971822,
+      1.3926099921971822,
+      1.6626099921971822,
+      1.9326099921971822,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/9u10.jpg",
+    "file_id": "2ed53faeaa",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 52,
+      "y0": 265,
+      "x1": 677,
+      "y1": 806
+    },
+    "carrier": {
+      "period_px": 6.756175267194102,
+      "angle_deg": -87.52178525343287,
+      "snr": 276.72514041251554
+    },
+    "valid_fraction": 0.7767630314232902,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 64,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 6082,
+      "robust_sigma_um": 0.0633457329945506,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 11,
+    "relative_depth_um": 0.6173660616988852,
+    "depth_branches_um": [
+      0.07736606169888516,
+      0.3473660616988852,
+      0.6173660616988852,
+      0.8873660616988852,
+      1.1573660616988852,
+      1.4273660616988852,
+      1.6973660616988853,
+      1.9673660616988853,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/3rad1sleva.jpg",
+    "file_id": "964df1c63f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 21,
+      "y0": 482,
+      "x1": 728,
+      "y1": 830
+    },
+    "carrier": {
+      "period_px": 12.428571428571429,
+      "angle_deg": 90.0,
+      "snr": 1735.224689335367
+    },
+    "valid_fraction": 0.7477564258888943,
+    "n_unwrapped_regions": 6,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_6_regions",
+    "method_agreement": {
+      "n_points": 75,
+      "robust_sigma_um": 0.22659825026653221,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 1.5273289567738286,
+    "depth_branches_um": [
+      0.17732895677382854,
+      0.44732895677382856,
+      0.7173289567738286,
+      0.9873289567738286,
+      1.2573289567738286,
+      1.5273289567738286,
+      1.7973289567738286,
+      2.067328956773829,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/3rad3sleva.jpg",
+    "file_id": "e0fc6aedf6",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 220,
+      "y0": 227,
+      "x1": 845,
+      "y1": 698
+    },
+    "carrier": {
+      "period_px": 41.666666666666664,
+      "angle_deg": 0.0,
+      "snr": 163.2622013183274
+    },
+    "valid_fraction": 0.7630709129511677,
+    "n_unwrapped_regions": 7,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_7_regions",
+    "method_agreement": {
+      "n_points": 99,
+      "robust_sigma_um": 0.061025830652922095,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.3186217385427433,
+    "depth_branches_um": [
+      0.048621738542743265,
+      0.3186217385427433,
+      0.5886217385427432,
+      0.8586217385427433,
+      1.1286217385427433,
+      1.3986217385427433,
+      1.6686217385427433,
+      1.9386217385427433,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/4rad1sleva.jpg",
+    "file_id": "13f926104d",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 220,
+      "y0": 227,
+      "x1": 845,
+      "y1": 698
+    },
+    "carrier": {
+      "period_px": 10.953488372093023,
+      "angle_deg": 90.0,
+      "snr": 514.5114677843617
+    },
+    "valid_fraction": 0.7803991507430997,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 3,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 2596,
+      "robust_sigma_um": 0.12935106842013536,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 2.043610821211218,
+    "depth_branches_um": [
+      0.15361082121121772,
+      0.42361082121121774,
+      0.6936108212112178,
+      0.9636108212112178,
+      1.2336108212112178,
+      1.5036108212112178,
+      1.7736108212112178,
+      2.043610821211218,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/4rad2sleva.jpg",
+    "file_id": "9e2bc57810",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 203,
+      "y0": 226,
+      "x1": 828,
+      "y1": 697
+    },
+    "carrier": {
+      "period_px": 48.07692307692307,
+      "angle_deg": 0.0,
+      "snr": 282.8344175568081
+    },
+    "valid_fraction": 0.6783830148619957,
+    "n_unwrapped_regions": 10,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_10_regions",
+    "method_agreement": {
+      "n_points": 81,
+      "robust_sigma_um": 0.5032109153523624,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.9388662185351656,
+    "depth_branches_um": [
+      0.12886621853516556,
+      0.3988662185351656,
+      0.6688662185351656,
+      0.9388662185351656,
+      1.2088662185351655,
+      1.4788662185351655,
+      1.7488662185351656,
+      2.0188662185351656,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/500mkm.jpg",
+    "file_id": "bc0b1d30f2",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 76,
+      "y0": 483,
+      "x1": 701,
+      "y1": 830
+    },
+    "carrier": {
+      "period_px": 34.7,
+      "angle_deg": 90.0,
+      "snr": 270.9530857701252
+    },
+    "valid_fraction": 0.6112184438040346,
+    "n_unwrapped_regions": 5,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_5_regions",
+    "method_agreement": {
+      "n_points": 737,
+      "robust_sigma_um": 0.038129141994033076,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 0.7982584310349417,
+    "depth_branches_um": [
+      0.2582584310349416,
+      0.5282584310349416,
+      0.7982584310349417,
+      1.0682584310349417,
+      1.3382584310349417,
+      1.6082584310349417,
+      1.8782584310349417,
+      2.1482584310349417,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad1sprava.jpg",
+    "file_id": "3b26921dbd",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 199,
+      "y0": 231,
+      "x1": 824,
+      "y1": 702
+    },
+    "carrier": {
+      "period_px": 10.01998865646857,
+      "angle_deg": -89.08139574925443,
+      "snr": 639.7477860089281
+    },
+    "valid_fraction": 0.8480339702760085,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 1,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6797,
+      "robust_sigma_um": 0.2902260354611653,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 16,
+    "relative_depth_um": 0.7918542695519797,
+    "depth_branches_um": [
+      0.25185426955197965,
+      0.5218542695519797,
+      0.7918542695519797,
+      1.0618542695519797,
+      1.3318542695519797,
+      1.6018542695519797,
+      1.8718542695519798,
+      2.1418542695519798,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad2sprava.jpg",
+    "file_id": "b05806036d",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 199,
+      "y0": 231,
+      "x1": 824,
+      "y1": 702
+    },
+    "carrier": {
+      "period_px": 9.42,
+      "angle_deg": 90.0,
+      "snr": 346.61367104818726
+    },
+    "valid_fraction": 0.8171278131634819,
+    "n_unwrapped_regions": 3,
+    "phase_residues": 13,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_3_regions",
+    "method_agreement": {
+      "n_points": 5355,
+      "robust_sigma_um": 0.3832181644413052,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 4,
+    "relative_depth_um": 1.1920829429436561,
+    "depth_branches_um": [
+      0.11208294294365606,
+      0.3820829429436561,
+      0.6520829429436561,
+      0.9220829429436561,
+      1.1920829429436561,
+      1.4620829429436561,
+      1.7320829429436562,
+      2.002082942943656,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad3sprava.jpg",
+    "file_id": "fb5c2358d2",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 199,
+      "y0": 231,
+      "x1": 824,
+      "y1": 702
+    },
+    "carrier": {
+      "period_px": 9.611108298576207,
+      "angle_deg": 89.11888376342297,
+      "snr": 441.5380251194621
+    },
+    "valid_fraction": 0.8349486199575371,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 6282,
+      "robust_sigma_um": 0.4598967651472529,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 0.6410083713813524,
+    "depth_branches_um": [
+      0.10100837138135232,
+      0.37100837138135234,
+      0.6410083713813524,
+      0.9110083713813524,
+      1.1810083713813524,
+      1.4510083713813524,
+      1.7210083713813524,
+      1.9910083713813524,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad4sprava.jpg",
+    "file_id": "855a1448cc",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 129,
+      "y0": 268,
+      "x1": 753,
+      "y1": 739
+    },
+    "carrier": {
+      "period_px": 11.487804878048781,
+      "angle_deg": 90.0,
+      "snr": 587.3446421593103
+    },
+    "valid_fraction": 0.8203426969350536,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 5365,
+      "robust_sigma_um": 0.37950260831992577,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 0.8328203595516956,
+    "depth_branches_um": [
+      0.02282035955169559,
+      0.2928203595516956,
+      0.5628203595516956,
+      0.8328203595516956,
+      1.1028203595516957,
+      1.3728203595516957,
+      1.6428203595516957,
+      1.9128203595516957,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad5sprava.jpg",
+    "file_id": "610f6b201f",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 129,
+      "y0": 258,
+      "x1": 753,
+      "y1": 729
+    },
+    "carrier": {
+      "period_px": 11.775,
+      "angle_deg": 90.0,
+      "snr": 606.9337046088975
+    },
+    "valid_fraction": 0.831295252871686,
+    "n_unwrapped_regions": 1,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "single_connected_region",
+    "method_agreement": {
+      "n_points": 4565,
+      "robust_sigma_um": 1.524584857324003,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 5,
+    "relative_depth_um": 1.8046072715380481,
+    "depth_branches_um": [
+      0.184607271538048,
+      0.45460727153804803,
+      0.724607271538048,
+      0.9946072715380481,
+      1.264607271538048,
+      1.534607271538048,
+      1.8046072715380481,
+      2.0746072715380484,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad6sprava.jpg",
+    "file_id": "b19d93110d",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "relative_profile_available",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 129,
+      "y0": 258,
+      "x1": 753,
+      "y1": 729
+    },
+    "carrier": {
+      "period_px": 10.009665927661153,
+      "angle_deg": 87.24166728269799,
+      "snr": 178.88938173794062
+    },
+    "valid_fraction": 0.8342826228972726,
+    "n_unwrapped_regions": 2,
+    "phase_residues": 1,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_2_regions",
+    "method_agreement": {
+      "n_points": 3649,
+      "robust_sigma_um": 0.9770897616079902,
+      "criterion_um": 0.027000000000000003,
+      "agree": false
+    },
+    "n_traced_fringes": 2,
+    "relative_depth_um": 1.9525745882091594,
+    "depth_branches_um": [
+      0.06257458820915929,
+      0.3325745882091593,
+      0.6025745882091593,
+      0.8725745882091593,
+      1.1425745882091594,
+      1.4125745882091594,
+      1.6825745882091594,
+      1.9525745882091594,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  },
+  {
+    "file": "Steklouglerod/rad2sleva3.bmp",
+    "file_id": "86f6211524",
+    "processing_version": "interferometry-1.0",
+    "roi_source": "auto",
+    "status": "needs_manual_roi",
+    "notes": [],
+    "crop_in_original_px": {
+      "x0": 76,
+      "y0": 482,
+      "x1": 701,
+      "y1": 831
+    },
+    "carrier": {
+      "period_px": 24.92857142857143,
+      "angle_deg": 90.0,
+      "snr": 32.2066915605301
+    },
+    "valid_fraction": 0.474232664756447,
+    "n_unwrapped_regions": 25,
+    "phase_residues": 0,
+    "reference": "auto: крупнейшая связная валидная область (assumption — может включать углубление)",
+    "phase_branch_status": "ambiguous_integer_periods_between_25_regions",
+    "method_agreement": {
+      "n_points": 123,
+      "robust_sigma_um": 0.02386195064499455,
+      "criterion_um": 0.027000000000000003,
+      "agree": true
+    },
+    "n_traced_fringes": 0,
+    "relative_depth_um": 0.766058635602386,
+    "depth_branches_um": [
+      0.22605863560238593,
+      0.49605863560238594,
+      0.766058635602386,
+      1.036058635602386,
+      1.306058635602386,
+      1.576058635602386,
+      1.846058635602386,
+      2.116058635602386,
+      "…"
+    ],
+    "lateral_scale_status": "unverified",
+    "lateral_um_per_px": null,
+    "calibration_source": {
+      "height": "0.27 мкм/период (документ)",
+      "lateral": "нет независимой калибровки"
+    },
+    "metrological": false,
+    "metrological_blockers": [
+      "горизонтальный масштаб не подтверждён",
+      "неизвестно целое число периодов между несвязными областями/через стенку",
+      "знак высоты не установлен"
+    ]
+  }
+]

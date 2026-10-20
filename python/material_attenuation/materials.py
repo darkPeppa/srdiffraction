@@ -70,7 +70,8 @@ def build_materials(spec: dict) -> dict[str, Material]:
         state = m.get("state", "solid")
         rho = m.get("density_g_cm3")
         if state == "gas" and rho is None:
-            molar = 1.0 / sum(f / ATOMIC_MASS[el] for el, f in fr.items())
+            # молярная масса МОЛЕКУЛ: для многоатомных газов (N₂, O₂) задаётся явно в YAML
+            molar = m.get("molar_mass_g_mol") or 1.0 / sum(f / ATOMIC_MASS[el] for el, f in fr.items())
             rho = gas_density_g_cm3(molar, m["pressure_Pa"], m.get("temperature_K", 293.15))
         out[name] = Material(name=name, density_g_cm3=float(rho), mass_fractions=fr, nist=m.get("nist", ""),
                              state=state, pressure_Pa=m.get("pressure_Pa", 101325.0),

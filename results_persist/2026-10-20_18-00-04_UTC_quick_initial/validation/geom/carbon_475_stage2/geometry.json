@@ -1,0 +1,22 @@
+{
+  "checked_volumes": 8,
+  "overlaps": 0,
+  "probes": [
+    {"label": "TestMembrane_GlassyC:center", "x_mm": 0, "y_mm": 0, "z_mm": -0.2375, "volume": "TestMembrane_GlassyC", "material": "LIGA_GlassyCarbon"},
+    {"label": "TestMembrane_GlassyC:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": -0.474525, "volume": "TestMembrane_GlassyC", "material": "LIGA_GlassyCarbon"},
+    {"label": "TestMembrane_GlassyC:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": -0.000475, "volume": "TestMembrane_GlassyC", "material": "LIGA_GlassyCarbon"},
+    {"label": "Absorber_Au:hole_center", "x_mm": 0, "y_mm": 0, "z_mm": 0.011, "volume": "World", "material": "LIGA_He_chamber"},
+    {"label": "Absorber_Au:center", "x_mm": 1.25375, "y_mm": 0, "z_mm": 0.011, "volume": "Absorber_Au_R", "material": "LIGA_Au"},
+    {"label": "Absorber_Au:front_inside", "x_mm": 1.25375, "y_mm": 0, "z_mm": 2.2e-05, "volume": "Absorber_Au_R", "material": "LIGA_Au"},
+    {"label": "Absorber_Au:back_inside", "x_mm": 1.25375, "y_mm": 0, "z_mm": 0.021978, "volume": "Absorber_Au_R", "material": "LIGA_Au"},
+    {"label": "MaskSupport_Ti:center", "x_mm": 0, "y_mm": 0, "z_mm": 0.02315, "volume": "MaskSupport_Ti", "material": "LIGA_Ti"},
+    {"label": "MaskSupport_Ti:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": 0.0220023, "volume": "MaskSupport_Ti", "material": "LIGA_Ti"},
+    {"label": "MaskSupport_Ti:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": 0.0242977, "volume": "MaskSupport_Ti", "material": "LIGA_Ti"},
+    {"label": "Kapton:center", "x_mm": 0, "y_mm": 0, "z_mm": 0.0368, "volume": "Kapton", "material": "LIGA_Kapton"},
+    {"label": "Kapton:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": 0.024325, "volume": "Kapton", "material": "LIGA_Kapton"},
+    {"label": "Kapton:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": 0.049275, "volume": "Kapton", "material": "LIGA_Kapton"},
+    {"label": "PMMA:center", "x_mm": 0, "y_mm": 0, "z_mm": 0.0568, "volume": "PMMA", "material": "LIGA_PMMA"},
+    {"label": "PMMA:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": 0.049315, "volume": "PMMA", "material": "LIGA_PMMA"},
+    {"label": "PMMA:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": 0.064285, "volume": "PMMA", "material": "LIGA_PMMA"}
+  ]
+}

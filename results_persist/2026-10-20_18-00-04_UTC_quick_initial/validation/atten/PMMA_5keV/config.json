@@ -1,0 +1,60 @@
+{
+  "run": {
+    "name": "atten/PMMA_5keV",
+    "mode": "transport",
+    "n_events": 200000,
+    "seed": 1,
+    "threads": 0,
+    "output": "/work/results/validation/atten/PMMA_5keV/out.h5"
+  },
+  "physics": {
+    "em": "livermore",
+    "kill_unreachable_electrons": true
+  },
+  "world": {
+    "material": "Vacuum",
+    "half_xy_mm": 200.0,
+    "half_z_mm": 3.0
+  },
+  "materials": {
+    "Vacuum": {
+      "density_g_cm3": 1e-25,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "nist": "G4_Galactic"
+    },
+    "PMMA": {
+      "density_g_cm3": 1.18,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.5998481776321704,
+        "H": 0.08054576145909287,
+        "O": 0.31960606090873683
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "Slab",
+      "role": "other",
+      "material": "PMMA",
+      "thickness_um": 15,
+      "z_front_mm": 0.0,
+      "half_x_mm": 190,
+      "half_y_mm": 190
+    }
+  ],
+  "scoring": {
+    "grids": [],
+    "slab_test": true,
+    "slab_layer": "Slab"
+  },
+  "source": {
+    "mode": "pencil",
+    "pencil_energy_keV": 5,
+    "z_mm": -1
+  }
+}

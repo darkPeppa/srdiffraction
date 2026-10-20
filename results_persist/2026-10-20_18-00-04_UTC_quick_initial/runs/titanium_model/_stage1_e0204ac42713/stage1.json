@@ -1,0 +1,122 @@
+{
+  "run": {
+    "name": "titanium_model_stage1",
+    "mode": "transport",
+    "n_events": 10000000,
+    "seed": 20261020,
+    "threads": 0,
+    "output": "/work/results/runs/titanium_model/_stage1_e0204ac42713/stage1.h5",
+    "progress_every": 1000000
+  },
+  "physics": {
+    "em": "livermore",
+    "fluo": true,
+    "auger": true,
+    "pixe": false,
+    "deexcitation_ignore_cut": true,
+    "default_cut_um": 1.0,
+    "lowest_electron_energy_eV": 100,
+    "cuts_table_low_edge_eV": 100,
+    "kill_unreachable_electrons": true,
+    "force_collision_roles": []
+  },
+  "world": {
+    "material": "He_chamber",
+    "half_xy_mm": 160.0,
+    "half_z_mm": 202.45229999999998
+  },
+  "materials": {
+    "Au": {
+      "density_g_cm3": 19.32,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Au": 1.0
+      }
+    },
+    "He_chamber": {
+      "density_g_cm3": 8.210853980003375e-05,
+      "state": "gas",
+      "pressure_Pa": 50000,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "He": 1.0
+      }
+    },
+    "PMMA": {
+      "density_g_cm3": 1.18,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.5998481776321704,
+        "H": 0.08054576145909287,
+        "O": 0.31960606090873683
+      }
+    },
+    "Kapton": {
+      "density_g_cm3": 1.42,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.6911341220042319,
+        "H": 0.02636458984492495,
+        "N": 0.07327158927735392,
+        "O": 0.20922969887348924
+      }
+    },
+    "Al": {
+      "density_g_cm3": 2.699,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 1.0
+      }
+    },
+    "Ti": {
+      "density_g_cm3": 4.506,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Ti": 1.0
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "AlFilter",
+      "role": "al_filter",
+      "material": "Al",
+      "thickness_um": 450.0,
+      "z_front_mm": -200.45229999999998,
+      "half_x_mm": 150.0,
+      "half_y_mm": 150.0
+    }
+  ],
+  "scoring": {
+    "pmma_layer": "PMMA",
+    "grids": [],
+    "phase_space_out": true,
+    "phase_space_plane_z_mm": -0.0033,
+    "phase_space_file": "/work/results/runs/titanium_model/_stage1_e0204ac42713/ps"
+  },
+  "source": {
+    "mode": "sr_table",
+    "table_file": "/work/results/runs/titanium_model/_stage1_e0204ac42713/source_table.csv",
+    "z_mm": -201.45229999999998,
+    "window_half_x_mm": 0.0,
+    "window_half_y_mm": 0.0,
+    "distance_m": 20.3,
+    "scan_mode": "averaged",
+    "scan_half_amplitude_mm": 15.0,
+    "source_sigma_x_mm": 0.8493290300662477,
+    "source_sigma_y_mm": 0.21233225751656193,
+    "electron_divergence_sigma_mrad": 0.09,
+    "beam_half_x_mm": 36.0,
+    "polarization": true
+  }
+}

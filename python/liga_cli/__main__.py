@@ -83,6 +83,15 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--out", default="results/interferometry")
     s = sub.add_parser("build-interferometry-report", help="отчёт по интерферометрии")
     s.add_argument("--out", default="results/interferometry")
+
+    # Общие флаги сохранения для всех команд
+    for name, sp in sub.choices.items():
+        g = sp.add_argument_group("сохранение результатов в git (results_persist/)")
+        g.add_argument("--persist", action="store_true",
+                       help="скопировать след прогона и отчёты в results_persist/<дата_время>_<метка>/")
+        g.add_argument("--persist-heavy", action="store_true",
+                       help="то же + HDF5-карты дозы, PDF, QA-панели (сотни МБ)")
+        g.add_argument("--persist-label", default=None, help="метка снимка (по умолчанию — имя команды)")
     return p
 
 
@@ -96,6 +105,15 @@ def main(argv=None) -> int:
     fn = getattr(commands, "cmd_" + a.cmd.replace("-", "_"))
     rc = fn(a) or 0
     print(f"[liga] {a.cmd}: done in {time.time() - t0:.1f} s (rc={rc})")
+    if getattr(a, "persist", False) or getattr(a, "persist_heavy", False):
+        from liga_common.persist import persist
+        if not commands.TOUCHED:
+            print("[liga] --persist: команда не создала результатов в results/ — сохранять нечего")
+        else:
+            label = a.persist_label or "_".join([a.cmd] + [str(x) for x in (getattr(a, "experiment", None),
+                                                                            getattr(a, "profile", None)) if x])
+            persist(commands.TOUCHED, label, heavy=a.persist_heavy,
+                    command="./run.sh " + " ".join(sys.argv[1:]), rc=rc)
     return rc
 
 

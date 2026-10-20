@@ -1,0 +1,195 @@
+{
+  "run": {
+    "name": "atten/xs",
+    "mode": "xs_table",
+    "n_events": 100000,
+    "seed": 1,
+    "threads": 0,
+    "output": "/work/results/validation/atten/xs/out.h5",
+    "xs_energies_keV": [
+      5,
+      10,
+      15,
+      20,
+      30
+    ],
+    "xs_output": "/work/results/validation/atten/xs/xs.csv"
+  },
+  "physics": {
+    "em": "livermore",
+    "kill_unreachable_electrons": true
+  },
+  "world": {
+    "material": "Vacuum",
+    "half_xy_mm": 200.0,
+    "half_z_mm": 3.0
+  },
+  "materials": {
+    "GlassyCarbon": {
+      "density_g_cm3": 1.49,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 1.0
+      }
+    },
+    "Sapphire": {
+      "density_g_cm3": 3.98,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 0.5292569267086764,
+        "O": 0.47074307329132364
+      }
+    },
+    "Au": {
+      "density_g_cm3": 19.32,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Au": 1.0
+      }
+    },
+    "Be": {
+      "density_g_cm3": 1.848,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Be": 1.0
+      }
+    },
+    "Ti": {
+      "density_g_cm3": 4.506,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Ti": 1.0
+      }
+    },
+    "Al": {
+      "density_g_cm3": 2.699,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 1.0
+      }
+    },
+    "Vacuum": {
+      "density_g_cm3": 1e-25,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "nist": "G4_Galactic"
+    },
+    "Kapton": {
+      "density_g_cm3": 1.42,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.6911341220042319,
+        "H": 0.02636458984492495,
+        "N": 0.07327158927735392,
+        "O": 0.20922969887348924
+      }
+    },
+    "PMMA": {
+      "density_g_cm3": 1.18,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.5998481776321704,
+        "H": 0.08054576145909287,
+        "O": 0.31960606090873683
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "Be",
+      "role": "other",
+      "material": "Be",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.0,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "GlassyCarbon",
+      "role": "other",
+      "material": "GlassyCarbon",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.1,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "Sapphire",
+      "role": "other",
+      "material": "Sapphire",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.2,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "Al",
+      "role": "other",
+      "material": "Al",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.30000000000000004,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "Ti",
+      "role": "other",
+      "material": "Ti",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.4,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "Au",
+      "role": "other",
+      "material": "Au",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.5,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "Kapton",
+      "role": "other",
+      "material": "Kapton",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.6000000000000001,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    },
+    {
+      "name": "PMMA",
+      "role": "other",
+      "material": "PMMA",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.7000000000000001,
+      "half_x_mm": 1,
+      "half_y_mm": 1
+    }
+  ],
+  "scoring": {
+    "grids": []
+  },
+  "source": {
+    "mode": "pencil",
+    "z_mm": -1
+  }
+}

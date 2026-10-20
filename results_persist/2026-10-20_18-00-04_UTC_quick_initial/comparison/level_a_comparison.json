@@ -1,0 +1,666 @@
+{
+  "rows": [
+    {
+      "run": "be_200/hole_200um_quick",
+      "experiment": "be_200",
+      "hole_um": 200.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 536.5478604602582,
+      "dose_shadow_J_cm3": 33.40477919693079,
+      "contrast": 16.062008890918097,
+      "dose_width_10_90_um": 5.140706477019636,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 5.140706477019634,
+        "p=2": 3.0001088906805955,
+        "p=3": 2.4156046010430474,
+        "p=4": 2.737474601181848
+      },
+      "supervisor": {
+        "a": 5.0,
+        "b": 7.0,
+        "c": 39.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 5.1751563466876975,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 137",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "be_200/hole_20um_quick",
+      "experiment": "be_200",
+      "hole_um": 20.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 504.0596832047891,
+      "dose_shadow_J_cm3": 29.050514053053792,
+      "contrast": 17.351145053207837,
+      "dose_width_10_90_um": 3.745205854620192,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 3.745205854620192,
+        "p=2": 2.8170322555887934,
+        "p=3": 2.985516581484326,
+        "p=4": 2.679770674029925
+      },
+      "supervisor": {
+        "a": 5.0,
+        "b": 7.0,
+        "c": 26.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 5.1751563466876975,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 32",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "be_200/hole_300um_quick",
+      "experiment": "be_200",
+      "hole_um": 300.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 541.655120489899,
+      "dose_shadow_J_cm3": 32.941546218255894,
+      "contrast": 16.4429173087728,
+      "dose_width_10_90_um": 5.300622235744459,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 5.300622235744459,
+        "p=2": 3.4026842489427978,
+        "p=3": 2.7887210067300274,
+        "p=4": 2.6798302986898954
+      },
+      "supervisor": {
+        "a": 28.0,
+        "b": 8.0,
+        "c": 45.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 28.980875541451105,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 33",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "be_200/hole_600um_quick",
+      "experiment": "be_200",
+      "hole_um": 600.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 547.615128416607,
+      "dose_shadow_J_cm3": 32.70797259907362,
+      "contrast": 16.74255800349169,
+      "dose_width_10_90_um": 4.874153011577553,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.874153011577553,
+        "p=2": 3.9549984000155844,
+        "p=3": 3.1756417952014053,
+        "p=4": 4.307797595848622
+      },
+      "supervisor": {
+        "a": 25.0,
+        "b": 8.0,
+        "c": 51.0,
+        "note": [
+          "в ячейке таблицы нет формулы (объект отсутствует)"
+        ]
+      }
+    },
+    {
+      "run": "carbon_475/hole_129um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 129.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1245.0784174472244,
+      "dose_shadow_J_cm3": 51.68309473699841,
+      "contrast": 24.090632029353095,
+      "dose_width_10_90_um": 3.9951845005791786,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 3.9951845005791786,
+        "p=2": 3.3769855556824817,
+        "p=3": 3.0101531206406804,
+        "p=4": 3.0978584190644636
+      },
+      "supervisor": {
+        "a": 7.0,
+        "b": 112.0,
+        "c": 107.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 7.245218885362776,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 54",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "carbon_475/hole_15um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 15.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1184.072585325444,
+      "dose_shadow_J_cm3": 34.1738466232474,
+      "contrast": 34.64850177328169,
+      "dose_width_10_90_um": 3.9498779075611776,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 3.949877907561177,
+        "p=2": 2.8706702090800924,
+        "p=3": 2.4178461566625855,
+        "p=4": 2.242939180866614
+      },
+      "supervisor": {
+        "a": 4.0,
+        "b": 53.0,
+        "c": 53.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 4.1401250773501586,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 36",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "carbon_475/hole_300um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 300.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1252.613679471563,
+      "dose_shadow_J_cm3": 53.451776480598326,
+      "contrast": 23.43446302343629,
+      "dose_width_10_90_um": 4.933805495768082,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.933805495768082,
+        "p=2": 4.061719713448962,
+        "p=3": 3.0573730755778463,
+        "p=4": 3.0147167367396266
+      },
+      "supervisor": {
+        "a": 7.0,
+        "b": 83.0,
+        "c": 54.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 7.245218885362776,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 102",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "carbon_475/hole_600um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 600.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1271.4375478702514,
+      "dose_shadow_J_cm3": 53.64964573094095,
+      "contrast": 23.698899229393884,
+      "dose_width_10_90_um": 4.571481234205202,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.571481234205203,
+        "p=2": 3.2737401663113292,
+        "p=3": 2.266505238383725,
+        "p=4": 1.9699271779362761
+      },
+      "supervisor": {
+        "a": 7.0,
+        "b": 79.0,
+        "c": 47.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 7.245218885362776,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 121",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_280mm/hole_105um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 105.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 544.9611693282983,
+      "dose_shadow_J_cm3": 29.72310514746381,
+      "contrast": 18.334597499978845,
+      "dose_width_10_90_um": 4.7949806477448185,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.7949806477448185,
+        "p=2": 3.5234422869966444,
+        "p=3": 2.9647589971457187,
+        "p=4": 2.88550998337522
+      },
+      "supervisor": {
+        "a": 2.5,
+        "b": 60.0,
+        "c": 55.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 2.5875781733438488,
+        "rendered": "h(n) = −(b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 67",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_280mm/hole_20um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 20.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 511.7313005793877,
+      "dose_shadow_J_cm3": 25.256017068183098,
+      "contrast": 20.26175779014871,
+      "dose_width_10_90_um": 3.631051624501261,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 3.631051624501261,
+        "p=2": 2.6910553277483844,
+        "p=3": 2.001575108312175,
+        "p=4": 1.7506117188407084
+      },
+      "supervisor": {
+        "a": 2.0,
+        "b": 78.0,
+        "c": 49.0,
+        "K1": 99.0,
+        "K2": 81.0,
+        "width_10_90": 1.277816381898197,
+        "rendered": "h(n) = (b/π)·atan[2π·(99·c − 81·n)·1.893/(a·100)] + 18",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_280mm/hole_300um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 300.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 550.6656330057899,
+      "dose_shadow_J_cm3": 34.06460710257785,
+      "contrast": 16.165330524658188,
+      "dose_width_10_90_um": 4.85431118461659,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.8543111846165905,
+        "p=2": 4.17150959062729,
+        "p=3": 3.429896067340507,
+        "p=4": 3.1477201049768464
+      },
+      "supervisor": {
+        "a": 0.15,
+        "b": 53.0,
+        "c": 69.0,
+        "K1": 100.0,
+        "K2": 53.0,
+        "width_10_90": 0.14646668905719895,
+        "rendered": "h(n) = −(b/π)·atan[2π·(100·c − 53·n)·1.893/(a·100)] + 51",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_280mm/hole_600um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 600.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 554.3292340880334,
+      "dose_shadow_J_cm3": 32.32462135202704,
+      "contrast": 17.148823741852496,
+      "dose_width_10_90_um": 5.838040274777061,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 5.838040274777061,
+        "p=2": 3.910267286776513,
+        "p=3": 3.3923161635760497,
+        "p=4": 3.5248508228105466
+      },
+      "supervisor": {
+        "a": 1.5,
+        "b": 75.0,
+        "c": 49.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 1.5525469040063093,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 74",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_280mm/hole_60um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 60.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 542.8984935270238,
+      "dose_shadow_J_cm3": 27.283684962107536,
+      "contrast": 19.89828332503541,
+      "dose_width_10_90_um": 4.063694833143938,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.063694833143938,
+        "p=2": 2.7695153927879907,
+        "p=3": 2.1225262043741457,
+        "p=4": 1.9741662454595863
+      },
+      "supervisor": {
+        "a": 4.0,
+        "b": 22.0,
+        "c": 51.0,
+        "K1": 100.0,
+        "K2": 53.0,
+        "width_10_90": 3.9057783748586394,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 53·n)·1.893/(a·100)] + 51",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_contact/hole_105um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 105.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 697.697055055146,
+      "dose_shadow_J_cm3": 40.218730311262746,
+      "contrast": 17.34756541679698,
+      "dose_width_10_90_um": 4.6975285883702504,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.697528588370252,
+        "p=2": 3.361280893585998,
+        "p=3": 2.752566354860905,
+        "p=4": 2.6512079513702997
+      },
+      "supervisor": {
+        "a": 3.5,
+        "b": 37.0,
+        "c": 71.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 3.622609442681388,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 90",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_contact/hole_20um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 20.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 646.3590817707807,
+      "dose_shadow_J_cm3": 34.54192396772435,
+      "contrast": 18.712306887558796,
+      "dose_width_10_90_um": 4.538705919987718,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.538705919987719,
+        "p=2": 3.644239289920945,
+        "p=3": 3.068815418064658,
+        "p=4": 2.8115093450646684
+      },
+      "supervisor": {
+        "a": 1.4,
+        "b": 20.0,
+        "c": 40.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 1.4490437770725553,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 54",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_contact/hole_300um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 300.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 705.421780919739,
+      "dose_shadow_J_cm3": 38.18668656721702,
+      "contrast": 18.472976954364462,
+      "dose_width_10_90_um": 6.2144479291222705,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 6.2144479291222705,
+        "p=2": 5.121032522265052,
+        "p=3": 5.163508836886401,
+        "p=4": 4.94903080550934
+      },
+      "supervisor": {
+        "a": 5.0,
+        "b": 63.0,
+        "c": 52.0,
+        "note": [
+          "в ячейке таблицы нет формулы (объект отсутствует)"
+        ]
+      }
+    },
+    {
+      "run": "sapphire_contact/hole_600um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 600.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 717.1338409607457,
+      "dose_shadow_J_cm3": 42.19995762719141,
+      "contrast": 16.993709977060803,
+      "dose_width_10_90_um": 5.731486665841704,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 5.731486665841702,
+        "p=2": 3.4722174457581954,
+        "p=3": 3.745886151723986,
+        "p=4": 3.5874067140113906
+      },
+      "supervisor": {
+        "a": 5.0,
+        "b": 15.0,
+        "c": 69.0,
+        "K1": 100.0,
+        "K2": 50.0,
+        "width_10_90": 5.1751563466876975,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 50·n)·1.893/(a·100)] + 48",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "sapphire_contact/hole_60um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 60.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 687.8117861147972,
+      "dose_shadow_J_cm3": 44.52814430913217,
+      "contrast": 15.446675283383312,
+      "dose_width_10_90_um": 5.199037530231976,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 5.199037530231976,
+        "p=2": 3.81378051944019,
+        "p=3": 3.403644909902244,
+        "p=4": 4.379637666964716
+      },
+      "supervisor": {
+        "a": 1.5,
+        "b": 47.0,
+        "c": 67.0,
+        "K1": 100.0,
+        "K2": 53.0,
+        "width_10_90": 1.4646668905719897,
+        "rendered": "h(n) = (b/π)·atan[2π·(100·c − 53·n)·1.893/(a·100)] + 63",
+        "status": {
+          "formula": "document (извлечено из OLE/WMF таблицы DOCX)",
+          "units_of_h": "unverified",
+          "lateral_units_n": "unverified (заявлено: мкм)",
+          "attribution_to_image": "unknown"
+        }
+      }
+    },
+    {
+      "run": "titanium_model/hole_15um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 15.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1187.4516934340763,
+      "dose_shadow_J_cm3": 39.72626059256846,
+      "contrast": 29.89084992450086,
+      "dose_width_10_90_um": 3.214979156104553,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 3.214979156104553,
+        "p=2": 2.744416007230347,
+        "p=3": 2.251131348059682,
+        "p=4": 2.1720590047957327
+      },
+      "supervisor": null
+    },
+    {
+      "run": "titanium_model/hole_20um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 20.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1214.0415127398055,
+      "dose_shadow_J_cm3": 37.55477762699523,
+      "contrast": 32.327218784198706,
+      "dose_width_10_90_um": 3.342148851808177,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 3.342148851808176,
+        "p=2": 2.2861110049339963,
+        "p=3": 2.9295186022659956,
+        "p=4": 2.818795914184275
+      },
+      "supervisor": null
+    },
+    {
+      "run": "titanium_model/hole_300um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 300.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1304.8845919983708,
+      "dose_shadow_J_cm3": 59.02989262044477,
+      "contrast": 22.105488153072283,
+      "dose_width_10_90_um": 5.31194009349591,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 5.31194009349591,
+        "p=2": 3.2028251750186865,
+        "p=3": 2.724020808032984,
+        "p=4": 2.405857648567972
+      },
+      "supervisor": null
+    },
+    {
+      "run": "titanium_model/hole_600um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 600.0,
+      "profile": "quick",
+      "upstream": "stage1",
+      "n_histories": 2000000,
+      "dose_open_J_cm3": 1327.069398378637,
+      "dose_shadow_J_cm3": 66.82207032392205,
+      "contrast": 19.859746816368112,
+      "dose_width_10_90_um": 4.339623485746216,
+      "developed_width_10_90_um_powerlaw": {
+        "p=1": 4.339623485746215,
+        "p=2": 3.123266568600197,
+        "p=3": 3.27226798143016,
+        "p=4": 4.184651118513756
+      },
+      "supervisor": null
+    }
+  ],
+  "limitations": [
+    "Профиль углубления ≠ профиль дозы; без калибровки R(D) сравниваются только ширины переходов.",
+    "Единицы h и поперечной координаты n в аппроксимациях не подтверждены (b до 112 при ПММА 15 мкм).",
+    "Связь изображений интерферограмм с отверстиями не подтверждена (см. results/interferometry).",
+    "Доза под отверстием (0.5–1.3 кДж/см³) ниже табличной минимальной дозы ПММА 2 кДж/см³ (диссертация, табл. 4)."
+  ]
+}

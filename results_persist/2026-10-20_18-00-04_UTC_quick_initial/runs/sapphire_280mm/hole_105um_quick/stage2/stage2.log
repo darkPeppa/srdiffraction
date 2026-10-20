@@ -1,0 +1,41 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'sapphire_280mm_h105_stage2': 2000000 events, 8 threads, physics livermore
+G4WT0 > [liga] 200000 / 2000000 events, 2.6 s elapsed, ETA 23.7 s
+G4WT6 > [liga] 400000 / 2000000 events, 5.2 s elapsed, ETA 20.7 s
+G4WT7 > [liga] 600000 / 2000000 events, 7.7 s elapsed, ETA 18.0 s
+G4WT3 > [liga] 800000 / 2000000 events, 10.2 s elapsed, ETA 15.3 s
+G4WT4 > [liga] 1000000 / 2000000 events, 12.7 s elapsed, ETA 12.7 s
+G4WT3 > [liga] 1200000 / 2000000 events, 15.2 s elapsed, ETA 10.2 s
+G4WT7 > [liga] 1400000 / 2000000 events, 17.8 s elapsed, ETA 7.6 s
+G4WT3 > [liga] 1600000 / 2000000 events, 20.3 s elapsed, ETA 5.1 s
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.16549 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > [liga] 1800000 / 2000000 events, 22.8 s elapsed, ETA 2.5 s
+G4WT2 > [liga] 2000000 / 2000000 events, 25.4 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/runs/sapphire_280mm/hole_105um_quick/stage2/stage2.h5  events=2000000  wall=25.5607 s

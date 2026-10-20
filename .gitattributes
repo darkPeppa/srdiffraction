@@ -13,3 +13,4 @@
 *.xlsx binary
 *.h5 binary
 *.gz binary
+*.npz binary

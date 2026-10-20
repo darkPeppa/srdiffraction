@@ -1,0 +1,23 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'titanium_model_h15_stage2': 2000000 events, 8 threads, physics livermore
+G4WT7 > [liga] 200000 / 2000000 events, 2.3 s elapsed, ETA 20.7 s
+G4WT7 > [liga] 400000 / 2000000 events, 4.5 s elapsed, ETA 18.1 s
+G4WT1 > [liga] 600000 / 2000000 events, 6.9 s elapsed, ETA 16.2 s
+G4WT4 > [liga] 800000 / 2000000 events, 9.2 s elapsed, ETA 13.8 s
+G4WT1 > [liga] 1000000 / 2000000 events, 11.5 s elapsed, ETA 11.5 s
+G4WT6 > [liga] 1200000 / 2000000 events, 13.8 s elapsed, ETA 9.2 s
+G4WT0 > [liga] 1400000 / 2000000 events, 15.9 s elapsed, ETA 6.8 s
+G4WT6 > [liga] 1600000 / 2000000 events, 18.2 s elapsed, ETA 4.5 s
+G4WT1 > [liga] 1800000 / 2000000 events, 20.4 s elapsed, ETA 2.3 s
+G4WT2 > [liga] 2000000 / 2000000 events, 22.7 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/runs/titanium_model/hole_15um_quick/stage2/stage2.h5  events=2000000  wall=22.7306 s

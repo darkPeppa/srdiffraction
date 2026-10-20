@@ -1,0 +1,172 @@
+[
+  {
+    "experiment": "be_200",
+    "filters": [
+      [
+        "Be",
+        500.0
+      ],
+      [
+        "Al",
+        800.0
+      ],
+      [
+        "Be",
+        200.0
+      ],
+      [
+        "Ti",
+        2.3
+      ],
+      [
+        "Kapton",
+        25.0
+      ]
+    ],
+    "photons_per_s_per_mrad": 109639279910663.97,
+    "power_W_per_mrad": 0.35282008666250575,
+    "mean_energy_keV": 20.085226520553555,
+    "sigma_fraction": 0.9395712120986703,
+    "photon_fluence_rate_ph_s_mm2_at_100mA": 180031658309.79303,
+    "exposure_mA_min": 30000.0,
+    "dose_pmma_top_J_cm3_open": 530.7282921726412,
+    "dose_pmma_bottom_J_cm3_open": 529.7774895220766,
+    "note": "аналитика без рассеяния и вторичного излучения; открытая область (под отверстием)"
+  },
+  {
+    "experiment": "carbon_475",
+    "filters": [
+      [
+        "Be",
+        500.0
+      ],
+      [
+        "Al",
+        450.0
+      ],
+      [
+        "GlassyCarbon",
+        475.0
+      ],
+      [
+        "Ti",
+        2.3
+      ],
+      [
+        "Kapton",
+        25.0
+      ]
+    ],
+    "photons_per_s_per_mrad": 190881727731232.28,
+    "power_W_per_mrad": 0.5495468188263685,
+    "mean_energy_keV": 17.969249845513648,
+    "sigma_fraction": 0.9347002620472322,
+    "photon_fluence_rate_ph_s_mm2_at_100mA": 313434692497.91833,
+    "exposure_mA_min": 30000.0,
+    "dose_pmma_top_J_cm3_open": 1218.1922116748055,
+    "dose_pmma_bottom_J_cm3_open": 1215.0026037678094,
+    "note": "аналитика без рассеяния и вторичного излучения; открытая область (под отверстием)"
+  },
+  {
+    "experiment": "sapphire_contact",
+    "filters": [
+      [
+        "Be",
+        500.0
+      ],
+      [
+        "Al",
+        300.0
+      ],
+      [
+        "Sapphire",
+        525.0
+      ],
+      [
+        "Ti",
+        2.3
+      ],
+      [
+        "Kapton",
+        20.0
+      ]
+    ],
+    "photons_per_s_per_mrad": 111075768192185.44,
+    "power_W_per_mrad": 0.35610075725370366,
+    "mean_energy_keV": 20.0098198193484,
+    "sigma_fraction": 0.9394136084395377,
+    "photon_fluence_rate_ph_s_mm2_at_100mA": 182390423960.89566,
+    "exposure_mA_min": 37000.0,
+    "dose_pmma_top_J_cm3_open": 668.9882801190714,
+    "dose_pmma_bottom_J_cm3_open": 667.7768636280339,
+    "note": "аналитика без рассеяния и вторичного излучения; открытая область (под отверстием)"
+  },
+  {
+    "experiment": "sapphire_280mm",
+    "filters": [
+      [
+        "Be",
+        500.0
+      ],
+      [
+        "Al",
+        300.0
+      ],
+      [
+        "Sapphire",
+        525.0
+      ],
+      [
+        "Ti",
+        2.3
+      ],
+      [
+        "Kapton",
+        25.0
+      ]
+    ],
+    "photons_per_s_per_mrad": 111015710110674.98,
+    "power_W_per_mrad": 0.35593670888147716,
+    "mean_energy_keV": 20.011421772672307,
+    "sigma_fraction": 0.9394170383058038,
+    "photon_fluence_rate_ph_s_mm2_at_100mA": 182291806421.46964,
+    "exposure_mA_min": 30000.0,
+    "dose_pmma_top_J_cm3_open": 542.0224213362806,
+    "dose_pmma_bottom_J_cm3_open": 541.0411781760988,
+    "note": "аналитика без рассеяния и вторичного излучения; открытая область (под отверстием)"
+  },
+  {
+    "experiment": "titanium_model",
+    "filters": [
+      [
+        "Be",
+        500.0
+      ],
+      [
+        "Al",
+        450.0
+      ],
+      [
+        "Ti",
+        2.3
+      ],
+      [
+        "Ti",
+        2.3
+      ],
+      [
+        "Kapton",
+        25.0
+      ]
+    ],
+    "photons_per_s_per_mrad": 195131867951098.44,
+    "power_W_per_mrad": 0.5604145034128489,
+    "mean_energy_keV": 17.925479037526063,
+    "sigma_fraction": 0.9345862223854866,
+    "photon_fluence_rate_ph_s_mm2_at_100mA": 320413576274.38165,
+    "exposure_mA_min": 30000.0,
+    "dose_pmma_top_J_cm3_open": 1253.7726494066158,
+    "dose_pmma_bottom_J_cm3_open": 1250.453949202342,
+    "note": "аналитика без рассеяния и вторичного излучения; открытая область (под отверстием)"
+  }
+]

@@ -156,7 +156,9 @@ int main(int argc, char** argv) {
       if (c.source.mode == "gps") ui->ApplyCommand("/control/execute " + c.source.gps_macro);
       G4cout << "[liga] run '" << c.run.name << "': " << c.run.n_events << " events, " << nThreads << " threads, physics "
              << c.physics.em << G4endl;
+      for (const auto& cmd : c.run.ui_commands) ui->ApplyCommand(cmd);
       rm->BeamOn(G4int(c.run.n_events));
+      for (const auto& cmd : c.run.ui_commands_after) ui->ApplyCommand(cmd);
     } else {
       std::cerr << "[liga] unknown run.mode " << c.run.mode << "\n";
       rc = 1;

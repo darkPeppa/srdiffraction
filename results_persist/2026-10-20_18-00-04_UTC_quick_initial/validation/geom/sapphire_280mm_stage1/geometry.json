@@ -1,0 +1,12 @@
+{
+  "checked_volumes": 2,
+  "overlaps": 0,
+  "probes": [
+    {"label": "AlFilter:center", "x_mm": 0, "y_mm": 0, "z_mm": -480.675, "volume": "AlFilter", "material": "LIGA_Al"},
+    {"label": "AlFilter:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": -480.825, "volume": "AlFilter", "material": "LIGA_Al"},
+    {"label": "AlFilter:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": -480.525, "volume": "AlFilter", "material": "LIGA_Al"},
+    {"label": "TestMembrane_Sapphire:center", "x_mm": 0, "y_mm": 0, "z_mm": -280.262, "volume": "TestMembrane_Sapphire", "material": "LIGA_Sapphire"},
+    {"label": "TestMembrane_Sapphire:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": -280.524, "volume": "TestMembrane_Sapphire", "material": "LIGA_Sapphire"},
+    {"label": "TestMembrane_Sapphire:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": -280.001, "volume": "TestMembrane_Sapphire", "material": "LIGA_Sapphire"}
+  ]
+}

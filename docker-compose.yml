@@ -12,4 +12,5 @@ services:
       - ./:/work
     environment:
       - LIGA_THREADS=${LIGA_THREADS:-0}
+      - LIGA_GIT_COMMIT=${LIGA_GIT_COMMIT:-unknown}
     init: true

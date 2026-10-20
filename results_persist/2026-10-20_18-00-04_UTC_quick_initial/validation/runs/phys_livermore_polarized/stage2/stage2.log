@@ -1,0 +1,41 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'be_200_h100_stage2': 300000 events, 8 threads, physics livermore_polarized
+G4WT6 > [liga] 30000 / 300000 events, 0.9 s elapsed, ETA 8.0 s
+G4WT3 > [liga] 60000 / 300000 events, 1.5 s elapsed, ETA 6.1 s
+G4WT1 > [liga] 90000 / 300000 events, 2.2 s elapsed, ETA 5.1 s
+G4WT2 > [liga] 120000 / 300000 events, 2.8 s elapsed, ETA 4.2 s
+G4WT7 > [liga] 150000 / 300000 events, 3.4 s elapsed, ETA 3.4 s
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.255607 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > [liga] 180000 / 300000 events, 4.0 s elapsed, ETA 2.7 s
+G4WT3 > [liga] 210000 / 300000 events, 4.6 s elapsed, ETA 2.0 s
+G4WT1 > [liga] 240000 / 300000 events, 5.2 s elapsed, ETA 1.3 s
+G4WT7 > [liga] 270000 / 300000 events, 6.0 s elapsed, ETA 0.7 s
+G4WT0 > [liga] 300000 / 300000 events, 6.6 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/validation/runs/phys_livermore_polarized/stage2/stage2.h5  events=300000  wall=6.77169 s

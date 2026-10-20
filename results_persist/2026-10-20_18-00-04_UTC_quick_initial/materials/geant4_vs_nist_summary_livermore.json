@@ -1,0 +1,18 @@
+{
+  "physics": "livermore",
+  "max_abs_rel_diff_5_30keV": 0.04781818328130849,
+  "worst": {
+    "material": "Be",
+    "energy_keV": 12,
+    "mu_rho_geant4": 0.440445,
+    "mu_rho_nist": 0.46256396863134297,
+    "rel_diff": -0.04781818328130849,
+    "frac_photo": 0.5193582351589731,
+    "frac_compton": 0.3039942600403222,
+    "frac_rayleigh": 0.1766475048007047,
+    "electron_csda_range_um": 2.2041,
+    "near_edge": false
+  },
+  "criterion": "< 0.05",
+  "pass": true
+}

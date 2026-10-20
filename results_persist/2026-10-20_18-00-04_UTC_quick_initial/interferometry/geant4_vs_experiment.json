@@ -1,0 +1,1187 @@
+{
+  "rows": [
+    {
+      "run": "hole_20um_quick",
+      "experiment": "be_200",
+      "hole_um": 20.0,
+      "dose_open_J_cm3": 505.9945431282554,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0006557259344900103,
+            "transition_10_90_um": 0.603275615340498,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.8423913043478262,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0002097296198537209,
+            "transition_10_90_um": 0.8605665319200984,
+            "open_depth_rel_spread": 0.00203420692373055
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.1325757575757576,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 12.568222561344308,
+            "depth_shadow_um": 0.00014342898313702835,
+            "transition_10_90_um": 2.40687015017557,
+            "open_depth_rel_spread": 0.1663004508077857
+          },
+          "lateral": {
+            "depth_open_um": 14.5,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.7090909090909094,
+            "open_depth_rel_spread": 0.016447227610636998
+          }
+        }
+      ],
+      "supervisor_width_10_90": 5.1751563466876975
+    },
+    {
+      "run": "hole_200um_quick",
+      "experiment": "be_200",
+      "hole_um": 200.0,
+      "dose_open_J_cm3": 547.2604761680143,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0018146514888251835,
+            "transition_10_90_um": 0.4471765684126896,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.4486607142857144,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00034889157609447274,
+            "transition_10_90_um": 0.704176873763615,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.2864583333333333,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.039054436460468,
+            "depth_shadow_um": 0.00020136693427536266,
+            "transition_10_90_um": 7.536203853661762,
+            "open_depth_rel_spread": 0.023074543732942928
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.15,
+            "open_depth_rel_spread": 0.014832467173927583
+          }
+        }
+      ],
+      "supervisor_width_10_90": 5.1751563466876975
+    },
+    {
+      "run": "hole_300um_quick",
+      "experiment": "be_200",
+      "hole_um": 300.0,
+      "dose_open_J_cm3": 548.8534642735448,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0005914979305850631,
+            "transition_10_90_um": 0.6202024395388799,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.0722222222222224,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00019919326851326166,
+            "transition_10_90_um": 0.8070975899937252,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.7075163398692811,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.066942987674452,
+            "depth_shadow_um": 0.0001385841151767793,
+            "transition_10_90_um": 4.976236221006701,
+            "open_depth_rel_spread": 0.02077977303944211
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.7333333333333332,
+            "open_depth_rel_spread": 0.0167231431943843
+          }
+        }
+      ],
+      "supervisor_width_10_90": 28.980875541451105
+    },
+    {
+      "run": "hole_600um_quick",
+      "experiment": "be_200",
+      "hole_um": 600.0,
+      "dose_open_J_cm3": 551.6683503214913,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0005404519790434362,
+            "transition_10_90_um": 0.9953706487931895,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.8291666666666666,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00019040403862964611,
+            "transition_10_90_um": 0.7131773328758109,
+            "open_depth_rel_spread": 0.0012127885749725626
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.15625,
+            "open_depth_rel_spread": 0.0017002909421521696
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.028004065605167,
+            "depth_shadow_um": 0.00013447691401338035,
+            "transition_10_90_um": 3.5562666075712723,
+            "open_depth_rel_spread": 0.021359969965983466
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.6599999999999997,
+            "open_depth_rel_spread": 0.017806409162014977
+          }
+        }
+      ]
+    },
+    {
+      "run": "hole_15um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 15.0,
+      "dose_open_J_cm3": 1186.9122669183528,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00014786654320457753,
+            "transition_10_90_um": 0.4490613023369048,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.0729166666666665,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 9.959274169250725e-05,
+            "transition_10_90_um": 1.017945473410208,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.7352941176470589,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 11.883258994114168,
+            "depth_shadow_um": 8.730006820604118e-05,
+            "transition_10_90_um": 1.6308199705017516,
+            "open_depth_rel_spread": 0.26475920963003674
+          },
+          "lateral": {
+            "depth_open_um": 14.5,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.5000000000000002,
+            "open_depth_rel_spread": 0.03283415369444988
+          }
+        }
+      ],
+      "supervisor_width_10_90": 4.1401250773501586
+    },
+    {
+      "run": "hole_129um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 129.0,
+      "dose_open_J_cm3": 1252.8217112114528,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0005003657786035707,
+            "transition_10_90_um": 0.5300190205777402,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.1439393939393938,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00018320626741192086,
+            "transition_10_90_um": 0.6618338054468409,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.0818181818181818,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.142413869739833,
+            "depth_shadow_um": 0.00013106608036127004,
+            "transition_10_90_um": 2.782996082689566,
+            "open_depth_rel_spread": 0.014514525986190106
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.1285714285714286,
+            "open_depth_rel_spread": 0.01785203202559176
+          }
+        }
+      ],
+      "supervisor_width_10_90": 7.245218885362776
+    },
+    {
+      "run": "hole_300um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 300.0,
+      "dose_open_J_cm3": 1267.6854346308605,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0002742798609779998,
+            "transition_10_90_um": 0.5722101426938888,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.6395833333333334,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00013564039101952738,
+            "transition_10_90_um": 0.6684384985032884,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.9750000000000001,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.159508146836712,
+            "depth_shadow_um": 0.00010726432061968207,
+            "transition_10_90_um": 4.5335347208592545,
+            "open_depth_rel_spread": 0.02062817667047584
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.661111111111111,
+            "open_depth_rel_spread": 0.017743320836471222
+          }
+        }
+      ],
+      "supervisor_width_10_90": 7.245218885362776
+    },
+    {
+      "run": "hole_600um_quick",
+      "experiment": "carbon_475",
+      "hole_um": 600.0,
+      "dose_open_J_cm3": 1278.6667093157967,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0005206525214284575,
+            "transition_10_90_um": 0.6407426401713091,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.991071428571429,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00018688355360076554,
+            "transition_10_90_um": 0.7596104566768473,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.4464285714285714,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.097129852374122,
+            "depth_shadow_um": 0.0001328141228552215,
+            "transition_10_90_um": 4.151994933917431,
+            "open_depth_rel_spread": 0.02228652832697829
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.455,
+            "open_depth_rel_spread": 0.01856044150369705
+          }
+        }
+      ],
+      "supervisor_width_10_90": 7.245218885362776
+    },
+    {
+      "run": "hole_20um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 20.0,
+      "dose_open_J_cm3": 512.8691430649756,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0003703455511958219,
+            "transition_10_90_um": 0.46308852420264257,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.9583333333333335,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00015761588017690337,
+            "transition_10_90_um": 0.5598129869302252,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.5416666666666665,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 13.169723555968588,
+            "depth_shadow_um": 0.00011855780485180202,
+            "transition_10_90_um": 1.8328176543616865,
+            "open_depth_rel_spread": 0.0380826095222012
+          },
+          "lateral": {
+            "depth_open_um": 14.5,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.740476190476191,
+            "open_depth_rel_spread": 0.03248524772658064
+          }
+        }
+      ],
+      "supervisor_width_10_90": 1.277816381898197
+    },
+    {
+      "run": "hole_60um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 60.0,
+      "dose_open_J_cm3": 542.8173793560184,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0003562814263259772,
+            "transition_10_90_um": 0.9788157169639711,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.828125,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.000154593868703573,
+            "transition_10_90_um": 0.6043791758418118,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.925,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.02387871801821,
+            "depth_shadow_um": 0.00011703745226945738,
+            "transition_10_90_um": 4.060192980951038,
+            "open_depth_rel_spread": 0.01954739071189335
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.486363636363636,
+            "open_depth_rel_spread": 0.01136278441393882
+          }
+        }
+      ],
+      "supervisor_width_10_90": 3.9057783748586394
+    },
+    {
+      "run": "hole_105um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 105.0,
+      "dose_open_J_cm3": 547.2938591308764,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0007133134815651685,
+            "transition_10_90_um": 0.6365558011923195,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.2875,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00021874378002601018,
+            "transition_10_90_um": 0.6878665574643302,
+            "open_depth_rel_spread": 1.548018613191729e-05
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.2142857142857143,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.109645873596417,
+            "depth_shadow_um": 0.00014750954879610913,
+            "transition_10_90_um": 2.4823137245855214,
+            "open_depth_rel_spread": 0.015631823232402645
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.1088235294117645,
+            "open_depth_rel_spread": 0.016785701139023678
+          }
+        }
+      ],
+      "supervisor_width_10_90": 2.5875781733438488
+    },
+    {
+      "run": "hole_300um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 300.0,
+      "dose_open_J_cm3": 556.5317087964205,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0008360711896228383,
+            "transition_10_90_um": 1.0091712473942933,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.6923076923076925,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00023682175351139414,
+            "transition_10_90_um": 0.9096565784008277,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.4333333333333333,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.086999582312956,
+            "depth_shadow_um": 0.00015552907135608657,
+            "transition_10_90_um": 3.8251235919920727,
+            "open_depth_rel_spread": 0.01915377037285015
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.7583333333333333,
+            "open_depth_rel_spread": 0.015213247770992528
+          }
+        }
+      ],
+      "supervisor_width_10_90": 0.14646668905719895
+    },
+    {
+      "run": "hole_600um_quick",
+      "experiment": "sapphire_280mm",
+      "hole_um": 600.0,
+      "dose_open_J_cm3": 557.1505320012959,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0009396928241890547,
+            "transition_10_90_um": 0.6456334280323476,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.6666666666666665,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0002510694922493266,
+            "transition_10_90_um": 0.624601824699548,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.8958333333333333,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.0541200028986,
+            "depth_shadow_um": 0.00016170616842531413,
+            "transition_10_90_um": 4.107697344481772,
+            "open_depth_rel_spread": 0.020388228570615362
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.642156862745098,
+            "open_depth_rel_spread": 0.018310765482540983
+          }
+        }
+      ],
+      "supervisor_width_10_90": 1.5525469040063093
+    },
+    {
+      "run": "hole_20um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 20.0,
+      "dose_open_J_cm3": 645.3861053546052,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00036174959924843025,
+            "transition_10_90_um": 1.1223286936094827,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.5256410256410258,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00015577559718059136,
+            "transition_10_90_um": 0.8031441574677669,
+            "open_depth_rel_spread": 0.0001486269487848782
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.05,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 13.138323265798906,
+            "depth_shadow_um": 0.0001176331065853769,
+            "transition_10_90_um": 2.4934780982729783,
+            "open_depth_rel_spread": 0.03431986631123022
+          },
+          "lateral": {
+            "depth_open_um": 14.5,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.4343750000000004,
+            "open_depth_rel_spread": 0.016447227610636998
+          }
+        }
+      ],
+      "supervisor_width_10_90": 1.4490437770725553
+    },
+    {
+      "run": "hole_60um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 60.0,
+      "dose_open_J_cm3": 695.0346147093719,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00047642176906267773,
+            "transition_10_90_um": 0.762794090890916,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.7391304347826089,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00017876931296175307,
+            "transition_10_90_um": 0.8909078187706589,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.48863636363636365,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 13.89544653430212,
+            "depth_shadow_um": 0.0001289413575724736,
+            "transition_10_90_um": 2.6240875367009147,
+            "open_depth_rel_spread": 0.023231042030973304
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.5099999999999998,
+            "open_depth_rel_spread": 0.012714220198343992
+          }
+        }
+      ],
+      "supervisor_width_10_90": 1.4646668905719897
+    },
+    {
+      "run": "hole_105um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 105.0,
+      "dose_open_J_cm3": 704.2297802189287,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.000603228640195596,
+            "transition_10_90_um": 0.637072621396819,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.1875,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00020115837377391248,
+            "transition_10_90_um": 0.8145766285967393,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.575,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.059875533299131,
+            "depth_shadow_um": 0.00013949400602944522,
+            "transition_10_90_um": 1.9497264115581288,
+            "open_depth_rel_spread": 0.02372863542065226
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.7999999999999998,
+            "open_depth_rel_spread": 0.014801609204881121
+          }
+        }
+      ],
+      "supervisor_width_10_90": 3.622609442681388
+    },
+    {
+      "run": "hole_300um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 300.0,
+      "dose_open_J_cm3": 720.6461368468383,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0004988082293165488,
+            "transition_10_90_um": 0.796752611411049,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.2499999999999998,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0001829197260718389,
+            "transition_10_90_um": 0.6518764212770642,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.875,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.068428859715187,
+            "depth_shadow_um": 0.00013092919677335413,
+            "transition_10_90_um": 4.66023661682916,
+            "open_depth_rel_spread": 0.02323453854871535
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 3.08,
+            "open_depth_rel_spread": 0.01867422282391552
+          }
+        }
+      ]
+    },
+    {
+      "run": "hole_600um_quick",
+      "experiment": "sapphire_contact",
+      "hole_um": 600.0,
+      "dose_open_J_cm3": 727.9616057884341,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00047927702431197774,
+            "transition_10_90_um": 0.7447507155438219,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.4068181818181817,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00017930275560869112,
+            "transition_10_90_um": 0.8699158458203594,
+            "open_depth_rel_spread": 0.0005174322204810436
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.55,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.016564813853112,
+            "depth_shadow_um": 0.00012919750212332312,
+            "transition_10_90_um": 7.8652188339992195,
+            "open_depth_rel_spread": 0.025194073701637128
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.7775,
+            "open_depth_rel_spread": 0.020284638806390635
+          }
+        }
+      ],
+      "supervisor_width_10_90": 5.1751563466876975
+    },
+    {
+      "run": "hole_15um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 15.0,
+      "dose_open_J_cm3": 1186.2549929113793,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0002558540079199284,
+            "transition_10_90_um": 0.6806297505272654,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.8928571428571428,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00013100617650967778,
+            "transition_10_90_um": 0.8183884290524446,
+            "open_depth_rel_spread": 0.007506770133634947
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.9083333333333332,
+            "open_depth_rel_spread": 0.011331154474650634
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 12.538290102811581,
+            "depth_shadow_um": 0.0001048072321463269,
+            "transition_10_90_um": 2.2294824145182055,
+            "open_depth_rel_spread": 0.1991776227644922
+          },
+          "lateral": {
+            "depth_open_um": 14.5,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.0804166666666668,
+            "open_depth_rel_spread": 0.015248849610829425
+          }
+        }
+      ]
+    },
+    {
+      "run": "hole_20um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 20.0,
+      "dose_open_J_cm3": 1213.3856952093633,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0001974618952777783,
+            "transition_10_90_um": 0.40613026777205913,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.8708791208791211,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00011508948475691879,
+            "transition_10_90_um": 0.4685405620891454,
+            "open_depth_rel_spread": 0.008834889265725905
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.1325757575757576,
+            "open_depth_rel_spread": 0.011902380714238082
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 12.82651923463351,
+            "depth_shadow_um": 9.613617140164261e-05,
+            "transition_10_90_um": 2.225503577430757,
+            "open_depth_rel_spread": 0.16126927619373532
+          },
+          "lateral": {
+            "depth_open_um": 14.25,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.8508522727272729,
+            "open_depth_rel_spread": 0.017543859649122806
+          }
+        }
+      ]
+    },
+    {
+      "run": "hole_300um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 300.0,
+      "dose_open_J_cm3": 1331.4086775068993,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0003100333894453625,
+            "transition_10_90_um": 0.6959969586242195,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.64375,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.00014421030579965245,
+            "transition_10_90_um": 0.6673098465927074,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 0.6261904761904761,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.176271704073493,
+            "depth_shadow_um": 0.00011173608252708291,
+            "transition_10_90_um": 3.8386976851792727,
+            "open_depth_rel_spread": 0.02675610933134927
+          },
+          "lateral": {
+            "depth_open_um": 14.5,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.3800000000000003,
+            "open_depth_rel_spread": 0.02039777008594141
+          }
+        }
+      ]
+    },
+    {
+      "run": "hole_600um_quick",
+      "experiment": "titanium_model",
+      "hole_um": 600.0,
+      "dose_open_J_cm3": 1348.5479544674113,
+      "predictions": [
+        {
+          "d50_over_dose_open": 0.3,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0004055199329854126,
+            "transition_10_90_um": 0.4290779595885793,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 2.475,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.6,
+          "vertical": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0001649310650211631,
+            "transition_10_90_um": 0.9495596514336311,
+            "open_depth_rel_spread": 0.0
+          },
+          "lateral": {
+            "depth_open_um": 15.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.6458333333333335,
+            "open_depth_rel_spread": 0.0
+          }
+        },
+        {
+          "d50_over_dose_open": 0.9,
+          "vertical": {
+            "depth_open_um": 14.11403990871908,
+            "depth_shadow_um": 0.00012219828442556024,
+            "transition_10_90_um": 4.274969264327141,
+            "open_depth_rel_spread": 0.03256643463063697
+          },
+          "lateral": {
+            "depth_open_um": 14.0,
+            "depth_shadow_um": 0.0,
+            "transition_10_90_um": 1.9333333333333331,
+            "open_depth_rel_spread": 0.022356452403795548
+          }
+        }
+      ]
+    }
+  ],
+  "status": "relative_only: R(D) не откалиброван, масштаб снимков не подтверждён"
+}

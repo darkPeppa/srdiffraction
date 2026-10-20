@@ -1,0 +1,4943 @@
+[
+  {
+    "file": "Be220mkm/1row1left.jpg",
+    "file_id": "f11ae014ae",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/1row2left.jpg",
+    "file_id": "0afee05706",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row1left.jpg",
+    "file_id": "f39c1e8fdb",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row1right.jpg",
+    "file_id": "448c9a58e9",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row2left.jpg",
+    "file_id": "a1b9839e7a",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row2lright.jpg",
+    "file_id": "88f18cf83f",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row3left.jpg",
+    "file_id": "b781463aba",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row3right.jpg",
+    "file_id": "71cc07bdb2",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Be220mkm/6row6left.jpg",
+    "file_id": "19ea597fec",
+    "folder": "Be220mkm",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 200,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "be_200",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/19u20.jpg",
+    "file_id": "819e78bdb5",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row1left.jpg",
+    "file_id": "50b5183a10",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row2left.jpg",
+    "file_id": "d70c0cb653",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row3left.jpg",
+    "file_id": "8bfa492080",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row4left.jpg",
+    "file_id": "e9b9b244ca",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row5left.jpg",
+    "file_id": "95cf54902b",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1row6left.jpg",
+    "file_id": "762ba10196",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/1u2(200).jpg",
+    "file_id": "419b70c325",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/20u21(130).jpg",
+    "file_id": "21e619c591",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/25u26(66).jpg",
+    "file_id": "dddf20be24",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/26u27(80).jpg",
+    "file_id": "b7ead3fd89",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/27u28(100).jpg",
+    "file_id": "7b46a665a8",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2row3left.jpg",
+    "file_id": "ce6189f90b",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2row4left.jpg",
+    "file_id": "9f13353017",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2row5eft.jpg",
+    "file_id": "ba17963399",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/2u3(250).jpg",
+    "file_id": "65ca99555a",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/32(750).jpg",
+    "file_id": "d551aaca1b",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/32na35.jpg",
+    "file_id": "3a11437c82",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/33(1000).jpg",
+    "file_id": "4d9b064d6a",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/33(1000).v2jpg.jpg",
+    "file_id": "614e7a9a49",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/3row1left.jpg",
+    "file_id": "8728905311",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/3row2left.jpg",
+    "file_id": "05381b478d",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/3u4(300).jpg",
+    "file_id": "9c0a987970",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/48na50.jpg",
+    "file_id": "2985ba2e58",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4row1left.jpg",
+    "file_id": "6e4bbda2dd",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4row2left.jpg",
+    "file_id": "a8e615b46c",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4row3left.jpg",
+    "file_id": "aa39c7d062",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/4u5(400).jpg",
+    "file_id": "97901c4b19",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row1left.jpg",
+    "file_id": "d8c031b204",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row2left.jpg",
+    "file_id": "716fb25a8d",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row3left.jpg",
+    "file_id": "07e38eb647",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row4left.jpg",
+    "file_id": "3087f1f7bd",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5row5left.jpg",
+    "file_id": "96831f5ecb",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/5u6(500).jpg",
+    "file_id": "9cd2f0e62f",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/6row2left.jpg",
+    "file_id": "018fc233c8",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/6u7(600).jpg",
+    "file_id": "7bf6d239b1",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/8u9(60).jpg",
+    "file_id": "150a71f008",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_25/at-double-slits-6row1left.jpg",
+    "file_id": "ff5864c1ce",
+    "folder": "Leikosaphire_25",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_contact",
+        "config_confidence": "ambiguous",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1000.bmp",
+    "file_id": "dd1cb390d8",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1000.jpg",
+    "file_id": "4c6b21eee9",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/19u20(155).bmp",
+    "file_id": "182b7d0a6f",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/19u20(155).jpg",
+    "file_id": "c68858215c",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row1right.jpg",
+    "file_id": "bee195d9ef",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row2right.jpg",
+    "file_id": "9d13ca89f7",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row3right.jpg",
+    "file_id": "0e6bdaf163",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row4right.jpg",
+    "file_id": "d36e966539",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row5right.jpg",
+    "file_id": "fc93d6dba9",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/1row6right.jpg",
+    "file_id": "e8691b2991",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/20u21(130).jpg",
+    "file_id": "b493105e9b",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v1.bmp",
+    "file_id": "e01c270fff",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v1.jpg",
+    "file_id": "2ca27dd30f",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v2.bmp",
+    "file_id": "7d56fb50c7",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/25u26(66)v2.jpg",
+    "file_id": "037a4ea924",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/26u27(80).bmp",
+    "file_id": "ade8c640a3",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/26u27(80).jpg",
+    "file_id": "858068eae7",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/27u28(100).bmp",
+    "file_id": "e966892c19",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/27u28(100).jpg",
+    "file_id": "4da8669934",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/2row1left.jpg",
+    "file_id": "6d0d813de6",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/2row2left.jpg",
+    "file_id": "4f39bea243",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v1.bmp",
+    "file_id": "ffd69413d1",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v1.jpg",
+    "file_id": "75a7701a09",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v2.bmp",
+    "file_id": "e461d51c33",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/32(50)v2.jpg",
+    "file_id": "717248ebf6",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/33(35).bmp",
+    "file_id": "da32fadd01",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/33(35).jpg",
+    "file_id": "d5c6737adb",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/35(35).bmp",
+    "file_id": "f6294cd46f",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/35(35).jpg",
+    "file_id": "7f1ad6d333",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3row1left.jpg",
+    "file_id": "eb3fbb752e",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3row2left.jpg",
+    "file_id": "6299e4c1bc",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3row3left.jpg",
+    "file_id": "26664e73fc",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3u4(300).bmp",
+    "file_id": "5b1c4a8da3",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/3u4(300).jpg",
+    "file_id": "dedde3dfd3",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4row1left.jpg",
+    "file_id": "817c18e435",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4row2left.jpg",
+    "file_id": "f6de59daf7",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4row3left.jpg",
+    "file_id": "028161b9c2",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4u5(400).bmp",
+    "file_id": "a3cccda852",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/4u5(400).jpg",
+    "file_id": "9cb5bfad26",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/5u6(500).bmp",
+    "file_id": "64cf4d8b68",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/5u6(500).jpg",
+    "file_id": "fe7ed17e1b",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6row1right-at-double-slits.jpg",
+    "file_id": "ea555f38b0",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6row2right.jpg",
+    "file_id": "c4c3555659",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6u7(600).bmp",
+    "file_id": "9a152198c0",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/6u7(600).jpg",
+    "file_id": "5092bf2c4d",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/8u9(60).jpg",
+    "file_id": "540423dc14",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Leikosaphire_280/9u10.jpg",
+    "file_id": "2ed53faeaa",
+    "folder": "Leikosaphire_280",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 20,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 60,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 105,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "sapphire_280mm",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/3rad1sleva.jpg",
+    "file_id": "964df1c63f",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/3rad3sleva.jpg",
+    "file_id": "e0fc6aedf6",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/4rad1sleva.jpg",
+    "file_id": "13f926104d",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/4rad2sleva.jpg",
+    "file_id": "9e2bc57810",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/500mkm.jpg",
+    "file_id": "bc0b1d30f2",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad1sprava.jpg",
+    "file_id": "3b26921dbd",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad2sprava.jpg",
+    "file_id": "b05806036d",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad3sprava.jpg",
+    "file_id": "fb5c2358d2",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad4sprava.jpg",
+    "file_id": "855a1448cc",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad5sprava.jpg",
+    "file_id": "610f6b201f",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/5rad6sprava.jpg",
+    "file_id": "b19d93110d",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  },
+  {
+    "file": "Steklouglerod/rad2sleva3.bmp",
+    "file_id": "86f6211524",
+    "folder": "Steklouglerod",
+    "status": "unmatched",
+    "hypotheses": [
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 15,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 129,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 300,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      },
+      {
+        "candidate_config": "carbon_475",
+        "config_confidence": "probable",
+        "candidate_aperture_um": 600,
+        "aperture_confidence": "ambiguous",
+        "basis": "нет горизонтальной калибровки — размер отверстия не определяется по снимку"
+      }
+    ],
+    "missing_for_attribution": [
+      "горизонтальный масштаб мкм/пиксель (эталон/паспорт объектива)",
+      "карта расположения отверстий на образце",
+      "связь кадра с позицией на маске (журнал сессии)"
+    ]
+  }
+]

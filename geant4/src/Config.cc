@@ -58,6 +58,8 @@ Config Config::Load(const std::string& path) {
   c.run.progress_every = Opt<long long>(r, "progress_every", 0);
   c.run.xs_energies_keV = Opt<std::vector<double>>(r, "xs_energies_keV", {});
   c.run.xs_output = Opt<std::string>(r, "xs_output", "");
+  c.run.ui_commands = Opt<std::vector<std::string>>(r, "ui_commands", {});
+  c.run.ui_commands_after = Opt<std::vector<std::string>>(r, "ui_commands_after", {});
 
   // --- physics
   if (j.contains("physics")) {

@@ -1,0 +1,9 @@
+{
+  "checked_volumes": 1,
+  "overlaps": 0,
+  "probes": [
+    {"label": "AlFilter:center", "x_mm": 0, "y_mm": 0, "z_mm": -200.6, "volume": "AlFilter", "material": "LIGA_Al"},
+    {"label": "AlFilter:front_inside", "x_mm": 0, "y_mm": 0, "z_mm": -200.999, "volume": "AlFilter", "material": "LIGA_Al"},
+    {"label": "AlFilter:back_inside", "x_mm": 0, "y_mm": 0, "z_mm": -200.201, "volume": "AlFilter", "material": "LIGA_Al"}
+  ]
+}
