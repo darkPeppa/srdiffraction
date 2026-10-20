@@ -37,8 +37,9 @@ def dose_xz(run, hole):
 def compare_geant4(runs_root: Path, out: Path, t_dev_s: float = 60.0) -> list[dict]:
     sup = sp.load()
     rows = []
-    for rd in find_runs(runs_root):
-        info = json.loads((rd / "run_info.json").read_text(encoding="utf-8"))
+    infos = [(rd, json.loads((rd / "run_info.json").read_text(encoding="utf-8"))) for rd in find_runs(runs_root)]
+    infos.sort(key=lambda t: (t[1]["experiment"], float(t[1]["hole_um"]), str(t[0])))
+    for rd, info in infos:
         exp, hole = info["experiment"], float(info["hole_um"])
         run = load_run(rd)
         n, D, z = dose_xz(run, hole)
@@ -47,7 +48,8 @@ def compare_geant4(runs_root: Path, out: Path, t_dev_s: float = 60.0) -> list[di
         step = 0.25
         nu, Du = resample_uniform(n, D, step)
         Du = uniform_filter1d(Du, size=4, axis=0)
-        d_open = float(np.median(Du[nu < -3].mean(axis=1))) if (nu < -3).any() else float(Du.max())
+        d_open = float(np.median(Du[nu < -min(3.0, hole / 4)].mean(axis=1))) if (nu < -min(3.0, hole / 4)).any() \
+            else float(Du.max())
         preds = []
         fig, ax = plt.subplots(figsize=(6.4, 4.0))
         for k, frac in enumerate([0.3, 0.6, 0.9]):
@@ -56,12 +58,14 @@ def compare_geant4(runs_root: Path, out: Path, t_dev_s: float = 60.0) -> list[di
             dv = vertical_depth(Du, z, rate, t_dev_s)
             dl, _ = lateral_profile(Du, nu, z, rate, t_dev_s)
             # один край: n < 0 — под окном (растворено), n > 0 — под золотом
+            inner = -min(10.0, hole / 4.0)  # плато под окном: для малых окон ближе к краю
+
             def robust(depth):
-                o = float(np.median(depth[nu < -10])) if (nu < -10).any() else np.nan
+                o = float(np.median(depth[nu < inner])) if (nu < inner).any() else np.nan
                 sh = float(np.median(depth[nu > 20])) if (nu > 20).any() else np.nan
                 w = transition_width(nu, depth, o, sh)[0] if o > sh else np.nan
                 return {"depth_open_um": o, "depth_shadow_um": sh, "transition_10_90_um": w,
-                        "open_depth_rel_spread": float(np.std(depth[nu < -10]) / o) if o > 0 else np.nan}
+                        "open_depth_rel_spread": float(np.std(depth[nu < inner]) / o) if o > 0 else np.nan}
             mv, ml = robust(dv), robust(dl)
             preds.append({"d50_over_dose_open": frac, "vertical": mv, "lateral": ml})
             ax.plot(nu, dv, color=SERIES[k], ls="--", label=f"вертикальная, D50={frac:.1f}·D_open")
