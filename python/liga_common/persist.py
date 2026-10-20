@@ -6,6 +6,7 @@
 
 Режимы:
   лёгкий (--persist)        — след прогона и отчёты: JSON (конфигурации, run_info, сводки), Markdown,
+                              контактные листы JPG, NPZ,
                               CSV, логи, PNG. Большие CSV/JSON (> 5 МБ) сжимаются gzip.
   тяжёлый (--persist-heavy) — дополнительно HDF5-карты дозы, PDF и QA-панели интерферограмм.
 Никогда не копируются: фазовое пространство этапа 1 (*.bin; воспроизводимо тем же зерном),
@@ -28,7 +29,7 @@ from .paths import REPO, RESULTS
 
 PERSIST = REPO / "results_persist"
 
-LIGHT_EXT = {".json", ".md", ".csv", ".txt", ".log", ".png", ".yaml", ".mac"}
+LIGHT_EXT = {".json", ".md", ".csv", ".txt", ".log", ".png", ".jpg", ".npz", ".yaml", ".mac"}
 HEAVY_EXT = {".h5", ".pdf"}
 GZIP_OVER = 5 * 1024 * 1024          # сжимать текстовые файлы больше 5 МБ
 MAX_FILE = 90 * 1024 * 1024          # GitHub не принимает файлы > 100 МБ
