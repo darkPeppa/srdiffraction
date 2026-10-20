@@ -1,0 +1,57 @@
+# =============================================================================
+#  Обработка архивных интерферограмм ПММА (дополнение к этапу 8).
+# =============================================================================
+calibration:
+  height_per_fringe_um:
+    value: 0.27
+    status: document
+    source: "Дополнение к ТЗ: один полный период полос = перепад высоты 0.27 мкм (двойной ход света уже учтён)"
+    note: "Не делить на 2. Погрешность калибровки не указана → принимаем ±2% как систематику (assumption)."
+  height_calibration_rel_uncertainty: {value: 0.02, status: assumption}
+  height_sign:
+    value: null
+    status: unknown
+    note: "Направление смещения полос, соответствующее углублению, не установлено по документам. Выдаём |Δh| и обе ветви знака; знак выбирается только по независимой информации (не по совпадению с моделью)."
+  lateral_um_per_px:
+    value: null
+    status: unknown
+    note: "Независимого масштаба мкм/пиксель нет (нет эталона, нет паспорта объектива/камеры). Профили сохраняются в пикселях, статус lateral_scale_unverified. НЕ подбирать масштаб по размеру отверстия (круговая проверка)."
+  gold_coating_thickness_nm: {value: null, status: unknown, note: "Магнетронное напыление Au после проявления; толщина не указана."}
+  development:
+    developer: {value: "Diethylene glycol monobutyl ether (>98%)", status: document, source: "Дополнение к ТЗ, раздел З"}
+    time_s: {value: 60, status: document, source: "«приблизительно 1 минуту»", note: "Неопределённость не указана; в анализе ±30%."}
+    temperature_C: {value: null, status: unknown}
+    agitation: {value: null, status: unknown}
+
+processing:
+  panel_detection:
+    min_area_fraction: 0.06      # доля площади скриншота
+    min_extent: 0.80             # заполненность ограничивающего прямоугольника
+    green_minus_blue: 25
+  fourier:
+    sideband_halfwidth_frac: 0.5   # полуширина окна вокруг несущей (доля частоты несущей)
+    min_modulation: 0.08           # порог относительной амплитуды полос (маска качества)
+  fringe_trace:
+    min_prominence: 0.05
+  profiles:
+    n_sections: 5
+    reference_band_frac: 0.15
+
+folders:   # гипотезы атрибуции по названиям папок (НЕ подтверждены)
+  Be220mkm:
+    candidate_config: be_200
+    confidence: probable
+    basis: "Название папки указывает на бериллий; толщина 220 мкм в названии ≠ 200 мкм в техзадании — расхождение не устранено."
+  Leikosaphire_25:
+    candidate_config: sapphire_contact
+    confidence: ambiguous
+    basis: "«25» может означать 25 мм/2.5 см или иное; контактный вариант не подтверждён (ТЗ: не считать достоверным)."
+  Leikosaphire_280:
+    candidate_config: sapphire_280mm
+    confidence: probable
+    basis: "Число 280 совпадает с расстоянием 280 мм из техзадания №4."
+  Steklouglerod:
+    candidate_config: carbon_475
+    confidence: probable
+    basis: "Исходное имя папки «Стеклоуглерод» (в архиве искажено кодировкой CP866)."
+    original_name: "Стеклоуглерод"

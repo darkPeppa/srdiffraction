@@ -1,0 +1,1 @@
+"""synchrotron_spectrum package."""

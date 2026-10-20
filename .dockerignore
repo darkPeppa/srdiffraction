@@ -1,0 +1,7 @@
+.git
+results
+build
+legacy
+data/experimental_profiles/interferograms
+**/__pycache__
+.pytest_cache

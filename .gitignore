@@ -1,0 +1,12 @@
+# Результаты расчётов и временные файлы
+/results/*
+!/results/README.md
+/build/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vs/
+out/
+.idea/

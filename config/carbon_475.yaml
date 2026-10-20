@@ -1,0 +1,35 @@
+# Эксперимент №2 — стеклоуглерод 475 мкм непосредственно перед шаблоном.
+# Источник: «К-расчёту-профиля-стеклоуглерод.docx» (приоритет), «Схемы.pptx», слайд 4.
+experiment:
+  id: carbon_475
+  title: "Стеклоуглерод 475 мкм, контакт с шаблоном"
+  kind: experimental
+  exposure_mA_min: {value: 30000, status: experimental, source: "Техзадание стеклоуглерод"}
+  holes_um: {value: [15, 129, 300, 600], status: experimental, source: "Техзадание стеклоуглерод; Схемы.pptx слайд 4"}
+  supervisor_profiles: data/experimental_profiles/supervisor_profiles.yaml#carbon_475
+
+geometry:
+  al_filter_um: {value: 450, status: experimental, source: "Техзадание: «алюминиевая фольга толщиной 450 мкм»"}
+  al_to_membrane_mm: {value: 200, status: experimental, source: "Техзадание: «20 см перед стеклоуглеродом»", note: "Между гранями — assumption."}
+  membrane:
+    name: TestMembrane_GlassyC
+    material: GlassyCarbon
+    thickness_um: {value: 475, status: experimental, source: "Техзадание"}
+    position: contact
+    gap_to_mask_um: {value: 0, status: assumption, note: "«непосредственно перед»"}
+  mask:
+    support: {name: MaskSupport_Ti, material: Ti, thickness_um: {value: 2.3, status: experimental, source: "Техзадание"}}
+    absorber: {name: Absorber_Au, material: Au, thickness_um: {value: 22, status: experimental, source: "Техзадание"}}
+    orientation: {value: au_upstream, status: document, source: "Схемы.pptx: мембрана → Au → Ti → каптон → ПММА"}
+  kapton_um: {value: 25, status: experimental, source: "Техзадание: «Каптоновая плёнка толщиной 25мкм»"}
+  mask_to_kapton_gap_um: {value: 0, status: assumption}
+  kapton_to_pmma_gap_um: {value: 0, status: assumption}
+  pmma_um: {value: 15, status: experimental, source: "ТЗ п. 1.2"}
+  substrate: {value: null, status: unknown}
+  medium: {value: He_chamber, status: assumption, source: "Диссертация, с. 56"}
+
+discrepancies:
+  - parameter: glassy carbon density
+    values: {dissertation: "1.46–1.52 г/см3", previous_g4bl_model: "G4_C (графит 2.0 г/см3)", previous_report: "1.5 г/см3"}
+    priority: "Диссертация (материал НИИ Графит) → 1.49 ± 0.03"
+    impact: "Пропускание 475 мкм при 10 кэВ (NIST): ρ=1.46 → 0.848, ρ=1.52 → 0.843 (±0.3%); графит ρ=2.0 → 0.798 (−6%). results/materials/discrepancy_impacts.json."

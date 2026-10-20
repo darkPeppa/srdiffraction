@@ -1,0 +1,15 @@
+# Единый сервис: образ со всем окружением, репозиторий монтируется в /work.
+# Запуск — через run.sh (Linux/macOS) или run.ps1 / run.cmd (Windows).
+services:
+  liga:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: app
+    image: liga-geant4:latest
+    working_dir: /work
+    volumes:
+      - ./:/work
+    environment:
+      - LIGA_THREADS=${LIGA_THREADS:-0}
+    init: true

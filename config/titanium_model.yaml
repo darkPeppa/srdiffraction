@@ -1,0 +1,32 @@
+# Дополнительный вариант №5 — исследуемая мембрана Ti 2.3 мкм (ТОЛЬКО РАСЧЁТ).
+# Источник: «Схемы.pptx», слайд 5. Экспериментальных данных и подтверждённой экспозиции нет.
+experiment:
+  id: titanium_model
+  title: "Титан 2.3 мкм (расчётная конфигурация)"
+  kind: model_only
+  exposure_mA_min:
+    value: 30000
+    status: assumption
+    note: "Экспозиция не задана; принята общая нормировка 30000 мА·мин для сравнения с другими материалами. НЕ эксперимент."
+  holes_um: {value: [15, 20, 300, 600], status: document, source: "Схемы.pptx, слайд 5"}
+  supervisor_profiles: null
+
+geometry:
+  al_filter_um: {value: 450, status: document, source: "Схемы.pptx, слайд 5"}
+  al_to_membrane_mm: {value: 200, status: document, source: "Схемы.pptx, слайд 5: «20 cm»"}
+  membrane:
+    name: TestMembrane_Ti      # отдельный объём, НЕ совпадает с MaskSupport_Ti
+    material: Ti
+    thickness_um: {value: 2.3, status: document, source: "Схемы.pptx, слайд 5"}
+    position: contact
+    gap_to_mask_um: {value: 0, status: assumption, note: "На слайде мембрана изображена непосредственно перед шаблоном."}
+  mask:
+    support: {name: MaskSupport_Ti, material: Ti, thickness_um: {value: 2.3, status: document, source: "Схемы.pptx"}}
+    absorber: {name: Absorber_Au, material: Au, thickness_um: {value: 22, status: document, source: "Схемы.pptx"}}
+    orientation: {value: au_upstream, status: document, source: "Схемы.pptx"}
+  kapton_um: {value: 25, status: document, source: "Схемы.pptx"}
+  mask_to_kapton_gap_um: {value: 0, status: assumption}
+  kapton_to_pmma_gap_um: {value: 0, status: assumption}
+  pmma_um: {value: 15, status: document, source: "ТЗ п. 1.2"}
+  substrate: {value: null, status: unknown}
+  medium: {value: He_chamber, status: assumption}

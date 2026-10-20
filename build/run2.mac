@@ -1,5 +1,0 @@
-/control/verbose 0
-/run/verbose 0
-/gun/particle gamma
-/gun/energy 0.0035 MeV
-/run/beamOn 10000
