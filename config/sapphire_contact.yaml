@@ -1,0 +1,43 @@
+# Эксперимент №3 — лейкосапфир 525 мкм непосредственно перед шаблоном.
+# Источник: «К-расчёту-профиля-лейкосапфир.docx» (приоритет), «Схемы.pptx», слайд 1.
+experiment:
+  id: sapphire_contact
+  title: "Лейкосапфир 525 мкм, контакт с шаблоном"
+  kind: experimental
+  exposure_mA_min: {value: 37000, status: experimental, source: "Техзадание лейкосапфир: «Экспозиционная доза 37000 мАмин»"}
+  holes_um: {value: [20, 60, 105, 300, 600], status: experimental, source: "Техзадание; Схемы.pptx слайд 1"}
+  supervisor_profiles: data/experimental_profiles/supervisor_profiles.yaml#sapphire_contact
+
+geometry:
+  al_filter_um: {value: 300, status: experimental, source: "Техзадание: «алюминиевая фольга толщиной 300 мкм»"}
+  al_to_membrane_mm: {value: 200, status: experimental, source: "Техзадание: «20 см перед лейкосапфиром»", note: "Между гранями — assumption."}
+  membrane:
+    name: TestMembrane_Sapphire
+    material: Sapphire
+    thickness_um: {value: 525, status: experimental, source: "Техзадание"}
+    position: contact
+    gap_to_mask_um: {value: 0, status: assumption, note: "«непосредственно перед»"}
+  mask:
+    support: {name: MaskSupport_Ti, material: Ti, thickness_um: {value: 2.3, status: experimental, source: "Техзадание"}}
+    absorber: {name: Absorber_Au, material: Au, thickness_um: {value: 22, status: experimental, source: "Техзадание"}}
+    orientation: {value: au_upstream, status: document, source: "Схемы.pptx"}
+  kapton_um:
+    value: 20
+    status: experimental
+    source: "Техзадание лейкосапфир: «каптоновая плёнка толщиной 20 мкм»"
+    note: "На слайде 1 презентации указано 25 мкм; приоритет — индивидуальное техзадание (ТЗ п. 1.5)."
+  mask_to_kapton_gap_um: {value: 0, status: assumption}
+  kapton_to_pmma_gap_um: {value: 0, status: assumption}
+  pmma_um: {value: 15, status: experimental, source: "ТЗ п. 1.2"}
+  substrate: {value: null, status: unknown}
+  medium: {value: He_chamber, status: assumption, source: "Диссертация, с. 56"}
+
+discrepancies:
+  - parameter: kapton thickness
+    values: {techzadanie: "20 мкм", presentation_slide_1: "25 мкм"}
+    priority: "Техзадание (20 мкм)"
+    impact: "Лишние 5 мкм каптона (NIST): пропускание 0.998 при 10 кэВ, 0.990 при 6 кэВ — пренебрежимо после фильтров (средняя энергия ~20 кэВ)."
+  - parameter: exposure
+    values: {techzadanie: "37000 мА·мин", other_experiments: "30000 мА·мин"}
+    priority: "Техзадание"
+    impact: "Абсолютная доза ×1.233 относительно 30000 мА·мин."

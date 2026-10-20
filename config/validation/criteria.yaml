@@ -1,0 +1,28 @@
+# =============================================================================
+#  Критерии приёмки численных проверок (ТЗ п. 11). Заданы ДО анализа результатов.
+#  quick — сокращённая статистика (~5–10 мин на 8 ядрах), full — полная (~1 ч).
+# =============================================================================
+statistics:
+  quick: {slab_events: 200000, gen_events: 400000, transport_events: 300000, stage1_events: 3000000}
+  full:  {slab_events: 2000000, gen_events: 4000000, transport_events: 3000000, stage1_events: 30000000}
+
+criteria:
+  generator_chi2_pvalue_min: 0.001        # χ²-тест гистограммы энергий против таблицы
+  generator_mean_weight_nsigma: 3.0       # средний вес выборки по значимости = 1
+  generator_pol_fraction_nsigma: 3.0      # доля σ-поляризации = табличной
+  seed_reproducibility: exact             # одинаковое зерно → идентичная выборка
+  geometry_overlaps_max: 0
+  attenuation_nsigma_vs_geant4: 3.0       # пропускание без взаимодействия vs exp(-μ_G4 d)
+  attenuation_rel_mu_vs_nist: 0.05        # |μ_MC/μ_NIST − 1| < 5% + 3σ_стат
+  interaction_fraction_nsigma: 3.5        # (исходный) доли первого взаимодействия; заменён биномиальным тестом с поправкой Бонферрони
+  energy_balance_rel: 1.0e-9
+  decomposition_rel: 1.0e-9
+  window_independence_nsigma: 3.0         # доза под отверстием при разных размерах окна
+  biasing_unbiased_nsigma: 3.0            # смещённый vs аналоговый транспорт
+  electron_kill_nsigma: 3.0               # с отсечением электронов vs без
+  scan_mode_nsigma: 3.0                   # averaged vs explicit
+  statistics_sigma_ratio: [0.35, 0.65]    # σ(4N)/<σ(N)> ≈ 0.5 (по ансамблю 4 независимых зёрен — см. отчёт)
+  be_explicit_vs_analytic_nsigma: 3.0     # нерассеянная компонента после Be 500 мкм
+  al_explicit_vs_analytic_nsigma: 3.0     # нерассеянная компонента после Al
+  resolution_width_rel: 0.25              # ширина края: сетка 0.5 мкм vs 0.25 мкм
+  physics_models_rel_report: 0.05         # систематика ЭМ-моделей (отчёт; > 5% — предупреждение)

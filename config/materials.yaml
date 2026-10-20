@@ -1,0 +1,62 @@
+# =============================================================================
+#  Материалы. Состав — формулой (атомы) или массовыми долями; плотность — г/см3.
+#  Для каждого материала указан источник; допущения помечены status: assumption.
+#  Ни один материал не задаётся «эффективным атомом» (ТЗ, п. 5.2).
+# =============================================================================
+materials:
+  Be:
+    formula: {Be: 1}
+    density_g_cm3: {value: 1.848, status: document, source: "Справочная плотность металлического Be (CRC Handbook); G4_Be"}
+  Al:
+    formula: {Al: 1}
+    density_g_cm3: {value: 2.699, status: document, source: "CRC Handbook; G4_Al"}
+  Ti:
+    formula: {Ti: 1}
+    density_g_cm3: {value: 4.506, status: document, source: "CRC Handbook (α-Ti). G4_Ti = 4.54"}
+  Au:
+    formula: {Au: 1}
+    density_g_cm3: {value: 19.32, status: document, source: "CRC Handbook; G4_Au"}
+    note: "Плотность гальванического золота может быть на 1–3% ниже; учтено в анализе чувствительности."
+  GlassyCarbon:
+    formula: {C: 1}
+    density_g_cm3:
+      value: 1.49
+      status: assumption
+      source: "Диссертация Гольденберга, табл. 5 (стеклоуглерод НИИ Графит): 1.46–1.52 г/см3; взята середина"
+      note: "НЕ графит (2.0–2.26). Закрытая пористость малая (табл. 5: открытая 0.2–1%). Границы 1.46/1.52 — анализ чувствительности."
+  Sapphire:
+    formula: {Al: 2, O: 3}
+    density_g_cm3: {value: 3.98, status: document, source: "Монокристаллический α-Al2O3 (лейкосапфир), 3.98 г/см3"}
+    note: "Монокристалл: брэгговская дифракция Geant4 не моделируется (см. docs/physics_model.md, §5)."
+  Kapton:
+    formula: {C: 22, H: 10, N: 2, O: 5}
+    density_g_cm3: {value: 1.42, status: document, source: "Полиимид PMDA-ODA (Kapton HN), 1.42 г/см3; G4_KAPTON"}
+  PMMA:
+    formula: {C: 5, H: 8, O: 2}
+    density_g_cm3:
+      value: 1.18
+      status: document
+      source: "Диссертация Гольденберга, табл. 4 (с. 51): ПММА 1.18 г/см3"
+      note: "NIST/G4_PLEXIGLASS: 1.19. Различие 0.8% — в анализе чувствительности. Сверхмолекулярный ПММА (10^7 г/моль) — плотность не измерена."
+  He_chamber:
+    formula: {He: 1}
+    state: gas
+    pressure_Pa:
+      value: 50000
+      status: assumption
+      source: "Диссертация, с. 56 и табл. 2: камера заполняется гелием 20–50 кПа (0.2–0.5 атм)"
+      note: "Взята верхняя граница (максимальное ослабление/рассеяние в газе); варианты 20 кПа и вакуум — анализ чувствительности. Влияние на 20 см пути < 0.3% при E > 5 кэВ."
+    temperature_K: {value: 293.15, status: assumption}
+  Air:
+    mass_fractions: {N: 0.755267, O: 0.231781, Ar: 0.012827, C: 0.000124}
+    state: gas
+    pressure_Pa: {value: 101325, status: assumption}
+    temperature_K: {value: 293.15, status: assumption}
+    note: "Только для анализа чувствительности (среда между элементами не подтверждена)."
+  Vacuum:
+    nist: G4_Galactic
+    density_g_cm3: {value: 1.0e-25, status: document, source: "G4_Galactic"}
+  Si:
+    formula: {Si: 1}
+    density_g_cm3: {value: 2.329, status: document, source: "CRC Handbook"}
+    note: "Возможная подложка ПММА (не подтверждена) — только для анализа чувствительности."

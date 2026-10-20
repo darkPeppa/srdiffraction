@@ -1,0 +1,65 @@
+# =============================================================================
+#  Параметры моделирования (не физика установки). Профили quick/standard/production
+#  различаются статистикой и размерами областей; физика одинаковая.
+# =============================================================================
+physics:
+  em: livermore                 # основной (ТЗ п. 5.1); варианты: livermore_polarized, penelope, option4, standard
+  fluo: true
+  auger: true
+  pixe: false
+  deexcitation_ignore_cut: true
+  default_cut_um: 1.0
+  region_cuts_um: {PMMA: 0.3, Kapton: 0.3}
+  lowest_electron_energy_eV: 100
+  cuts_table_low_edge_eV: 100
+  kill_unreachable_electrons: true   # ускорение; проверяется validate: electron_kill
+  # Редукция дисперсии: принудительное взаимодействие фотонов (G4BOptrForceCollision) в ПММА
+  # (15 мкм поглощают лишь ~0.05–0.6 % фотонов 10–30 кэВ), в исследуемой мембране (источник рассеянных фотонов) и в
+  # каптоне (его фотоэлектроны достигают ПММА; без форсирования они дают «тяжёлый хвост» весов).
+  # Несмещённая: проверяется validate (сравнение с аналоговым транспортом).
+  force_collision_roles: [pmma, test_membrane, kapton]
+
+scoring:
+  # Сетка вокруг отверстия: мелкие ячейки у краёв, крупные — вдали (ТЗ п. 6.3).
+  fine_bin_um: 0.5           # у краёв (масштаб пробега фото-/оже-электронов в ПММА 0.1–5 мкм)
+  fine_halfwidth_um: 15      # полуширина зоны мелких ячеек вокруг каждого края
+  coarse_bin_um: 5.0
+  outside_margin_um: 60      # область за краем отверстия (под золотом)
+  z_bin_um: 1.0              # по глубине ПММА 15 мкм → 15 слоёв
+  # Высокоразрешающая полоса поперёк краёв (центральное сечение y≈0)
+  strip_bin_um: 0.25
+  strip_halfwidth_um: 15
+  strip_corner_margin_um: 10 # полоса |y| < h/2 − 10 мкм (вся длина края без углов), но не уже h/4
+  strip_z_bin_um: 0.5
+  spectrum_nbins: 400
+  spectrum_emax_keV: 80
+  region_margin_um: 5
+
+profiles:
+  # stage1_events подбирается так, чтобы число записей фазового пространства было не меньше
+  # stage2_events / max_reuse (переиспользование записей с новым положением увеличивает
+  # дисперсию; liga предупреждает, если кратность > max_reuse). Этап 1 дешёвый (~2e5 ист./с).
+  quick:        # демонстрационный прогон / проверка работоспособности (~минуты)
+    stage1_events: 10000000
+    stage2_events: 2000000
+    window_extra_mm: 0.25    # полуразмер окна = h/2 + window_extra
+    core_margin_um: 40
+    core_fraction: 0.5
+  standard:     # рабочий расчёт (десятки минут на 8 ядрах — запускать вручную)
+    stage1_events: 60000000
+    stage2_events: 30000000
+    window_extra_mm: 1.0
+    core_margin_um: 60
+    core_fraction: 0.5
+  production:   # для статьи (часы) — только после проверки сходимости окна
+    stage1_events: 300000000
+    stage2_events: 200000000
+    window_extra_mm: 2.0
+    core_margin_um: 80
+    core_fraction: 0.5
+
+max_reuse: 20
+
+run:
+  seed: 20261020
+  progress_every: 0

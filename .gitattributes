@@ -1,0 +1,15 @@
+# Нормализуем окончания строк: скрипты, исполняемые внутри Linux-контейнера,
+# должны иметь LF даже при клонировании на Windows (иначе "bad interpreter").
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.bmp binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.h5 binary
+*.gz binary

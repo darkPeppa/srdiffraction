@@ -1,0 +1,41 @@
+# Эксперимент №4 — лейкосапфир 525 мкм на расстоянии 280 мм перед шаблоном.
+# Источник: «К-расчёту-профиля-лейкосапфир-280мм-от-маски.docx» (приоритет), «Схемы.pptx», слайд 2.
+experiment:
+  id: sapphire_280mm
+  title: "Лейкосапфир 525 мкм, 280 мм до шаблона"
+  kind: experimental
+  exposure_mA_min: {value: 30000, status: experimental, source: "Техзадание: «Экспозиционная доза 30000 мАмин»"}
+  holes_um: {value: [20, 60, 105, 300, 600], status: experimental, source: "Техзадание; Схемы.pptx слайд 2"}
+  supervisor_profiles: data/experimental_profiles/supervisor_profiles.yaml#sapphire_280mm
+
+geometry:
+  al_filter_um: {value: 300, status: experimental, source: "Техзадание: «перед лейкосапфиром стоит алюминиевая фольга толщиной 300 мкм»"}
+  al_to_membrane_mm:
+    value: 200
+    status: document
+    source: "Схемы.pptx, слайд 2: «20 cm» между Al и Al2O3"
+    note: "В индивидуальном техзадании расстояние Al–сапфир НЕ указано. Значение взято из презентации (проверено: на слайде 2 стрелка «20 cm» между Al и Al2O3, «28 cm» — между Al2O3 и шаблоном). Геометрически совместимо."
+  membrane:
+    name: TestMembrane_Sapphire
+    material: Sapphire
+    thickness_um: {value: 525, status: experimental, source: "Техзадание"}
+    position: remote
+    distance_to_mask_mm:
+      value: 280
+      status: experimental
+      source: "Техзадание: «стоит впереди рентгеновской маски на расстоянии 280 мм от неё»"
+      note: "Трактуется как расстояние от задней грани сапфира до передней грани шаблона — assumption (разница ±0.5 мм несущественна)."
+  mask:
+    support: {name: MaskSupport_Ti, material: Ti, thickness_um: {value: 2.3, status: experimental, source: "Техзадание"}}
+    absorber: {name: Absorber_Au, material: Au, thickness_um: {value: 22, status: experimental, source: "Техзадание"}}
+    orientation: {value: au_upstream, status: document, source: "Схемы.pptx"}
+  kapton_um: {value: 25, status: experimental, source: "Техзадание: «каптоновая плёнка толщиной 25 мкм»"}
+  mask_to_kapton_gap_um: {value: 0, status: assumption}
+  kapton_to_pmma_gap_um: {value: 0, status: assumption}
+  pmma_um: {value: 15, status: experimental, source: "ТЗ п. 1.2"}
+  substrate: {value: null, status: unknown}
+  medium: {value: He_chamber, status: assumption, source: "Диссертация, с. 56"}
+  remote_membrane_moves_with_mask:
+    value: null
+    status: unknown
+    note: "Неизвестно, сканируется ли сапфир вместе с шаблоном. Для однородной бесконечной пластины ответ не влияет на усреднённую дозу (трансляционная инвариантность, docs/normalization.md §3); влияет только конечный поперечный размер сапфира (не указан)."

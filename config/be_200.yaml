@@ -1,0 +1,46 @@
+# Эксперимент №1 — исследуемая мембрана Be 200 мкм непосредственно перед шаблоном.
+# Источник: «К-расчёту-профиля-бериллий 200 мкм.docx» (приоритет), «Схемы.pptx», слайд 3.
+experiment:
+  id: be_200
+  title: "Бериллий 200 мкм, контакт с шаблоном"
+  kind: experimental
+  exposure_mA_min: {value: 30000, status: experimental, source: "Техзадание Be: «Экспозиционная доза 30000 мАмин»"}
+  holes_um: {value: [20, 200, 300, 600], status: experimental, source: "Техзадание Be, таблица; Схемы.pptx слайд 3"}
+  supervisor_profiles: data/experimental_profiles/supervisor_profiles.yaml#be_200
+
+geometry:
+  al_filter_um: {value: 800, status: experimental, source: "Техзадание Be: «алюминиевая фольга толщиной 800 мкм»"}
+  al_to_membrane_mm:
+    value: 200
+    status: experimental
+    source: "Техзадание Be: «20 см перед бериллиевой фольгой»"
+    note: "Трактуется как расстояние между гранями (задняя грань Al — передняя грань мембраны) — assumption."
+  membrane:
+    name: TestMembrane_Be
+    material: Be
+    thickness_um: {value: 200, status: experimental, source: "Техзадание Be"}
+    position: contact
+    gap_to_mask_um:
+      value: 0
+      status: assumption
+      note: "«непосредственно перед рентгеновской маской» — микрозазор не указан; варианты 0/100/1000 мкм — анализ чувствительности."
+  mask:
+    support: {name: MaskSupport_Ti, material: Ti, thickness_um: {value: 2.3, status: experimental, source: "Техзадание Be"}}
+    absorber: {name: Absorber_Au, material: Au, thickness_um: {value: 22, status: experimental, source: "Техзадание Be"}}
+    orientation:
+      value: au_upstream
+      status: document
+      source: "Схемы.pptx: порядок слоёв по пучку — мембрана → Au → Ti → каптон → ПММА"
+      note: "Текст техзадания («мембрана титана, на ней нанесен слой золота») сторону не указывает; вариант ti_upstream — анализ чувствительности."
+  kapton_um: {value: 25, status: experimental, source: "Техзадание Be: «каптоновая плёнка толщиной 25 мкм»"}
+  mask_to_kapton_gap_um: {value: 0, status: assumption, note: "Не указан; принят контакт."}
+  kapton_to_pmma_gap_um: {value: 0, status: assumption, note: "«Непосредственно перед слоем ПММА»; принят контакт."}
+  pmma_um: {value: 15, status: experimental, source: "Схемы.pptx; ТЗ п. 1.2: строго 15 мкм"}
+  substrate: {value: null, status: unknown, note: "Подложка ПММА не указана; по умолчанию не моделируется. Вариант Si 500 мкм — чувствительность."}
+  medium: {value: He_chamber, status: assumption, source: "Диссертация, с. 56: камера заполнена гелием 20–50 кПа"}
+
+discrepancies:
+  - parameter: membrane thickness
+    values: {techzadanie: "200 мкм", archive_folder: "Be220mkm"}
+    priority: "Техзадание (200 мкм). Название папки не является метрологией."
+    impact: "Пропускание (NIST): 10 кэВ — 0.976 (200 мкм) vs 0.974 (220 мкм), −0.2%; 5 кэВ — 0.851 vs 0.837, −1.6%. Вероятность рассеяния в мембране ∝ толщине: +10%. Расчёт: results/materials/discrepancy_impacts.json."
