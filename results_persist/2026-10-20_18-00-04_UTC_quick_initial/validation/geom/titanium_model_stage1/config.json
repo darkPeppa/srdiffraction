@@ -1,0 +1,57 @@
+{
+  "run": {
+    "name": "geom/titanium_model_stage1",
+    "mode": "geometry_check",
+    "n_events": 100000,
+    "seed": 1,
+    "threads": 0,
+    "output": "/work/results/validation/geom/titanium_model_stage1/geometry.json"
+  },
+  "physics": {
+    "em": "livermore",
+    "kill_unreachable_electrons": true
+  },
+  "world": {
+    "material": "He_chamber",
+    "half_xy_mm": 151.0,
+    "half_z_mm": 202.45229999999998
+  },
+  "materials": {
+    "He_chamber": {
+      "density_g_cm3": 8.210853980003375e-05,
+      "state": "gas",
+      "pressure_Pa": 50000,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "He": 1.0
+      }
+    },
+    "Al": {
+      "density_g_cm3": 2.699,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 1.0
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "AlFilter",
+      "role": "al_filter",
+      "material": "Al",
+      "thickness_um": 450.0,
+      "z_front_mm": -200.45229999999998,
+      "half_x_mm": 150.0,
+      "half_y_mm": 150.0
+    }
+  ],
+  "scoring": {
+    "grids": []
+  },
+  "source": {
+    "mode": "pencil",
+    "z_mm": -0.1033
+  }
+}

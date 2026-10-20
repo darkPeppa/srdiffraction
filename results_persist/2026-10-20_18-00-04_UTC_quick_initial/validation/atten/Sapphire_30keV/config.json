@@ -1,0 +1,59 @@
+{
+  "run": {
+    "name": "atten/Sapphire_30keV",
+    "mode": "transport",
+    "n_events": 200000,
+    "seed": 1,
+    "threads": 0,
+    "output": "/work/results/validation/atten/Sapphire_30keV/out.h5"
+  },
+  "physics": {
+    "em": "livermore",
+    "kill_unreachable_electrons": true
+  },
+  "world": {
+    "material": "Vacuum",
+    "half_xy_mm": 200.0,
+    "half_z_mm": 3.0
+  },
+  "materials": {
+    "Sapphire": {
+      "density_g_cm3": 3.98,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 0.5292569267086764,
+        "O": 0.47074307329132364
+      }
+    },
+    "Vacuum": {
+      "density_g_cm3": 1e-25,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "nist": "G4_Galactic"
+    }
+  },
+  "layers": [
+    {
+      "name": "Slab",
+      "role": "other",
+      "material": "Sapphire",
+      "thickness_um": 525,
+      "z_front_mm": 0.0,
+      "half_x_mm": 190,
+      "half_y_mm": 190
+    }
+  ],
+  "scoring": {
+    "grids": [],
+    "slab_test": true,
+    "slab_layer": "Slab"
+  },
+  "source": {
+    "mode": "pencil",
+    "pencil_energy_keV": 30,
+    "z_mm": -1
+  }
+}

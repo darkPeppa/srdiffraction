@@ -1,0 +1,23 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'titanium_model_stage1': 10000000 events, 8 threads, physics livermore
+G4WT7 > [liga] 1000000 / 10000000 events, 5.1 s elapsed, ETA 45.5 s
+G4WT4 > [liga] 2000000 / 10000000 events, 10.0 s elapsed, ETA 40.1 s
+G4WT6 > [liga] 3000000 / 10000000 events, 15.0 s elapsed, ETA 35.1 s
+G4WT6 > [liga] 4000000 / 10000000 events, 20.0 s elapsed, ETA 30.1 s
+G4WT6 > [liga] 5000000 / 10000000 events, 25.1 s elapsed, ETA 25.1 s
+G4WT3 > [liga] 6000000 / 10000000 events, 30.1 s elapsed, ETA 20.0 s
+G4WT2 > [liga] 7000000 / 10000000 events, 35.1 s elapsed, ETA 15.0 s
+G4WT6 > [liga] 8000000 / 10000000 events, 40.3 s elapsed, ETA 10.1 s
+G4WT7 > [liga] 9000000 / 10000000 events, 45.4 s elapsed, ETA 5.0 s
+G4WT3 > [liga] 10000000 / 10000000 events, 50.4 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/runs/titanium_model/_stage1_e0204ac42713/stage1.h5  events=10000000  wall=50.4199 s

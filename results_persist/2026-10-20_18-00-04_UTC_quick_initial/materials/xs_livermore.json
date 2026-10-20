@@ -1,0 +1,220 @@
+{
+  "run": {
+    "name": "xs",
+    "mode": "xs_table",
+    "n_events": 0,
+    "seed": 1,
+    "threads": 1,
+    "output": "/work/results/materials/xs_dummy.h5",
+    "xs_energies_keV": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      60,
+      80
+    ],
+    "xs_output": "/work/results/materials/geant4_xs_livermore.csv"
+  },
+  "physics": {
+    "em": "livermore"
+  },
+  "world": {
+    "material": "Vacuum",
+    "half_xy_mm": 5,
+    "half_z_mm": 5
+  },
+  "materials": {
+    "Al": {
+      "density_g_cm3": 2.699,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 1.0
+      }
+    },
+    "GlassyCarbon": {
+      "density_g_cm3": 1.49,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 1.0
+      }
+    },
+    "PMMA": {
+      "density_g_cm3": 1.18,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.5998481776321704,
+        "H": 0.08054576145909287,
+        "O": 0.31960606090873683
+      }
+    },
+    "Be": {
+      "density_g_cm3": 1.848,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Be": 1.0
+      }
+    },
+    "He_chamber": {
+      "density_g_cm3": 8.210853980003375e-05,
+      "state": "gas",
+      "pressure_Pa": 50000,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "He": 1.0
+      }
+    },
+    "Ti": {
+      "density_g_cm3": 4.506,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Ti": 1.0
+      }
+    },
+    "Vacuum": {
+      "density_g_cm3": 1e-25,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "nist": "G4_Galactic"
+    },
+    "Au": {
+      "density_g_cm3": 19.32,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Au": 1.0
+      }
+    },
+    "Kapton": {
+      "density_g_cm3": 1.42,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "C": 0.6911341220042319,
+        "H": 0.02636458984492495,
+        "N": 0.07327158927735392,
+        "O": 0.20922969887348924
+      }
+    },
+    "Sapphire": {
+      "density_g_cm3": 3.98,
+      "state": "solid",
+      "pressure_Pa": 101325.0,
+      "temperature_K": 293.15,
+      "mass_fractions": {
+        "Al": 0.5292569267086764,
+        "O": 0.47074307329132364
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "Be",
+      "role": "other",
+      "material": "Be",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.0,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "Al",
+      "role": "other",
+      "material": "Al",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.1,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "Ti",
+      "role": "other",
+      "material": "Ti",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.2,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "Au",
+      "role": "other",
+      "material": "Au",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.30000000000000004,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "GlassyCarbon",
+      "role": "other",
+      "material": "GlassyCarbon",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.4,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "Sapphire",
+      "role": "other",
+      "material": "Sapphire",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.5,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "Kapton",
+      "role": "other",
+      "material": "Kapton",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.6,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "PMMA",
+      "role": "other",
+      "material": "PMMA",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.7,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    },
+    {
+      "name": "He_chamber",
+      "role": "other",
+      "material": "He_chamber",
+      "thickness_um": 10.0,
+      "z_front_mm": 0.7999999999999999,
+      "half_x_mm": 1.0,
+      "half_y_mm": 1.0
+    }
+  ],
+  "source": {
+    "mode": "pencil",
+    "z_mm": -1
+  }
+}

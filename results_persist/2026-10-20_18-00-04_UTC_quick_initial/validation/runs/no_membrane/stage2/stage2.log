@@ -1,0 +1,23 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'be_200_h100_stage2': 300000 events, 8 threads, physics livermore
+G4WT0 > [liga] 30000 / 300000 events, 0.7 s elapsed, ETA 6.0 s
+G4WT6 > [liga] 60000 / 300000 events, 1.1 s elapsed, ETA 4.5 s
+G4WT1 > [liga] 90000 / 300000 events, 1.6 s elapsed, ETA 3.7 s
+G4WT5 > [liga] 120000 / 300000 events, 2.1 s elapsed, ETA 3.2 s
+G4WT2 > [liga] 150000 / 300000 events, 2.6 s elapsed, ETA 2.6 s
+G4WT6 > [liga] 180000 / 300000 events, 3.0 s elapsed, ETA 2.0 s
+G4WT0 > [liga] 210000 / 300000 events, 3.4 s elapsed, ETA 1.5 s
+G4WT1 > [liga] 240000 / 300000 events, 3.9 s elapsed, ETA 1.0 s
+G4WT4 > [liga] 270000 / 300000 events, 4.3 s elapsed, ETA 0.5 s
+G4WT7 > [liga] 300000 / 300000 events, 4.8 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/validation/runs/no_membrane/stage2/stage2.h5  events=300000  wall=5.00654 s

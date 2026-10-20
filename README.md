@@ -37,6 +37,23 @@ Desktop. Работает на Windows, macOS (Intel и Apple Silicon) и Linux.
 Число потоков задаётся так: `LIGA_THREADS=4 ./run.sh ...` (по умолчанию используются все ядра). Справка по всем командам — `./run.sh help`.
 Результаты пишутся в `results/`: HDF5, PNG/PDF, JSON, Markdown-отчёты.
 
+## Сохранение результатов в git (`--persist`)
+
+`results/` — рабочий каталог, git его игнорирует. Чтобы сохранить результаты и делиться ими, добавьте флаг
+к любой команде:
+
+```bash
+./run.sh simulate all --profile standard --persist            # след прогона и отчёты (~40 МБ на полный набор)
+./run.sh report --persist --persist-label standard_v1          # своя метка
+./run.sh validate --persist-heavy                              # + HDF5-карты дозы, PDF, QA (сотни МБ)
+```
+
+Каждый запуск с флагом создаёт новый каталог `results_persist/<дата_время_UTC>_<метка>/` (структура как в
+`results/`, плюс `README.md` и `MANIFEST.json` с коммитом кода, командой, SHA-256 и списком пропущенных
+файлов). Фазовое пространство (`*.bin`) не сохраняется никогда — оно воспроизводится тем же зерном.
+Текущие результаты (quick, все 22 отверстия, валидация, интерферометрия) — в
+`results_persist/2026-10-20_18-00-04_UTC_quick_initial/`. Подробнее — `results_persist/README.md`.
+
 ## Структура
 
 ```
@@ -47,6 +64,7 @@ geant4/                      приложение liga_sim (C++), модульн
 python/                      synchrotron_spectrum, material_attenuation, spectrum_export, liga_cli,
                              analysis, comparison, plotting, experimental_interferometry
 tests/                       pytest
+results_persist/             сохранённые снимки результатов (отслеживаются git)
 data/                        source_documents (ТЗ, схемы), experimental_profiles (интерферограммы,
                              формулы профилей), reference_data (NIST)
 docs/                        разбор физики, параметры и расхождения, геометрия, нормировка,

@@ -73,7 +73,11 @@ def persist(paths: list[Path], label: str, heavy: bool = False, command: str = "
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H-%M-%S_UTC")
     safe = re.sub(r"[^\w.-]+", "_", label).strip("_") or "run"
     dest = PERSIST / f"{stamp}_{safe}"
-    dest.mkdir(parents=True, exist_ok=False)
+    k = 2
+    while dest.exists():  # два снимка с одной меткой в одну секунду
+        dest = PERSIST / f"{stamp}_{safe}_{k}"
+        k += 1
+    dest.mkdir(parents=True)
     copied, skipped = [], []
     files: list[Path] = []
     for p in paths:
@@ -130,7 +134,11 @@ def persist(paths: list[Path], label: str, heavy: bool = False, command: str = "
     (dest / "MANIFEST.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     _write_index(dest, manifest)
     mb = manifest["total_bytes"] / 2 ** 20
-    print(f"[liga] сохранено в {dest.relative_to(REPO)}: {len(copied)} файлов, {mb:.1f} МБ "
+    try:
+        shown = dest.relative_to(REPO)
+    except ValueError:
+        shown = dest
+    print(f"[liga] сохранено в {shown}: {len(copied)} файлов, {mb:.1f} МБ "
           f"(пропущено {len(skipped)}; см. MANIFEST.json)")
     return dest
 

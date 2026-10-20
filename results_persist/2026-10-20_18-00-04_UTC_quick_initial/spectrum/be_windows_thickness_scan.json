@@ -1,0 +1,74 @@
+[
+  {
+    "be_um": 0,
+    "photons_per_s_per_mrad": 9236413857384038.0,
+    "power_W_per_mrad": 6.159209318596368,
+    "mean_energy_keV": 4.162087304348051,
+    "sigma_fraction": 0.855022625850668,
+    "photon_transmission": 1.0,
+    "power_transmission": 1.0
+  },
+  {
+    "be_um": 100,
+    "photons_per_s_per_mrad": 4956606404820762.0,
+    "power_W_per_mrad": 4.85310006936834,
+    "mean_energy_keV": 6.111170758438305,
+    "sigma_fraction": 0.8774661473985719,
+    "photon_transmission": 0.5366375393473962,
+    "power_transmission": 0.7879420585229145
+  },
+  {
+    "be_um": 200,
+    "photons_per_s_per_mrad": 4052432637162151.0,
+    "power_W_per_mrad": 4.410924751016273,
+    "mean_energy_keV": 6.793654410875294,
+    "sigma_fraction": 0.8837071669519019,
+    "photon_transmission": 0.4387452424430332,
+    "power_transmission": 0.7161511361041851
+  },
+  {
+    "be_um": 300,
+    "photons_per_s_per_mrad": 3551439376047713.5,
+    "power_W_per_mrad": 4.122212640460157,
+    "mean_energy_keV": 7.244619681758934,
+    "sigma_fraction": 0.8874518027056211,
+    "photon_transmission": 0.3845041409884985,
+    "power_transmission": 0.6692762702533992
+  },
+  {
+    "be_um": 400,
+    "photons_per_s_per_mrad": 3210301133210040.0,
+    "power_W_per_mrad": 3.904156771331236,
+    "mean_energy_keV": 7.590512199712398,
+    "sigma_fraction": 0.8901456869134075,
+    "photon_transmission": 0.3475700832356672,
+    "power_transmission": 0.6338730459352144
+  },
+  {
+    "be_um": 500,
+    "photons_per_s_per_mrad": 2954555066560777.0,
+    "power_W_per_mrad": 3.7276996564109726,
+    "mean_energy_keV": 7.87478002887131,
+    "sigma_fraction": 0.8922541659922849,
+    "photon_transmission": 0.3198811911398667,
+    "power_transmission": 0.6052237330457352
+  },
+  {
+    "be_um": 600,
+    "photons_per_s_per_mrad": 2751660994712551.5,
+    "power_W_per_mrad": 3.5789447894598783,
+    "mean_energy_keV": 8.118011783912142,
+    "sigma_fraction": 0.8939880305070207,
+    "photon_transmission": 0.2979144327224727,
+    "power_transmission": 0.5810721156454365
+  },
+  {
+    "be_um": 800,
+    "photons_per_s_per_mrad": 2443167260236740.5,
+    "power_W_per_mrad": 3.336260887537191,
+    "mean_energy_keV": 8.523076967851205,
+    "sigma_fraction": 0.8967420762041204,
+    "photon_transmission": 0.26451470213015127,
+    "power_transmission": 0.5416703208095381
+  }
+]

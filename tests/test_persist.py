@@ -25,4 +25,4 @@ def test_persist_rules(tmp_path, monkeypatch):
     d2 = P.persist([res], "t", heavy=True)
     files2 = {f["file"] for f in json.loads((d2 / "MANIFEST.json").read_text())["files"]}
     assert "runs/x/stage2/stage2.h5" in files2 and "runs/x/ps_t0.bin" not in files2
-    assert d != d2 or True
+    assert d != d2

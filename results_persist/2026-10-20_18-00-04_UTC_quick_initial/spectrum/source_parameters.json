@@ -1,0 +1,37 @@
+{
+  "source": {
+    "electron_energy_GeV": 2.0,
+    "field_T": 2.0,
+    "current_reference_mA": 100.0,
+    "distance_m": 20.3,
+    "source_size_v_mm": 0.5,
+    "source_size_h_mm": 2.0,
+    "electron_divergence_mrad": 0.09,
+    "channel_aperture_mrad": null,
+    "beam_size_v_mm": 12.0,
+    "beam_size_h_mm": 72.0,
+    "scan_half_amplitude_mm": 15.0,
+    "scan_mode": "averaged",
+    "be_windows": {
+      "total_um": 500,
+      "split_um": [
+        100,
+        100,
+        300
+      ],
+      "treatment": "analytic"
+    }
+  },
+  "derived": {
+    "gamma": 3913.9023671183672,
+    "radius_m": 3.3356409519815204,
+    "critical_energy_keV": 5.320205353595788,
+    "critical_wavelength_A": 2.3304400899901787,
+    "opening_angle_1_over_gamma_mrad": 0.255499475,
+    "power_W_per_mrad_analytic": 6.753380122734253,
+    "current_mA": 100.0,
+    "electron_energy_GeV": 2.0,
+    "field_T": 2.0,
+    "distance_m": 20.3
+  }
+}

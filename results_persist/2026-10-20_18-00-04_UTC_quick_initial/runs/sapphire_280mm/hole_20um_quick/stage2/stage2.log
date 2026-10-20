@@ -1,0 +1,23 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'sapphire_280mm_h20_stage2': 2000000 events, 8 threads, physics livermore
+G4WT2 > [liga] 200000 / 2000000 events, 2.0 s elapsed, ETA 18.3 s
+G4WT7 > [liga] 400000 / 2000000 events, 4.0 s elapsed, ETA 16.1 s
+G4WT0 > [liga] 600000 / 2000000 events, 6.0 s elapsed, ETA 14.0 s
+G4WT1 > [liga] 800000 / 2000000 events, 8.0 s elapsed, ETA 12.0 s
+G4WT7 > [liga] 1000000 / 2000000 events, 10.0 s elapsed, ETA 10.0 s
+G4WT7 > [liga] 1200000 / 2000000 events, 12.0 s elapsed, ETA 8.0 s
+G4WT7 > [liga] 1400000 / 2000000 events, 13.9 s elapsed, ETA 6.0 s
+G4WT1 > [liga] 1600000 / 2000000 events, 15.9 s elapsed, ETA 4.0 s
+G4WT7 > [liga] 1800000 / 2000000 events, 17.9 s elapsed, ETA 2.0 s
+G4WT7 > [liga] 2000000 / 2000000 events, 19.9 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/runs/sapphire_280mm/hole_20um_quick/stage2/stage2.h5  events=2000000  wall=19.9625 s

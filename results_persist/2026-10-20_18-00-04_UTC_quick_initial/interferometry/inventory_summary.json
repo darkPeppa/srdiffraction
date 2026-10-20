@@ -1,0 +1,16 @@
+{
+  "n_images": 106,
+  "by_folder": {
+    "Be220mkm": 9,
+    "Leikosaphire_25": 38,
+    "Leikosaphire_280": 47,
+    "Steklouglerod": 12
+  },
+  "by_format": {
+    "JPEG": 91,
+    "BMP": 15
+  },
+  "pairs": 14,
+  "near_duplicate_candidates": 12,
+  "sha256_mismatch_vs_provided_registry": []
+}

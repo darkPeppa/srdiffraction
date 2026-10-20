@@ -1,0 +1,105 @@
+{
+  "Be": {
+    "density_g_cm3": 1.848,
+    "mass_fractions": {
+      "Be": 1.0
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "Al": {
+    "density_g_cm3": 2.699,
+    "mass_fractions": {
+      "Al": 1.0
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "Ti": {
+    "density_g_cm3": 4.506,
+    "mass_fractions": {
+      "Ti": 1.0
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "Au": {
+    "density_g_cm3": 19.32,
+    "mass_fractions": {
+      "Au": 1.0
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "GlassyCarbon": {
+    "density_g_cm3": 1.49,
+    "mass_fractions": {
+      "C": 1.0
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "Sapphire": {
+    "density_g_cm3": 3.98,
+    "mass_fractions": {
+      "Al": 0.5292569267086764,
+      "O": 0.47074307329132364
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "Kapton": {
+    "density_g_cm3": 1.42,
+    "mass_fractions": {
+      "C": 0.6911341220042319,
+      "H": 0.02636458984492495,
+      "N": 0.07327158927735392,
+      "O": 0.20922969887348924
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "PMMA": {
+    "density_g_cm3": 1.18,
+    "mass_fractions": {
+      "C": 0.5998481776321704,
+      "H": 0.08054576145909287,
+      "O": 0.31960606090873683
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "He_chamber": {
+    "density_g_cm3": 8.210853980003375e-05,
+    "mass_fractions": {
+      "He": 1.0
+    },
+    "state": "gas",
+    "pressure_Pa": 50000
+  },
+  "Air": {
+    "density_g_cm3": 0.0006047653264928185,
+    "mass_fractions": {
+      "N": 0.7552677552677554,
+      "O": 0.23178123178123178,
+      "Ar": 0.012827012827012827,
+      "C": 0.000124000124000124
+    },
+    "state": "gas",
+    "pressure_Pa": 101325
+  },
+  "Vacuum": {
+    "density_g_cm3": 1e-25,
+    "mass_fractions": {},
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  },
+  "Si": {
+    "density_g_cm3": 2.329,
+    "mass_fractions": {
+      "Si": 1.0
+    },
+    "state": "solid",
+    "pressure_Pa": 101325.0
+  }
+}

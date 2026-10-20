@@ -1,0 +1,127 @@
+{
+  "mode": "quick",
+  "criteria": {
+    "statistics": {
+      "quick": {
+        "slab_events": 200000,
+        "gen_events": 400000,
+        "transport_events": 300000,
+        "stage1_events": 3000000
+      },
+      "full": {
+        "slab_events": 2000000,
+        "gen_events": 4000000,
+        "transport_events": 3000000,
+        "stage1_events": 30000000
+      }
+    },
+    "criteria": {
+      "generator_chi2_pvalue_min": 0.001,
+      "generator_mean_weight_nsigma": 3.0,
+      "generator_pol_fraction_nsigma": 3.0,
+      "seed_reproducibility": "exact",
+      "geometry_overlaps_max": 0,
+      "attenuation_nsigma_vs_geant4": 3.0,
+      "attenuation_rel_mu_vs_nist": 0.05,
+      "interaction_fraction_nsigma": 3.5,
+      "energy_balance_rel": 1e-09,
+      "decomposition_rel": 1e-09,
+      "window_independence_nsigma": 3.0,
+      "biasing_unbiased_nsigma": 3.0,
+      "electron_kill_nsigma": 3.0,
+      "scan_mode_nsigma": 3.0,
+      "statistics_sigma_ratio": [
+        0.35,
+        0.65
+      ],
+      "be_explicit_vs_analytic_nsigma": 3.0,
+      "al_explicit_vs_analytic_nsigma": 3.0,
+      "resolution_width_rel": 0.25,
+      "physics_models_rel_report": 0.05
+    }
+  },
+  "results": [
+    {
+      "name": "generators",
+      "pass": null,
+      "value": "not_run",
+      "criterion": "-",
+      "details": {}
+    },
+    {
+      "name": "geometry",
+      "pass": null,
+      "value": "not_run",
+      "criterion": "-",
+      "details": {}
+    },
+    {
+      "name": "attenuation",
+      "pass": null,
+      "value": "not_run",
+      "criterion": "-",
+      "details": {}
+    },
+    {
+      "name": "filters",
+      "pass": null,
+      "value": "not_run",
+      "criterion": "-",
+      "details": {}
+    },
+    {
+      "name": "transport",
+      "pass": null,
+      "value": "not_run",
+      "criterion": "-",
+      "details": {}
+    },
+    {
+      "name": "Систематика: ЭМ-модели и production cuts (доза под отверстием)",
+      "criterion": "отчёт; предупреждение при > 5%",
+      "value": "max +2.1% (livermore_polarized)",
+      "pass": null,
+      "details": {
+        "reference": 533.2513586528617,
+        "rows": [
+          {
+            "model": "livermore_polarized",
+            "dose_open": 544.6352113357084,
+            "sigma": 6.610513640181367,
+            "rel": 0.021348005022632233,
+            "membrane_fraction_shadow": 0.007704551772951528
+          },
+          {
+            "model": "penelope",
+            "dose_open": 535.4537710082066,
+            "sigma": 4.137169061732567,
+            "rel": 0.004130157981985905,
+            "membrane_fraction_shadow": 0.00633081097356862
+          },
+          {
+            "model": "option4",
+            "dose_open": 534.1020565747826,
+            "sigma": 3.6512709052828547,
+            "rel": 0.001595303805826287,
+            "membrane_fraction_shadow": 0.005500009783798194
+          },
+          {
+            "model": "livermore, cut PMMA=1.0 мкм",
+            "dose_open": 530.1518596546068,
+            "sigma": 3.468101744265784,
+            "rel": -0.0058124540105908284,
+            "membrane_fraction_shadow": 0.007789158605054868
+          },
+          {
+            "model": "livermore, cut PMMA=5.0 мкм",
+            "dose_open": 533.624920472921,
+            "sigma": 3.6928886449734306,
+            "rel": 0.0007005360867771149,
+            "membrane_fraction_shadow": 0.007673373094026826
+          }
+        ],
+        "membrane_fraction_shadow_ref": 0.008532197495961716
+      }
+    }
+  ]
+}

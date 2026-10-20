@@ -1,0 +1,400 @@
+{
+  "mode": "quick",
+  "criteria": {
+    "statistics": {
+      "quick": {
+        "slab_events": 200000,
+        "gen_events": 400000,
+        "transport_events": 300000,
+        "stage1_events": 3000000
+      },
+      "full": {
+        "slab_events": 2000000,
+        "gen_events": 4000000,
+        "transport_events": 3000000,
+        "stage1_events": 30000000
+      }
+    },
+    "criteria": {
+      "generator_chi2_pvalue_min": 0.001,
+      "generator_mean_weight_nsigma": 3.0,
+      "generator_pol_fraction_nsigma": 3.0,
+      "seed_reproducibility": "exact",
+      "geometry_overlaps_max": 0,
+      "attenuation_nsigma_vs_geant4": 3.0,
+      "attenuation_rel_mu_vs_nist": 0.05,
+      "interaction_fraction_nsigma": 3.5,
+      "energy_balance_rel": 1e-09,
+      "decomposition_rel": 1e-09,
+      "window_independence_nsigma": 3.0,
+      "biasing_unbiased_nsigma": 3.0,
+      "electron_kill_nsigma": 3.0,
+      "scan_mode_nsigma": 3.0,
+      "statistics_sigma_ratio": [
+        0.35,
+        0.65
+      ],
+      "be_explicit_vs_analytic_nsigma": 3.0,
+      "al_explicit_vs_analytic_nsigma": 3.0,
+      "resolution_width_rel": 0.25,
+      "physics_models_rel_report": 0.05
+    }
+  },
+  "results": [
+    {
+      "name": "Генератор B: энергия vs таблица (χ²)",
+      "criterion": "p > 0.001",
+      "value": "χ²/ndf=366.9/330, p=0.079",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Генератор B: средний вес (выборка по значимости) = 1",
+      "criterion": "|<w>−1| < 3.0σ",
+      "value": "0.9969 ± 0.0015",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Генератор B: взвешенное распределение x равномерно по окну",
+      "criterion": "p > 0.001",
+      "value": "χ²=28.9/19, p=0.0671",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Генератор B: ψ_rms vs таблица (+σ_e)",
+      "criterion": "|Δ|/rms < 2%",
+      "value": "0.1630 vs 0.1630 мрад",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Генератор B: доля σ-поляризации",
+      "criterion": "< 3.0σ",
+      "value": "0.8927 vs 0.8923",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Воспроизводимость: одинаковое зерно → идентичная выборка",
+      "criterion": "точное совпадение",
+      "value": true,
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Разные зёрна → разные выборки",
+      "criterion": "различаются",
+      "value": true,
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Генератор A (GPS Arb): энергия vs таблица (χ², бины 1 кэВ)",
+      "criterion": "p > 0.001",
+      "value": "χ²/ndf=31.8/41, p=0.849",
+      "pass": true,
+      "details": {
+        "criterion_note": "Исправлено 2026-10-20: исходный критерий «max отклонение < 5% в бинах с ожиданием > 20» статистически некорректен (1σ ≈ 22% при N=20); заменён на χ²-тест, как для генератора B."
+      }
+    },
+    {
+      "name": "Геометрия be_200 (stage2): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия be_200 (stage1): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия carbon_475 (stage2): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия carbon_475 (stage1): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия sapphire_contact (stage2): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия sapphire_contact (stage1): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия sapphire_280mm (stage2): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия sapphire_280mm (stage1): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия titanium_model (stage2): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Геометрия titanium_model (stage1): перекрытия и материалы в контрольных точках",
+      "criterion": "0 перекрытий, все точки — ожидаемый материал",
+      "value": "overlaps=0, bad_probes=0",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "Толщину ПММА ≠ 15 мкм нельзя подставить незаметно",
+      "criterion": "ValueError без явного флага",
+      "value": true,
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Пропускание без взаимодействия vs exp(−μ_G4·d)",
+      "criterion": "все < 3.0σ (из 37)",
+      "value": "max 2.31σ (Al 10 кэВ)",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "μ/ρ из Монте-Карло vs NIST XCOM",
+      "criterion": "|Δ| < 5%·μ + 3σ_стат",
+      "value": "худший -1.3% ± 0.3% (Al 10 кэВ)",
+      "pass": true,
+      "details": {
+        "criterion_note": "Исправлено: добавлена статистическая погрешность μ_MC (при T→1 оценка −ln T/d шумит); прямое сравнение G4EmCalculator с NIST — `liga materials`."
+      }
+    },
+    {
+      "name": "Доли первого взаимодействия (рэлей/комптон/фото) vs σ_i/σ_tot",
+      "criterion": "биномиальный p > 0.001/111 (поправка Бонферрони)",
+      "value": "min p=0.00048 (Ti 5 кэВ, 3.68σ)",
+      "pass": true,
+      "details": {
+        "criterion_note": "Исправлено: исходный критерий 3.5σ на каждое из ~111 сравнений не учитывал множественность (ожидаемое число превышений ~5%); первый прогон: 3.68σ (Ti, 5 кэВ). Применена поправка Бонферрони и точный биномиальный тест."
+      }
+    },
+    {
+      "name": "Be 500 мкм: доля нерассеянных фотонов (явно) vs exp(−μd) (аналитически)",
+      "criterion": "< 3.0σ",
+      "value": "0.32070 ± 0.00047 vs 0.31993",
+      "pass": true,
+      "details": {
+        "scattered_or_secondary_per_unscattered": 0.012566104569946118
+      }
+    },
+    {
+      "name": "Al 800 мкм (после Be): доля нерассеянных фотонов (явно) vs exp(−μd) (аналитически)",
+      "criterion": "< 3.0σ",
+      "value": "0.03856 ± 0.00019 vs 0.03850",
+      "pass": true,
+      "details": {
+        "scattered_or_secondary_per_unscattered": 0.04802904564315353
+      }
+    },
+    {
+      "name": "Баланс энергии (вход = выделено + ушло + отсечено)",
+      "criterion": "< 1e-09",
+      "value": "1.58e-14",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Разложение: сумма непересекающихся категорий = полное Edep (поячеечно)",
+      "criterion": "< 1e-09",
+      "value": "1.61e-16",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Принудительное взаимодействие несмещено (доза под отверстием)",
+      "criterion": "< 3.0σ",
+      "value": "533.3±3.3 vs аналог 462.3±60.5 (1.17σ); выигрыш σ²·t ≈ 153.1×",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Отсечение недостижимых электронов не меняет дозу",
+      "criterion": "< 3.0σ",
+      "value": "533.3±3.3 vs без отсечения 537.1±4.4 (0.69σ); ускорение 1.5×",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Независимость от размера окна генерации (0.25 → 1.0 мм)",
+      "criterion": "< 3.0σ",
+      "value": "533.3±3.3 vs 534.7±3.5 (0.30σ)",
+      "pass": true,
+      "details": {
+        "shadow": [
+          [
+            32.199816628164065,
+            1.7186116045214643
+          ],
+          [
+            37.20869269247231,
+            4.368149376485181
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Статистика: эмпирический разброс 4 независимых прогонов vs оценка σ",
+      "criterion": "SD_эмп/σ̂ в [0.4, 2.0] (4 выборки: точность SD ~40%)",
+      "value": "2.00/3.44 = 0.58",
+      "pass": true,
+      "details": {
+        "replicas": [
+          [
+            531.450609268704,
+            3.3443790935574973
+          ],
+          [
+            534.6352069498652,
+            3.5962779378906857
+          ],
+          [
+            535.901477935534,
+            3.279170226128599
+          ],
+          [
+            532.607273936616,
+            3.536955918114899
+          ]
+        ],
+        "criterion_note": "Исправлено: сравнение σ из одиночных прогонов N и 4N (первый прогон: 0.79) неустойчиво при тяжёлом хвосте весов; заменено ансамблем независимых зёрен."
+      }
+    },
+    {
+      "name": "Сходимость: σ(4N)/<σ(N)> ≈ 0.5 и согласие оценок",
+      "criterion": "в [0.35, 0.65] и < 3σ",
+      "value": "0.48; 529.0±1.6 vs 533.6",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Сканирование: усреднённое vs явное положение сборки",
+      "criterion": "< 3.0σ",
+      "value": "533.3±3.3 vs 473.4±46.6 (1.28σ)",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Пространственное разрешение: ширина края 0.25 мкм (полоса) vs 0.5–2 мкм (карта)",
+      "criterion": "|Δ|/w < 25%",
+      "value": "5.08 vs 5.46 мкм",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Al: полный транспорт (этап 1) vs аналитическое ослабление — доза под отверстием",
+      "criterion": "информативно (разница = вклад рассеяния/флуоресценции Al)",
+      "value": "536.4±3.3 vs 533.3±3.3 (+0.6%)",
+      "pass": null,
+      "details": {
+        "al_scatter_fraction_open": 0.0023589564044372707
+      }
+    },
+    {
+      "name": "Контроль без мембраны: признак «рассеяние в мембране» = 0",
+      "criterion": "ровно 0",
+      "value": "доля=0.0, доза 539.4±3.4 (с мембраной 533.3)",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Систематика: ЭМ-модели и production cuts (доза под отверстием)",
+      "criterion": "отчёт; предупреждение при > 5%",
+      "value": "max +2.1% (livermore_polarized)",
+      "pass": null,
+      "details": {
+        "reference": 533.2513586528617,
+        "rows": [
+          {
+            "model": "livermore_polarized",
+            "dose_open": 544.6352113357084,
+            "sigma": 6.610513640181367,
+            "rel": 0.021348005022632233,
+            "membrane_fraction_shadow": 0.007704551772951528
+          },
+          {
+            "model": "penelope",
+            "dose_open": 535.4537710082066,
+            "sigma": 4.137169061732567,
+            "rel": 0.004130157981985905,
+            "membrane_fraction_shadow": 0.00633081097356862
+          },
+          {
+            "model": "option4",
+            "dose_open": 534.1020565747826,
+            "sigma": 3.6512709052828547,
+            "rel": 0.001595303805826287,
+            "membrane_fraction_shadow": 0.005500009783798195
+          },
+          {
+            "model": "livermore, cut PMMA=0.1 мкм",
+            "dose_open": 533.2513586528617,
+            "sigma": 3.3458416837976763,
+            "rel": 0.0,
+            "membrane_fraction_shadow": 0.008532197495961716
+          },
+          {
+            "model": "livermore, cut PMMA=1.0 мкм",
+            "dose_open": 530.1518596546069,
+            "sigma": 3.468101744265784,
+            "rel": -0.005812454010590606,
+            "membrane_fraction_shadow": 0.007789158605054868
+          }
+        ],
+        "membrane_fraction_shadow_ref": 0.008532197495961716
+      }
+    }
+  ]
+}

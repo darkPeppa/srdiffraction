@@ -1,0 +1,4415 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'sapphire_contact_h60_stage2': 2000000 events, 8 threads, physics livermore
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.48754 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.50708 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.986799 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.43224 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.14368 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.15704 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.03974 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.83868 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.46002 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 3.03848 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.33878 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.61994 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.16928 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.04437 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.27042 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.11761 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.86037 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.92827 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.54426 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.75764 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.68198 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.61842 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.60309 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.95658 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.71093 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.13125 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.60681 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > [liga] 200000 / 2000000 events, 2.3 s elapsed, ETA 20.9 s
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.34904 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.07642 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.47433 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.779586 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.27542 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.47793 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.6471 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.60898 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.50129 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.55329 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.0228 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.57172 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.52064 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.57116 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.58161 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.55216 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.70193 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.60188 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.60538 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.81256 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.863688 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.73401 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.85478 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.82563 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.29659 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.6214 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.64859 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.03883 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.05712 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.09696 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.30025 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.31297 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > [liga] 400000 / 2000000 events, 4.6 s elapsed, ETA 18.4 s
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.29763 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.3375 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.931532 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.47028 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.707386 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.36368 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.49322 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.2332 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.4205 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.41149 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.959565 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.02635 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.759 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.75516 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.19296 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.0001 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.96227 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.52363 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.48727 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.74733 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.0835 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.90606 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.5739 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > [liga] 600000 / 2000000 events, 6.8 s elapsed, ETA 15.9 s
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.66926 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.37077 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.56463 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.37002 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.63685 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.40626 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.0526 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.64896 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.588358 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.63297 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.4047 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.30569 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.67607 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.00416 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 3.11133 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.46125 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.44286 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.28179 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > [liga] 800000 / 2000000 events, 9.1 s elapsed, ETA 13.7 s
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.4108 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.779812 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.77655 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.48161 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.26676 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.65037 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.73488 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.69325 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.49287 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.81812 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.45597 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.5094 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.32036 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.65878 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.63977 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.82919 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > [liga] 1000000 / 2000000 events, 11.4 s elapsed, ETA 11.4 s
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.0167 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.47688 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.69773 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.9119 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.57568 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.70332 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.45775 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.84146 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.58599 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.01698 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.78027 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.4167 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.59954 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.44315 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.10266 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.20194 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.24206 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.97692 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.69075 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 3.03375 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.30172 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.17113 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.72962 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.42232 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > [liga] 1200000 / 2000000 events, 13.8 s elapsed, ETA 9.2 s
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.44095 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.47454 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.72029 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.44385 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.76919 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.62272 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.25221 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.39583 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.82071 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.35959 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.7134 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.48657 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.59515 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.45333 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.75606 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.68862 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.32773 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.27009 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.52412 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.03768 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.62343 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.45596 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.53756 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.692 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.37635 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.88419 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.6829 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.44755 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.95011 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.82741 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > [liga] 1400000 / 2000000 events, 16.1 s elapsed, ETA 6.9 s
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.4728 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.808311 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.61106 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.09972 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.43892 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.84427 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.55474 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.787439 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.81479 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.99488 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.38376 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.88531 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.3976 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.61755 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.52035 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.75444 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > [liga] 1600000 / 2000000 events, 18.4 s elapsed, ETA 4.6 s
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.28302 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.750896 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.41369 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.51601 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.75518 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.593968 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.795816 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.71062 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.61874 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.58527 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.61209 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.35106 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.960391 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.22559 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.90551 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.8452 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.44594 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.76615 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.70949 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.83733 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.08417 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.62419 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.78193 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.74545 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.50066 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.751993 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 3.1067 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > [liga] 1800000 / 2000000 events, 20.6 s elapsed, ETA 2.3 s
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.31348 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.15419 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.14223 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.38824 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.6086 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.52582 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.06601 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.47298 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.65383 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.0872 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.04945 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.95889 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT2 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.16217 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.26938 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.19287 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.49488 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.47811 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.38674 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 1.57206 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 2.5548 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > [liga] 2000000 / 2000000 events, 22.9 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/runs/sapphire_contact/hole_60um_quick/stage2/stage2.h5  events=2000000  wall=22.9176 s

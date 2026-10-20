@@ -1,0 +1,41 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[liga] run 'be_200_h100_stage2': 300000 events, 8 threads, physics livermore
+G4WT1 > [liga] 30000 / 300000 events, 0.4 s elapsed, ETA 3.7 s
+G4WT4 > [liga] 60000 / 300000 events, 0.8 s elapsed, ETA 3.1 s
+G4WT6 > [liga] 90000 / 300000 events, 1.1 s elapsed, ETA 2.6 s
+G4WT7 > [liga] 120000 / 300000 events, 1.5 s elapsed, ETA 2.2 s
+G4WT7 > [liga] 150000 / 300000 events, 1.8 s elapsed, ETA 1.8 s
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.04
+      issued by :  G4BiasingProcessInterface::AlongStepDoIt(...)
+ Negative non interaction weight : w_NI = 0 p_NI(phys) = 0 p_NI(bias) = 1 step length = 0.255607 biasing interaction law = `LawForOperationFreeFlight-phot'
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : BIAS.GEN.06
+      issued by :  G4BOptnForceFreeFlight::ApplyFinalStateBiasing(...)
+ Cumulated weight is null ! 
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > [liga] 180000 / 300000 events, 2.1 s elapsed, ETA 1.4 s
+G4WT4 > [liga] 210000 / 300000 events, 2.5 s elapsed, ETA 1.1 s
+G4WT3 > [liga] 240000 / 300000 events, 2.8 s elapsed, ETA 0.7 s
+G4WT3 > [liga] 270000 / 300000 events, 3.2 s elapsed, ETA 0.4 s
+G4WT2 > [liga] 300000 / 300000 events, 3.6 s elapsed, ETA 0.0 s
+[liga] wrote /work/results/validation_physics/runs/cut_5.0/stage2/stage2.h5  events=300000  wall=3.60946 s
