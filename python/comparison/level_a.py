@@ -38,8 +38,9 @@ def compare_all(runs_root: Path, out: Path) -> dict:
     out.mkdir(parents=True, exist_ok=True)
     sup = sp.load()
     rows = []
-    for rd in find_runs(runs_root):
-        info = json.loads((rd / "run_info.json").read_text(encoding="utf-8"))
+    infos = [(rd, json.loads((rd / "run_info.json").read_text(encoding="utf-8"))) for rd in find_runs(runs_root)]
+    infos.sort(key=lambda t: (t[1]["experiment"], float(t[1]["hole_um"]), str(t[0])))
+    for rd, info in infos:
         exp, hole = info["experiment"], float(info["hole_um"])
         run = load_run(rd)
         n, D, S = edge_profile(run, hole, rebin_rel_err=0.05)
